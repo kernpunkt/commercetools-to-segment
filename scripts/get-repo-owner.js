@@ -11,6 +11,12 @@ import { dirname } from 'path';
 
 function getRepoOwner() {
   try {
+    // Skip in CI/build environments where git might not be available
+    if (process.env.CI || process.env.VERCEL || process.env.VERCEL_ENV) {
+      console.log('Skipping repo owner detection in CI/build environment');
+      return null;
+    }
+    
     // Get the origin URL from git
     const originUrl = execSync('git remote get-url origin', { 
       encoding: 'utf8',
@@ -31,6 +37,11 @@ function getRepoOwner() {
     
     return match[1];
   } catch (error) {
+    // In build environments, this is not critical - just log and continue
+    if (process.env.CI || process.env.VERCEL || process.env.VERCEL_ENV) {
+      console.log('Note: Could not get repository owner (this is OK in build environments)');
+      return null;
+    }
     console.error('Error getting repository owner:', error.message);
     process.exit(1);
   }
@@ -60,4 +71,8 @@ the repo-owners name is ${owner}
 
 // Main execution
 const repoOwner = getRepoOwner();
-writeRepoOwnerFile(repoOwner);
+if (repoOwner) {
+  writeRepoOwnerFile(repoOwner);
+} else {
+  console.log('Skipping repo owner file creation (not in local development environment)');
+}
