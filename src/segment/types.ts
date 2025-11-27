@@ -16,8 +16,10 @@ export interface UserTraits {
 }
 
 export interface SegmentClient {
-  identify(params: { userId: string; traits: UserTraits }): Promise<void>;
+  identify(params: {
+    readonly userId: string;
+    readonly traits: UserTraits;
+  }): Promise<void>;
   flush(): Promise<void>;
   closeAndFlush(): Promise<void>;
 }
-

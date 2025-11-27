@@ -2,13 +2,13 @@
 id: 9801c320-5e4d-461f-acc3-2b9221658b2a
 title: Vercel Project Structure
 tags:
-  - status/active
+  - status/implemented
   - issue-1
   - component/project-structure
   - architecture
 category: ARC
 created_at: '2025-11-27T12:34:28.349Z'
-updated_at: '2025-11-27T12:34:28.349Z'
+updated_at: '2025-11-27T12:55:17.984Z'
 last_reviewed: '2025-11-27T12:34:28.349Z'
 links: []
 sources: []

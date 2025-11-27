@@ -2,13 +2,13 @@
 id: 7a8ee234-0fa8-4c1e-b7d5-e3544ee1cf92
 title: Webhook Handler Interface
 tags:
-  - status/active
+  - status/implemented
   - issue-1
   - component/webhook-handler
   - interface
 category: ARC
 created_at: '2025-11-27T12:34:11.192Z'
-updated_at: '2025-11-27T12:34:11.192Z'
+updated_at: '2025-11-27T12:55:18.965Z'
 last_reviewed: '2025-11-27T12:34:11.192Z'
 links: []
 sources: []

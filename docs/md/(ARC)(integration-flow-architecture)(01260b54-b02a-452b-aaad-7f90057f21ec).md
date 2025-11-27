@@ -2,13 +2,13 @@
 id: 01260b54-b02a-452b-aaad-7f90057f21ec
 title: Integration Flow Architecture
 tags:
-  - status/active
+  - status/implemented
   - issue-1
   - component/integration
   - data-flow
 category: ARC
 created_at: '2025-11-27T12:34:35.793Z'
-updated_at: '2025-11-27T12:34:35.793Z'
+updated_at: '2025-11-27T12:55:16.258Z'
 last_reviewed: '2025-11-27T12:34:35.793Z'
 links: []
 sources: []

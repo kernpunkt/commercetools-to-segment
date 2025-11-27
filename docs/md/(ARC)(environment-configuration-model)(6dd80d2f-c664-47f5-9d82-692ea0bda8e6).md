@@ -2,13 +2,13 @@
 id: 6dd80d2f-c664-47f5-9d82-692ea0bda8e6
 title: Environment Configuration Model
 tags:
-  - status/active
+  - status/implemented
   - issue-1
   - component/config
   - data-model
 category: ARC
 created_at: '2025-11-27T12:34:22.181Z'
-updated_at: '2025-11-27T12:34:22.181Z'
+updated_at: '2025-11-27T12:55:15.266Z'
 last_reviewed: '2025-11-27T12:34:22.181Z'
 links: []
 sources: []

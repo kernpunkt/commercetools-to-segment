@@ -2,13 +2,13 @@
 id: 36676351-13ce-4286-9dd7-6433750c4711
 title: Segment Client Interface
 tags:
-  - status/active
+  - status/implemented
   - issue-1
   - component/segment-client
   - interface
 category: ARC
 created_at: '2025-11-27T12:34:17.467Z'
-updated_at: '2025-11-27T12:34:17.467Z'
+updated_at: '2025-11-27T12:55:17.073Z'
 last_reviewed: '2025-11-27T12:34:17.467Z'
 links: []
 sources: []

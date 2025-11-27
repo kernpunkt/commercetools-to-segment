@@ -21,6 +21,32 @@ A comprehensive Node.js project template designed for AI-first development with 
 - **pnpm**: Version 10.15.0 or higher ([Installation Guide](https://pnpm.io/installation))
 - **SSH Key**: Working SSH key setup for GitHub (preferably without passphrase)
 
+## 🔐 Environment Variables
+
+This project requires the following environment variables:
+
+### Required Variables
+
+- **`SEGMENT_WRITE_KEY`**: Your Segment write key for API authentication
+  - Get your write key from the Segment dashboard: Settings → API Keys
+  - Used by the Segment Analytics client to send events
+  - Must be set in your deployment environment (Vercel, local development, etc.)
+
+### Setting Environment Variables
+
+#### Local Development
+Create a `.env` file in the project root:
+```bash
+SEGMENT_WRITE_KEY=your-segment-write-key-here
+```
+
+#### Vercel Deployment
+1. Go to your Vercel project settings
+2. Navigate to "Environment Variables"
+3. Add `SEGMENT_WRITE_KEY` with your Segment write key value
+4. Select the environments where it should be available (Production, Preview, Development)
+5. Redeploy your application for changes to take effect
+
 ## 🛠️ Getting Started
 
 1. **Create a new repository from this template:**
@@ -48,6 +74,63 @@ A comprehensive Node.js project template designed for AI-first development with 
 5. **Enable MCPs in Cursor:**
    - Configure the MCP servers in your Cursor settings
    - Restart Cursor to activate the integrations
+
+6. **Set up environment variables:**
+   - Create a `.env` file with `SEGMENT_WRITE_KEY` (see Environment Variables section below)
+   - For Vercel deployment, add environment variables in the Vercel dashboard
+
+## 🚀 Vercel Deployment
+
+This project is configured for deployment on Vercel as serverless functions.
+
+### Prerequisites
+
+- Vercel account ([Sign up](https://vercel.com/signup))
+- Vercel CLI installed (optional): `npm i -g vercel`
+- Environment variables configured (see Environment Variables section)
+
+### Deployment Steps
+
+1. **Connect your repository to Vercel:**
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard)
+   - Click "Add New Project"
+   - Import your GitHub repository
+   - Vercel will automatically detect the project settings
+
+2. **Configure environment variables:**
+   - In your Vercel project settings, go to "Environment Variables"
+   - Add `SEGMENT_WRITE_KEY` with your Segment write key
+   - Select all environments (Production, Preview, Development)
+
+3. **Deploy:**
+   - Vercel will automatically deploy on every push to your main branch
+   - Or use Vercel CLI: `vercel` (for preview) or `vercel --prod` (for production)
+
+### Project Structure for Vercel
+
+- **Serverless Functions**: Place API endpoints in the `api/` directory
+- **Build Output**: TypeScript compiles to `dist/` directory
+- **Configuration**: `vercel.json` contains deployment settings
+- **Runtime**: Node.js 24.x (configured in `vercel.json`)
+
+### API Endpoints
+
+Serverless functions in the `api/` directory are automatically deployed as API routes:
+- `api/webhook.ts` → `/api/webhook` endpoint
+- Functions must export a default handler that accepts `VercelRequest` and `VercelResponse`
+
+### Local Development with Vercel
+
+You can test serverless functions locally using Vercel CLI:
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Run development server
+vercel dev
+```
+
+This will start a local server that mimics Vercel's serverless function environment.
 
 ## 📜 Available Scripts
 
@@ -84,7 +167,14 @@ node-ai-wf/
 ├── features/               # BDD feature files (Cucumber)
 │   ├── *.feature          # Gherkin feature files
 │   └── README.md          # BDD documentation
+├── api/                    # Vercel serverless functions
+│   └── *.ts               # API endpoints (e.g., webhook.ts)
 ├── src/                    # Source code
+│   ├── config/            # Configuration modules
+│   │   └── environment.ts # Environment variable validation
+│   ├── segment/           # Segment integration
+│   │   ├── client.ts      # Segment client factory
+│   │   └── types.ts       # Segment type definitions
 │   ├── examples/          # Example code and utilities
 │   │   ├── math.ts        # Math utility examples
 │   │   ├── string-utils.ts # String utility examples
@@ -105,6 +195,7 @@ node-ai-wf/
 ├── scripts/                # Utility scripts
 ├── package.json           # Project configuration
 ├── tsconfig.json          # TypeScript configuration
+├── vercel.json            # Vercel deployment configuration
 ├── eslint.config.js       # ESLint configuration
 ├── vitest.config.ts       # Vitest configuration
 └── cucumber.config.cjs    # Cucumber configuration
