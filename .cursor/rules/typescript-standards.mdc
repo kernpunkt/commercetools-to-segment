@@ -1,0 +1,46 @@
+---
+alwaysApply: true
+description: TypeScript coding standards and best practices for Node.js CLI applications
+---
+# TypeScript Coding Standards
+
+## Code Style
+- **Semicolons**: Always use semicolons (enforced by ESLint)
+- **Quotes**: Use single quotes (enforced by ESLint and Prettier)
+- **Indentation**: 2 spaces (enforced by ESLint and Prettier)
+- **Line endings**: Unix style (LF)
+- **Trailing commas**: ES5 style (enforced by Prettier)
+- **Print width**: 80 characters max
+
+## TypeScript Best Practices
+- **Strict mode**: Always enabled in [tsconfig.json](mdc:tsconfig.json)
+- **Module resolution**: Use ES modules with bundler resolution
+- **Type annotations**: Prefer explicit types for function parameters and return values
+- **Interfaces**: Use interfaces for object shapes and function parameters
+- **Type imports**: Use `import type` for type-only imports (enforced by ESLint)
+- **No any types**: Avoid `any` type, use `unknown` or specific types instead
+- **Readonly properties**: Use `readonly` for immutable data structures
+
+## Node.js CLI Application Standards
+- **Function naming**: Use camelCase for functions and variables
+- **Class naming**: Use PascalCase for classes and interfaces
+- **Error handling**: Use proper error types and meaningful error messages
+- **Async/await**: Prefer async/await over Promise chains
+- **Type safety**: Always provide explicit return types for public functions
+- **Dependency injection**: Use constructor injection for better testability
+
+## File Organization
+- **Source files**: Place all source code in [src/](mdc:src/) directory
+- **Entry points**: Use [src/index.ts](mdc:src/index.ts) for CLI applications
+- **Module files**: One module per file with matching filename
+- **Test files**: Mirror source structure in [tests/](mdc:tests/) directory
+- **Examples**: Place example code in [src/examples/](mdc:src/examples/) directory
+
+## Code Quality Rules (ESLint Enforced)
+- **Function complexity**: Maximum complexity of 10 (enforced by ESLint)
+- **Function length**: Maximum 100 lines per function (enforced by ESLint)
+- **Parameter count**: Maximum 3 parameters per function (enforced by ESLint)
+- **Nesting depth**: Maximum 4 levels of nesting (enforced by ESLint)
+- **File length**: Maximum 300 lines per file (enforced by ESLint)
+- **Unused variables**: Remove unused variables (enforced by ESLint)
+- **Console usage**: Warn on console.log usage (enforced by ESLint)

@@ -1,0 +1,59 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "pnpm": ">=10.17.0",
+    "node": ">=24.3.0"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:bdd": "cucumber-js --config cucumber.config.cjs",
+    "test:all": "vitest run && cucumber-js --config cucumber.config.cjs",
+    "test:coverage": "vitest run --coverage",
+    "test:full": "vitest run && cucumber-js --config cucumber.config.cjs && eslint src --ext .ts,.tsx && tsc --noEmit && prettier --check 'src/**/*.ts'",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write 'src/**/*.ts'",
+    "prettier": "prettier --check 'src/**/*.ts'",
+    "type-check": "tsc --noEmit",
+    "deps:check": "pnpm outdated",
+    "deps:update": "pnpm update --latest",
+    "deps:update-interactive": "pnpm update --latest --interactive",
+    "deps:update-check": "pnpm update --latest --dry-run",
+    "doc:coverage": "node ./node_modules/llm-mem/packages/cli/dist/mem-coverage.js --config=.coverage.json",
+    "postinstall": "node scripts/get-repo-owner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "dependencies": {
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@dotenvx/dotenvx": "^1.51.1",
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
+    "@vitest/coverage-v8": "4.0.3",
+    "chai": "^4.5.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "llm-mem": "github:kernpunkt/llm-mem",
+    "prettier": "^3.6.2",
+    "shx": "^0.4.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.10",
+    "zod": "^4.1.12"
+  }
+}
