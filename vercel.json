@@ -2,6 +2,11 @@
   "version": 2,
   "buildCommand": "pnpm build",
   "outputDirectory": "public",
-  "installCommand": "pnpm install"
+  "installCommand": "pnpm install",
+  "functions": {
+    "api/webhook.ts": {
+      "runtime": "nodejs24.x"
+    }
+  }
 }
 

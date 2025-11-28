@@ -45,6 +45,7 @@
     "@types/node": "^24.10.1",
     "@typescript-eslint/eslint-plugin": "^8.47.0",
     "@typescript-eslint/parser": "^8.47.0",
+    "@vercel/node": "^5.5.13",
     "@vitest/coverage-v8": "4.0.3",
     "chai": "^4.5.0",
     "eslint": "^9.39.1",
