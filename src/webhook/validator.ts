@@ -18,25 +18,41 @@ export function validateMethod(method: string | undefined): boolean {
 }
 
 /**
- * Parses JSON string and returns result or error
- * @param body - JSON string to parse
+ * Parses JSON string or returns object if already parsed
+ * @param body - JSON string to parse or already parsed object
  * @returns Object with parsed data or error
  */
 export function parseJSON(
-  body: string | undefined
+  body: string | unknown | undefined
 ): { success: true; data: unknown } | { success: false; error: string } {
-  if (body === undefined || body === null || body === '') {
+  if (body === undefined || body === null) {
     return { success: false, error: 'Request body is required' };
   }
 
-  try {
-    const data: unknown = JSON.parse(body);
-    return { success: true, data };
-  } catch (error) {
-    const errorMessage =
-      error instanceof Error ? error.message : 'Invalid JSON format';
-    return { success: false, error: errorMessage };
+  // If body is already an object (Vercel auto-parsed JSON), return it directly
+  if (typeof body === 'object') {
+    return { success: true, data: body };
   }
+
+  // If body is empty string, return error
+  if (body === '') {
+    return { success: false, error: 'Request body is required' };
+  }
+
+  // If body is a string, parse it
+  if (typeof body === 'string') {
+    try {
+      const data: unknown = JSON.parse(body);
+      return { success: true, data };
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error ? error.message : 'Invalid JSON format';
+      return { success: false, error: errorMessage };
+    }
+  }
+
+  // Fallback for unexpected types
+  return { success: false, error: 'Request body must be JSON' };
 }
 
 /**
