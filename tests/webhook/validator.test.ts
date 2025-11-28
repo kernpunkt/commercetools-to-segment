@@ -143,6 +143,35 @@ describe('parseJSON', () => {
       expect(result.data).toEqual(payload);
     }
   });
+
+  it('should return object directly when body is already parsed (Vercel behavior)', () => {
+    const payload = {
+      notificationType: 'Message',
+      type: 'CustomerCreated',
+      resource: { typeId: 'customer', id: 'test-id' },
+      projectKey: 'test-project',
+      id: 'notification-id',
+      version: 1,
+      sequenceNumber: 1,
+      resourceVersion: 1,
+      createdAt: '2024-01-01T00:00:00.000Z',
+      lastModifiedAt: '2024-01-01T00:00:00.000Z',
+    };
+    const result = parseJSON(payload);
+
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data).toEqual(payload);
+    }
+  });
+
+  it('should return error for null body', () => {
+    const result = parseJSON(null);
+    expect(result.success).toBe(false);
+    if (!result.success) {
+      expect(result.error).toBe('Request body is required');
+    }
+  });
 });
 
 describe('validatePayload', () => {
