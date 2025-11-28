@@ -52,7 +52,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 function validateNotificationType(
   payload: Record<string, unknown>
 ): { isValid: false; error: string } | { isValid: true } {
-  if (payload.notificationType !== 'Message') {
+  if (payload['notificationType'] !== 'Message') {
     return {
       isValid: false,
       error: 'Invalid notificationType: must be "Message"',
@@ -67,10 +67,10 @@ function validateNotificationType(
 function validateTypeField(
   payload: Record<string, unknown>
 ): { isValid: false; error: string } | { isValid: true; type: string } {
-  if (typeof payload.type !== 'string' || payload.type === '') {
+  if (typeof payload['type'] !== 'string' || payload['type'] === '') {
     return { isValid: false, error: 'Missing or invalid type field' };
   }
-  return { isValid: true, type: payload.type };
+  return { isValid: true, type: payload['type'] as string };
 }
 
 /**
@@ -79,12 +79,13 @@ function validateTypeField(
 function validateResourceField(
   payload: Record<string, unknown>
 ): { isValid: false; error: string } | { isValid: true; resource: { typeId: string; id: string } } {
-  if (!isRecord(payload.resource)) {
+  const resource = payload['resource'];
+  if (!isRecord(resource)) {
     return { isValid: false, error: 'Missing or invalid resource field' };
   }
   if (
-    typeof payload.resource.typeId !== 'string' ||
-    typeof payload.resource.id !== 'string'
+    typeof resource['typeId'] !== 'string' ||
+    typeof resource['id'] !== 'string'
   ) {
     return {
       isValid: false,
@@ -94,8 +95,8 @@ function validateResourceField(
   return { 
     isValid: true, 
     resource: {
-      typeId: payload.resource.typeId,
-      id: payload.resource.id,
+      typeId: resource['typeId'] as string,
+      id: resource['id'] as string,
     }
   };
 }
@@ -108,25 +109,25 @@ function validateAndExtractPayload(
   type: string,
   resource: { typeId: string; id: string }
 ): { isValid: false; error: string } | { isValid: true; payload: CommercetoolsWebhookPayload } {
-  if (typeof payload.projectKey !== 'string') {
+  if (typeof payload['projectKey'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid projectKey field' };
   }
-  if (typeof payload.id !== 'string') {
+  if (typeof payload['id'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid id field' };
   }
-  if (typeof payload.version !== 'number') {
+  if (typeof payload['version'] !== 'number') {
     return { isValid: false, error: 'Missing or invalid version field' };
   }
-  if (typeof payload.sequenceNumber !== 'number') {
+  if (typeof payload['sequenceNumber'] !== 'number') {
     return { isValid: false, error: 'Missing or invalid sequenceNumber field' };
   }
-  if (typeof payload.resourceVersion !== 'number') {
+  if (typeof payload['resourceVersion'] !== 'number') {
     return { isValid: false, error: 'Missing or invalid resourceVersion field' };
   }
-  if (typeof payload.createdAt !== 'string') {
+  if (typeof payload['createdAt'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid createdAt field' };
   }
-  if (typeof payload.lastModifiedAt !== 'string') {
+  if (typeof payload['lastModifiedAt'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid lastModifiedAt field' };
   }
 
@@ -134,13 +135,13 @@ function validateAndExtractPayload(
     notificationType: 'Message',
     type,
     resource,
-    projectKey: payload.projectKey,
-    id: payload.id,
-    version: payload.version,
-    sequenceNumber: payload.sequenceNumber,
-    resourceVersion: payload.resourceVersion,
-    createdAt: payload.createdAt,
-    lastModifiedAt: payload.lastModifiedAt,
+    projectKey: payload['projectKey'] as string,
+    id: payload['id'] as string,
+    version: payload['version'] as number,
+    sequenceNumber: payload['sequenceNumber'] as number,
+    resourceVersion: payload['resourceVersion'] as number,
+    createdAt: payload['createdAt'] as string,
+    lastModifiedAt: payload['lastModifiedAt'] as string,
   };
 
   return { isValid: true, payload: commercetoolsPayload };
