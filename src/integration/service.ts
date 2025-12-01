@@ -21,7 +21,7 @@ export async function sendCustomerToSegmentWithClient(
       traits: payload.traits,
     });
     console.log('client.identify completed, calling flush...');
-    
+
     // Add timeout to flush
     const flushPromise = client.flush();
     const timeoutPromise = new Promise<never>((_, reject) => {
@@ -29,7 +29,7 @@ export async function sendCustomerToSegmentWithClient(
         reject(new Error('Flush operation timed out after 5 seconds'));
       }, 5000);
     });
-    
+
     await Promise.race([flushPromise, timeoutPromise]);
     console.log('flush completed');
     return { success: true };

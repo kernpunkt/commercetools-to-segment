@@ -1,6 +1,13 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeAll } from 'vitest';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import handler from '../../api/webhook.js';
+
+// Set up environment variable for Segment client
+beforeAll(() => {
+  if (!process.env.SEGMENT_WRITE_KEY) {
+    process.env.SEGMENT_WRITE_KEY = 'test-write-key-for-webhook-tests';
+  }
+});
 
 /**
  * Creates a mock VercelRequest with specified method and body
@@ -69,6 +76,9 @@ describe('webhook handler', () => {
       resourceVersion: 1,
       createdAt: '2024-01-01T00:00:00.000Z',
       lastModifiedAt: '2024-01-01T00:00:00.000Z',
+      customer: {
+        email: 'test@example.com',
+      },
     };
     const request = createMockRequest('POST', JSON.stringify(payload));
     const response = createMockResponse();
@@ -90,6 +100,9 @@ describe('webhook handler', () => {
       resourceVersion: 2,
       createdAt: '2024-01-01T00:00:00.000Z',
       lastModifiedAt: '2024-01-02T00:00:00.000Z',
+      customer: {
+        email: 'test@example.com',
+      },
     };
     const request = createMockRequest('POST', JSON.stringify(payload));
     const response = createMockResponse();

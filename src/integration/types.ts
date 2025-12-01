@@ -10,4 +10,3 @@ export interface SegmentError {
   readonly message: string;
   readonly code?: string;
 }
-
