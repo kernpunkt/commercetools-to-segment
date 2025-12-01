@@ -1,0 +1,30 @@
+{
+  "notificationType": "Message",
+  "type": "CustomerCreated",
+  "resource": {
+    "typeId": "customer",
+    "id": "test-customer-123"
+  },
+  "projectKey": "test-project",
+  "id": "test-notification-id",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resourceVersion": 1,
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "lastModifiedAt": "2024-01-01T00:00:00.000Z",
+  "customer": {
+    "email": "test@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "fullName": "John Doe",
+    "addresses": [
+      {
+        "streetName": "123 Main St",
+        "streetNumber": null,
+        "city": "New York",
+        "postalCode": "10001",
+        "country": "US"
+      }
+    ]
+  }
+}

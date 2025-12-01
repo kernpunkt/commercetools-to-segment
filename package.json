@@ -1,18 +1,16 @@
 {
   "name": "node-basic",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
-  "main": "index.js",
+  "description": "",
   "engineStrict": true,
   "engines": {
     "pnpm": ">=10.17.0",
-    "node": "24.x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
     "test": "vitest run",
     "test:bdd": "cucumber-js --config cucumber.config.cjs",
     "test:all": "vitest run && cucumber-js --config cucumber.config.cjs",
@@ -33,7 +31,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0",
   "dependencies": {
     "@segment/analytics-node": "^2.3.0",
     "winston": "^3.18.3"
@@ -57,5 +54,6 @@
     "typescript": "^5.9.3",
     "vitest": "^4.0.10",
     "zod": "^4.1.12"
-  }
+  },
+  "packageManager": "yarn@4.10.3+sha512.c38cafb5c7bb273f3926d04e55e1d8c9dfa7d9c3ea1f36a4868fa028b9e5f72298f0b7f401ad5eb921749eb012eb1c3bb74bf7503df3ee43fd600d14a018266f"
 }
