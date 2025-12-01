@@ -45,6 +45,18 @@ function createTimeoutPromise(timeoutMs: number): Promise<never> {
 }
 
 /**
+ * Checks if URL is a Vercel preview deployment
+ */
+function isVercelPreviewUrl(url: string): boolean {
+  try {
+    const urlObj = new URL(url);
+    return urlObj.hostname.includes('vercel.app') || urlObj.hostname.includes('vercel.dev');
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Sends a webhook request to the endpoint
  * @param url - The webhook endpoint URL
  * @param payload - The webhook payload to send
@@ -61,13 +73,24 @@ export async function sendWebhookRequest(
 
   const timeoutMs = config?.timeout ?? DEFAULT_TIMEOUT_MS;
 
+  // Build headers
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+  };
+
+  // Add Vercel protection bypass header if needed
+  if (isVercelPreviewUrl(url)) {
+    const bypassSecret = process.env.VERCEL_PROTECTION_BYPASS_SECRET;
+    if (bypassSecret) {
+      headers['x-vercel-protection-bypass'] = bypassSecret;
+    }
+  }
+
   try {
     // Create timeout promise and fetch promise
     const fetchPromise = fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers,
       body: JSON.stringify(payload),
     });
 
@@ -78,15 +101,15 @@ export async function sendWebhookRequest(
     ]);
 
     const body = await response.text();
-    const headers: Record<string, string> = {};
+    const responseHeaders: Record<string, string> = {};
     response.headers.forEach((value, key) => {
-      headers[key] = value;
+      responseHeaders[key] = value;
     });
 
     return {
       statusCode: response.status,
       body,
-      headers,
+      headers: responseHeaders,
     };
   } catch (error) {
     if (error instanceof Error) {

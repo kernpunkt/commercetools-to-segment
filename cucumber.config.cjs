@@ -1,6 +1,7 @@
 module.exports = {
   default: {
     require: [
+      'tests/cucumber-setup.ts',
       'tests/steps/**/*.ts'
     ],
     requireModule: ['tsx/esm'],
