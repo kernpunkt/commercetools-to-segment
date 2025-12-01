@@ -1,25 +1,34 @@
-# Node AI Workflow Template
+# Commercetools to Segment Integration
 
-A comprehensive Node.js project template designed for AI-first development with BDD/TDD workflow support. This template provides a solid foundation with modern tooling, MCP (Model Context Protocol) integrations, comprehensive testing frameworks (Vitest & Cucumber), and development best practices.
+A serverless webhook service that synchronizes customer data from Commercetools to Segment Customer Data Platform (CDP). This service receives webhook events from Commercetools when customers are created or updated, transforms the data into Segment's format, and sends it to Segment's Identify API.
+
+## 🎯 Overview
+
+This project provides a real-time integration between Commercetools (e-commerce platform) and Segment (Customer Data Platform). When customer information changes in Commercetools, it automatically syncs to Segment, ensuring accurate customer profiles for marketing, analytics, and personalization.
+
+**Key Features:**
+- Receives Commercetools webhook events (`customer.created`, `customer.updated`)
+- Validates webhook payloads and request structure
+- Transforms customer data from Commercetools format to Segment format
+- Sends customer data to Segment Identify API
+- Handles errors gracefully with proper logging
+- Deployed as serverless functions on Vercel
 
 ## 🚀 Features
 
-- **AI-First Development**: Optimized for AI-assisted coding with MCP integrations
-- **BDD/TDD Workflow**: Comprehensive Behavior-Driven and Test-Driven Development workflow
-- **BDD Support**: Cucumber integration with Gherkin syntax for acceptance tests
-- **TDD Support**: Vitest for unit testing with comprehensive coverage
-- **GitHub Integration**: Access and manipulate GitHub issues and pull requests
-- **Jira Integration**: Create and edit Jira stories and tasks
-- **Memory Tools**: AI memory and documentation management with `llm-mem`
-- **Documentation Coverage**: CLI tool for documentation coverage reports
-- **Modern Tooling**: TypeScript, ESLint, Prettier, Vitest, and Cucumber
-- **Clean Code Standards**: Built-in linting and formatting rules
+- **Webhook Endpoint**: RESTful API endpoint that accepts POST requests from Commercetools
+- **Data Validation**: Comprehensive validation of webhook payloads and request structure
+- **Data Transformation**: Converts Commercetools customer data to Segment Identify API format
+- **Segment Integration**: Sends customer data to Segment using the official Segment Analytics Node.js SDK
+- **Error Handling**: Robust error handling with detailed logging
+- **Type Safety**: Full TypeScript support with strict type checking
+- **Testing**: Comprehensive test coverage with TDD (Vitest) and BDD (Cucumber) tests
 
 ## 📋 Requirements
 
-- **Node.js**: Version 24.3.0 or higher
-- **pnpm**: Version 10.15.0 or higher ([Installation Guide](https://pnpm.io/installation))
-- **SSH Key**: Working SSH key setup for GitHub (preferably without passphrase)
+- **Node.js**: Version 20.x (as specified in `package.json`)
+- **pnpm**: Version 10.17.0 or higher ([Installation Guide](https://pnpm.io/installation))
+- **Vercel Account**: For deployment (or use Vercel CLI for local development)
 
 ## 🔐 Environment Variables
 
@@ -27,57 +36,133 @@ This project requires the following environment variables:
 
 ### Required Variables
 
-- **`SEGMENT_WRITE_KEY`**: Your Segment write key for API authentication
-  - Get your write key from the Segment dashboard: Settings → API Keys
-  - Used by the Segment Analytics client to send events
-  - Must be set in your deployment environment (Vercel, local development, etc.)
+#### `SEGMENT_WRITE_KEY`
+
+**Purpose**: Authenticates requests to Segment's Identify API
+
+**Why it's needed**:
+1. **API Authentication**: Segment requires a write key to authenticate all API requests. Without this key, Segment will reject all requests to create or update customer profiles.
+2. **Client Initialization**: The Segment Analytics client (`@segment/analytics-node`) requires a write key during initialization. The key is used to:
+   - Identify which Segment workspace/project to send data to
+   - Authenticate the HTTP requests to Segment's API endpoints
+   - Route events to the correct destination in your Segment configuration
+3. **Security**: The write key acts as a secret credential that should never be committed to version control. It's unique to your Segment workspace and grants write access to your customer data.
+4. **Runtime Requirement**: The application validates this environment variable at runtime. If it's missing, empty, or contains only whitespace, the application will throw an error and fail to start (see `src/config/environment.ts`).
+
+**Where it's used**:
+- `src/config/environment.ts`: Validates the environment variable is present and non-empty
+- `src/segment/client.ts`: Used to initialize the Segment Analytics client via `createSegmentClient(writeKey)`
+- `src/integration/service.ts`: Retrieved via `getSegmentClientFromEnvironment()` to send customer data to Segment
+
+**How to get it**:
+1. Log in to your Segment dashboard
+2. Navigate to Settings → API Keys
+3. Copy your Write Key (starts with your workspace slug)
+4. Keep it secure and never commit it to version control
+
+**Validation**: The application automatically trims whitespace and validates that the key is not empty. If validation fails, you'll see: `Missing required environment variable: SEGMENT_WRITE_KEY`
+
+### Optional Variables
+
+#### `VERCEL_URL`
+
+**Purpose**: Base URL of the Vercel deployment
+
+**Why it's needed**:
+- **Documentation**: Provides a reference to the deployed application URL
+- **Testing**: Can be used in tests or scripts that need to reference the deployment
+- **Configuration**: May be needed for external services that need to know the deployment URL
+
+**How to get it**:
+- Automatically provided by Vercel in production deployments
+- For preview deployments, check the Vercel dashboard or deployment logs
+- Format: `https://your-project-name.vercel.app`
+
+#### `WEBHOOK_ENDPOINT_URL`
+
+**Purpose**: Full URL of the webhook endpoint for Commercetools configuration
+
+**Why it's needed**:
+- **Commercetools Configuration**: This is the exact URL you need to configure in Commercetools webhook subscriptions
+- **Documentation**: Provides a clear reference for setting up the integration
+- **Testing**: Useful for testing webhook endpoints manually or in integration tests
+
+**How to get it**:
+- Production: `https://your-project-name.vercel.app/api/webhook`
+- Preview: `https://your-project-name-git-branch-username.vercel.app/api/webhook`
+- Local: `http://localhost:3000/api/webhook` (when using `vercel dev`)
+
+#### `VERCEL_PROTECTION_BYPASS_SECRET`
+
+**Purpose**: Secret token for bypassing Vercel's preview protection
+
+**Why it's needed**:
+- **Preview Protection**: Vercel preview deployments can be password-protected
+- **Testing**: Allows automated tests or external services (like Commercetools) to access protected preview deployments
+- **Development**: Enables testing webhooks against preview deployments without manual authentication
+
+**How to get it**:
+1. Go to your Vercel project settings
+2. Navigate to "Deployment Protection"
+3. If preview protection is enabled, generate a bypass secret
+4. Keep it secure and never commit it to version control
+
+**Security Note**: This secret grants access to protected preview deployments. Only share it with trusted services and never expose it publicly.
 
 ### Setting Environment Variables
 
 #### Local Development
-Create a `.env` file in the project root:
+Create a `.env` file in the project root (you can use `.env.example` as a template):
 ```bash
-SEGMENT_WRITE_KEY=your-segment-write-key-here
+# Copy the example file
+cp .env.example .env
+
+# Edit .env and add your actual Segment write key
+SEGMENT_WRITE_KEY=your-actual-segment-write-key-here
 ```
+
+**Note**: The `.env` file is gitignored and should never be committed. Always use `.env.example` as a template for documenting required environment variables.
 
 #### Vercel Deployment
 1. Go to your Vercel project settings
 2. Navigate to "Environment Variables"
-3. Add `SEGMENT_WRITE_KEY` with your Segment write key value
-4. Select the environments where it should be available (Production, Preview, Development)
+3. Add the following variables:
+   - **`SEGMENT_WRITE_KEY`**: Your Segment write key value (required)
+   - **`VERCEL_URL`**: Your deployment base URL (optional, for documentation)
+   - **`WEBHOOK_ENDPOINT_URL`**: Full webhook endpoint URL (optional, for documentation)
+   - **`VERCEL_PROTECTION_BYPASS_SECRET`**: Bypass secret if using preview protection (optional)
+4. Select the environments where each variable should be available (Production, Preview, Development)
 5. Redeploy your application for changes to take effect
 
 ## 🛠️ Getting Started
 
-1. **Create a new repository from this template:**
-   - Click the "Use this template" button on GitHub
-   - Choose "Create a new repository"
-   - Name your new repository and configure settings
-   - Click "Create repository from template"
-
-2. **Clone your new repository:**
+1. **Clone the repository:**
    ```bash
-   git clone <your-new-repo-url>
-   cd <your-repo-name>
+   git clone <repository-url>
+   cd commercetools-to-segment
    pnpm install
    ```
 
-3. **Build packages:**
+2. **Set up environment variables:**
    ```bash
-   pnpm run build
+   cp .env.example .env
+   # Edit .env and add your SEGMENT_WRITE_KEY
    ```
 
-4. **Configure MCP tools:**
-   - Create `.env.github-mcp` based on `.env.github-mcp.example` in the `.cursor` directory
-   - Update `mcp.json` with your repository details
+3. **Build the project:**
+   ```bash
+   pnpm build
+   ```
 
-5. **Enable MCPs in Cursor:**
-   - Configure the MCP servers in your Cursor settings
-   - Restart Cursor to activate the integrations
+4. **Run tests:**
+   ```bash
+   pnpm test:all
+   ```
 
-6. **Set up environment variables:**
-   - Create a `.env` file with `SEGMENT_WRITE_KEY` (see Environment Variables section below)
-   - For Vercel deployment, add environment variables in the Vercel dashboard
+5. **Start local development:**
+   ```bash
+   pnpm dev
+   ```
 
 ## 🚀 Vercel Deployment
 
@@ -108,16 +193,17 @@ This project is configured for deployment on Vercel as serverless functions.
 
 ### Project Structure for Vercel
 
-- **Serverless Functions**: Place API endpoints in the `api/` directory
+- **Serverless Functions**: API endpoints in the `api/` directory
 - **Build Output**: TypeScript compiles to `dist/` directory
 - **Configuration**: `vercel.json` contains deployment settings
-- **Runtime**: Node.js 24.x (configured in `vercel.json`)
+- **Runtime**: Node.js 20.x (configured in `package.json`)
 
 ### API Endpoints
 
 Serverless functions in the `api/` directory are automatically deployed as API routes:
 - `api/webhook.ts` → `/api/webhook` endpoint
-- Functions must export a default handler that accepts `VercelRequest` and `VercelResponse`
+
+Functions must export a default handler that accepts `VercelRequest` and `VercelResponse`.
 
 ### Local Development with Vercel
 
@@ -131,6 +217,63 @@ vercel dev
 ```
 
 This will start a local server that mimics Vercel's serverless function environment.
+
+## 📡 Webhook Configuration
+
+### Setting Up Commercetools Webhook
+
+1. **Get your webhook URL:**
+   - After deployment, your webhook URL will be: `https://your-domain.vercel.app/api/webhook`
+
+2. **Configure in Commercetools:**
+   - Go to your Commercetools project settings
+   - Navigate to "Subscriptions" or "Webhooks"
+   - Create a new subscription with:
+     - **URL**: Your Vercel webhook endpoint
+     - **Message Types**: `CustomerCreated`, `CustomerUpdated`
+     - **Format**: JSON
+
+3. **Test the webhook:**
+   - Create or update a customer in Commercetools
+   - Check Vercel function logs to verify the webhook was received
+   - Verify customer data appears in Segment
+
+### Webhook Payload Format
+
+The service expects Commercetools webhook payloads in the following format:
+
+```json
+{
+  "notificationType": "Message",
+  "type": "CustomerCreated",
+  "resource": {
+    "typeId": "customer",
+    "id": "customer-id"
+  },
+  "customer": {
+    "email": "user@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "fullName": "John Doe",
+    "addresses": [
+      {
+        "streetName": "Main St",
+        "streetNumber": "123",
+        "city": "New York",
+        "postalCode": "10001",
+        "country": "US"
+      }
+    ]
+  },
+  "projectKey": "your-project-key",
+  "id": "message-id",
+  "version": 1,
+  "sequenceNumber": 1,
+  "resourceVersion": 1,
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "lastModifiedAt": "2024-01-01T00:00:00.000Z"
+}
+```
 
 ## 📜 Available Scripts
 
@@ -148,86 +291,58 @@ This will start a local server that mimics Vercel's serverless function environm
 | `pnpm lint:fix` | Fix ESLint issues automatically |
 | `pnpm format` | Format code with Prettier |
 | `pnpm type-check` | Run TypeScript type checking |
-| `pnpm doc:coverage` | Generate documentation coverage report |
 | `pnpm deps:check` | Check for outdated dependencies |
 | `pnpm deps:update` | Update all dependencies to latest versions |
 
 ## 🏗️ Project Structure
 
 ```
-node-ai-wf/
-├── .cursor/                 # Cursor IDE configuration
-│   ├── commands/           # BDD/TDD workflow commands
-│   ├── modes/              # Agent mode templates
-│   ├── rules/              # Code standards and rules
-│   └── mcp.json           # MCP server configuration
-├── docs/                   # Documentation
-│   ├── db/                # Memory database (FlexSearch)
-│   └── md/                # Markdown documentation
-├── features/               # BDD feature files (Cucumber)
-│   ├── *.feature          # Gherkin feature files
-│   └── README.md          # BDD documentation
-├── api/                    # Vercel serverless functions
-│   └── *.ts               # API endpoints (e.g., webhook.ts)
-├── src/                    # Source code
-│   ├── config/            # Configuration modules
-│   │   └── environment.ts # Environment variable validation
-│   ├── segment/           # Segment integration
-│   │   ├── client.ts      # Segment client factory
-│   │   └── types.ts       # Segment type definitions
-│   ├── examples/          # Example code and utilities
-│   │   ├── math.ts        # Math utility examples
-│   │   ├── string-utils.ts # String utility examples
-│   │   ├── logger.ts      # Logging utility examples
-│   │   └── README.md      # Examples documentation
-│   ├── index.ts           # Main entry point
-│   └── logger.ts          # Winston logging setup
-├── tests/                  # Test suite
-│   ├── steps/             # BDD step definitions
-│   │   ├── *.steps.ts    # Cucumber step definitions
-│   │   └── README.md     # Step definition docs
-│   ├── setup.ts           # Test configuration
-│   ├── *.test.ts          # TDD unit tests
-│   └── README.md          # Testing documentation
-├── reports/                # Test reports
+commercetools-to-segment/
+├── api/                      # Vercel serverless functions
+│   └── webhook.ts            # Main webhook endpoint handler
+├── src/                      # Source code
+│   ├── config/              # Configuration modules
+│   │   └── environment.ts   # Environment variable validation
+│   ├── integration/         # Segment integration
+│   │   ├── service.ts       # Integration service layer
+│   │   └── types.ts         # Integration type definitions
+│   ├── segment/             # Segment client
+│   │   ├── client.ts        # Segment client factory
+│   │   └── types.ts         # Segment type definitions
+│   ├── transformation/       # Data transformation
+│   │   ├── transformer.ts   # Customer data transformer
+│   │   └── types.ts         # Transformation type definitions
+│   ├── webhook/             # Webhook handling
+│   │   ├── validator.ts     # Webhook payload validation
+│   │   └── types.ts         # Webhook type definitions
+│   └── logger.ts            # Winston logging setup
+├── tests/                   # Test suite
+│   ├── steps/               # BDD step definitions
+│   │   ├── *.steps.ts       # Cucumber step definitions
+│   │   └── README.md        # Step definition docs
+│   ├── integration/         # Integration tests
+│   ├── transformation/      # Transformation tests
+│   ├── webhook/             # Webhook tests
+│   ├── setup.ts             # Test configuration
+│   └── *.test.ts            # TDD unit tests
+├── features/                # BDD feature files (Cucumber)
+│   ├── *.feature            # Gherkin feature files
+│   └── README.md            # BDD documentation
+├── dist/                    # Compiled JavaScript output
+├── reports/                 # Test reports
 │   ├── cucumber-report.html # BDD HTML report
 │   └── cucumber-report.json # BDD JSON report
-├── scripts/                # Utility scripts
-├── package.json           # Project configuration
-├── tsconfig.json          # TypeScript configuration
-├── vercel.json            # Vercel deployment configuration
-├── eslint.config.js       # ESLint configuration
-├── vitest.config.ts       # Vitest configuration
-└── cucumber.config.cjs    # Cucumber configuration
+├── package.json             # Project configuration
+├── tsconfig.json            # TypeScript configuration
+├── vercel.json              # Vercel deployment configuration
+├── eslint.config.js         # ESLint configuration
+├── vitest.config.ts         # Vitest configuration
+└── cucumber.config.cjs      # Cucumber configuration
 ```
 
-## 📚 Template Examples
+## 🧪 Testing
 
-This template includes example code in the `/src/examples/` directory to demonstrate:
-
-- **Code Structure**: How to organize utility modules and functions
-- **Testing Patterns**: Comprehensive test examples for different scenarios
-- **TypeScript Usage**: Type-safe development patterns and best practices
-- **Node.js Patterns**: Common Node.js development patterns and utilities
-
-### Example Files
-
-- **`math.ts`** - Math utility functions (add, subtract, multiply, divide, power, factorial)
-- **`string-utils.ts`** - String manipulation utilities (capitalize, reverse, isPalindrome, etc.)
-- **`logger.ts`** - Winston-based logging setup and utilities
-
-### Using Examples
-
-- **Reference**: Use examples as reference for structuring your own modules
-- **Testing**: Examples are fully tested to demonstrate testing patterns
-- **Coverage**: Example files are excluded from coverage reporting (they're just templates)
-- **Customization**: Modify or remove examples based on your project needs
-
-> **Note**: When you run `pnpm test:coverage`, the coverage report will show 0% initially since only example code exists. Once you add your own production code to `/src/` (outside the examples directory), coverage will measure your actual code.
-
-## 🧪 BDD/TDD Testing Approach
-
-This template implements a comprehensive testing strategy combining Behavior-Driven Development (BDD) and Test-Driven Development (TDD):
+This project implements a comprehensive testing strategy combining Behavior-Driven Development (BDD) and Test-Driven Development (TDD):
 
 ### TDD (Test-Driven Development)
 - **Framework**: Vitest for fast, isolated unit tests
@@ -250,193 +365,28 @@ This template implements a comprehensive testing strategy combining Behavior-Dri
 - **Full validation**: `pnpm test:full` (tests + linting + type checking + formatting)
 - **Reports**: Generated in `reports/` directory
 
-## 🤖 AI-First Development Workflow
+## 🔄 Data Flow
 
-This template includes a comprehensive BDD/TDD development workflow optimized for LLM execution. The workflow combines Behavior-Driven Development (BDD) and Test-Driven Development (TDD) practices with memory-based knowledge management.
+1. **Commercetools** sends webhook event when customer is created or updated
+2. **Webhook Endpoint** (`/api/webhook`) receives POST request
+3. **Validator** validates request method, JSON format, and payload structure
+4. **Transformer** converts Commercetools customer data to Segment format
+5. **Integration Service** sends data to Segment Identify API
+6. **Segment** creates or updates customer profile identified by email
 
-### Workflow Overview
+### Supported Events
 
-The workflow follows a systematic approach from project planning to pull requests, focusing on one user story at a time and leveraging AI memory tools for context and documentation.
+- `CustomerCreated`: When a new customer is created in Commercetools
+- `CustomerUpdated`: When an existing customer is updated in Commercetools
 
-### Available Workflow Commands
+### Data Transformation
 
-| Command | Purpose | Description |
-|---------|---------|-------------|
-| `wf0-define-goal` | Project Planning | Define project vision, requirements, user personas, and MVP scope |
-| `wf0a-create-threatmodel` | Threat Modeling | Create threat model documentation for security assessment foundation |
-| `wf1-create-agent-mode` | Agent Configuration | Create AI agent personality and technical expertise profile |
-| `wf2-create-user-stories` | Story Creation | Generate user stories from project goals and create them in Jira or GitHub |
-| `wf3-translate-to-bdd` | BDD Translation | Convert user stories into detailed BDD scenarios with Gherkin syntax |
-| `wf4a-plan-architecture` | Architecture Design | Design system architecture, interfaces, and data models |
-| `wf4b-plan-implementation` | Implementation Planning | Create detailed implementation plan with testing strategy |
-| `wf5-write-bdd-steps` | BDD Step Definitions | Implement reusable BDD step definitions in TypeScript |
-| `wf6-write-unit-tests` | Unit Test Implementation | Create comprehensive unit test suite with Vitest |
-| `wf7-write-implementation` | Code Implementation | Implement features following TDD principles (green phase) |
-| `wf7a-validate-implementation` | Implementation Validation | Validate implementation with BDD tests, unit tests, formatting, and linting |
-| `wf8-review-implementation` | Code Review | Comprehensive code review and quality assessment |
-| `wf8a-refactor` | Code Refactoring | Improve code quality based on review findings |
-| `wf9-security-review` | Security Assessment | Comprehensive security vulnerability assessment |
-| `wf9a-refactor-security` | Security Hardening | Address security issues identified in security review |
-| `wf10-write-documentation` | Documentation | Create comprehensive documentation for humans and LLMs |
-| `wf11-create-pull-request` | PR Creation | Package implementation for review and integration |
+The service transforms Commercetools customer data to Segment format:
 
-### How to Use Cursor Commands
-
-Commands are used directly in the Cursor chat interface:
-
-1. **Open Cursor IDE** with your project
-2. **Start a chat** with the AI assistant
-3. **Type the command** using the "/" prefix followed by the filename:
-   - For initial commands: `wf0-define-goal`, `wf1-create-agent-mode`
-   - For story-specific commands: `wf3-translate-to-bdd github issue 123`
-4. **Follow the Instructions**: Each command provides detailed step-by-step guidance
-5. **AI Integration**: Commands work seamlessly with MCP tools for GitHub, Jira, and memory management
-
-#### Command Usage Examples:
-- `/wf0-define-goal` - Start project planning
-- `/wf1-create-agent-mode` - Create custom AI agent mode
-- `/wf2-create-user-stories` - Create user stories in Jira or GitHub
-- `/wf3-translate-to-bdd github issue 123` - Translate story #123 to BDD scenarios
-- `/wf4a-plan-architecture github issue 123` - Plan architecture for story #123
-- `/wf4b-plan-implementation github issue 123` - Plan implementation for story #123
-- `/wf5-write-bdd-steps github issue 123` - Implement BDD step definitions for story #123
-- `/wf6-write-unit-tests github issue 123` - Write unit tests for story #123
-- `/wf7-write-implementation github issue 123` - Implement code for story #123
-- `/wf7a-validate-implementation github issue 123` - Validate implementation for story #123
-- `/wf8-review-implementation github issue 123` - Review code for story #123
-- `/wf9-security-review github issue 123` - Review security for story #123
-- `/wf10-write-documentation github issue 123` - Write documentation for story #123
-- `/wf11-create-pull-request github issue 123` - Create PR for story #123
-
-### Workflow Philosophy
-
-The commands follow these principles:
-- **One user story at a time**: Focus on completing one user story before moving to the next
-- **BDD-first approach**: Start with user stories, translate to BDD scenarios, then implement
-- **Memory-driven**: Use MCP memory tools for architectural decisions, documentation, and context
-- **Quality gates**: Built-in review and validation steps ensure code quality
-- **LLM-optimized**: Each step designed for effective LLM execution
-
-### Getting Started with Workflows
-
-1. **Start with `wf0-define-goal`** to establish your project vision and user personas
-2. **Use `wf1-create-agent-mode`** to create a specialized AI agent for your project
-3. **Run `wf2-create-user-stories`** to generate and create user stories in Jira or GitHub
-4. **Select a story** and run `wf3-translate-to-bdd` to convert it to BDD scenarios
-5. **Follow the sequence** through architecture, implementation, testing, and review
-6. **Complete the cycle** with `wf7a-validate-implementation`, `wf8-review-implementation`, and `wf11-create-pull-request`
-
-### Memory Management
-
-The workflow leverages MCP memory tools to store and retrieve:
-- **DEF**: Project definitions, goals, user personas, and MVP scope
-- **ADR**: Architecture Decision Records with governance and rationale
-- **ARC**: Story-specific architectural decisions and component design
-- **IMP**: Implementation plans, testing strategies, and development approaches
-- **DOC**: Code documentation, business logic, edge cases, and API guides
-- **SEC**: Security assessments, vulnerability analysis, and best practices
-
-## 🎭 Custom Agent Modes
-
-This template includes pre-configured agent modes in the `.cursor/modes/` directory that you can use to create specialized AI assistants for different aspects of development. These files serve as templates that you manually copy into Cursor's custom agent system.
-
-> **Note**: For detailed information about Cursor agent modes, see the [official Cursor documentation](https://cursor.com/de/docs/agent/modes).
-
-### Available Agent Modes
-
-| Mode | Purpose | Description |
-|------|---------|-------------|
-| `prompt-engineer` | Prompt Engineering | World-class prompt engineering expertise with cutting-edge techniques and methodologies |
-
-### How to Use Agent Modes
-
-1. **Open Cursor IDE** with your project
-2. **Access Agent Settings**: Go to Settings → Agents
-3. **Create Custom Agent**: Click "Create Agent" or "New Agent"
-4. **Copy Agent Prompt**: Copy the content from `.cursor/modes/prompt-engineer.md`
-5. **Paste into Agent**: Paste the content into the agent's system prompt field
-6. **Save and Name**: Give your agent a descriptive name and save
-7. **Select Agent**: Choose your custom agent from the agent selector in chat
-
-### Creating Custom Agent Modes
-
-You can create your own agent modes by:
-
-1. **Create a new file** in `.cursor/modes/` directory (for template storage)
-2. **Define the agent persona** with specific expertise and communication style
-3. **Include domain knowledge** relevant to your project needs
-4. **Set clear guidelines** for how the agent should behave
-5. **Copy the content** from your `.cursor/modes/` file
-6. **Create Custom Agent** in Cursor Settings → Agents
-7. **Paste the content** into the agent's system prompt field
-8. **Save and test** the agent in Cursor chat
-
-#### Example Agent Mode Structure:
-```markdown
-# Your Custom Agent Mode
-
-You are now a [SPECIALIZED ROLE] with expertise in [DOMAIN].
-
-## Core Principles
-- [Key principles the agent should follow]
-
-## Expertise Areas
-- [Specific areas of knowledge]
-
-## Communication Style
-- [How the agent should communicate]
-
-## Success Metrics
-- [What defines success for this agent]
-```
-
-### Benefits of Agent Modes
-
-- **Specialized Expertise**: Each mode focuses on specific aspects of development
-- **Consistent Behavior**: Agents maintain consistent personas across conversations
-- **Domain Knowledge**: Pre-loaded with relevant technical knowledge
-- **Customizable**: Create modes tailored to your project's specific needs
-- **Team Alignment**: Standardized approaches across team members
-
-## 🔄 Updating from Template
-
-When you create a repository from this GitHub template, it creates a completely independent copy with no automatic connection to pull updates. Here are the main approaches to get template updates:
-
-### Add Template as Remote (Recommended)
-
-This is the most flexible approach:
-
-1. **Add the template repo as a remote:**
-   ```bash
-   git remote add template https://github.com/original-owner/template-repo.git
-   ```
-
-2. **Fetch the latest changes:**
-   ```bash
-   git fetch template
-   ```
-
-3. **Merge or cherry-pick changes:**
-   ```bash
-   # To merge all changes from template's main branch
-   git merge template/main
-   
-   # Or to cherry-pick specific commits
-   git cherry-pick <commit-hash>
-   ```
-
-4. **Resolve conflicts and push:**
-   ```bash
-   git push origin main
-   ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
+**Commercetools → Segment:**
+- `email` → `userId` and `traits.email`
+- `fullName` or `firstName` + `lastName` → `traits.name`
+- `addresses[0]` → `traits.address` (street, city, postalCode, country)
 
 ## 📄 License
 
@@ -446,19 +396,18 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 ### Common Issues
 
-- **MCP not working**: Ensure your `.env.github-mcp` file is properly configured
-- **Build failures**: Run `pnpm install` and `pnpm run build` to ensure all dependencies are installed
+- **Build failures**: Run `pnpm install` and `pnpm build` to ensure all dependencies are installed
 - **Test failures**: Run `pnpm test:all` to run both TDD and BDD tests
 - **Type errors**: Run `pnpm type-check` to identify TypeScript issues
 - **Linting errors**: Run `pnpm lint:fix` to automatically fix common issues
 - **BDD test issues**: Check the `features/` directory for Gherkin syntax errors
+- **Webhook not receiving events**: Verify webhook URL in Commercetools and check Vercel function logs
+- **Segment integration failing**: Verify `SEGMENT_WRITE_KEY` is set correctly and check Segment dashboard for events
 
 ### Getting Help
 
-- Check the [Issues](https://github.com/kernpunkt/node-ai-wf/issues) page
+- Check the [Issues](https://github.com/kernpunkt/commercetools-to-segment/issues) page
 - Review the documentation in the `docs/` directory
 - Ensure you're using the correct Node.js and pnpm versions
-- Contact Olli Blum for assistance
-
-
-
+- Check Vercel function logs for webhook errors
+- Verify Segment write key is correct and has proper permissions
