@@ -23,7 +23,7 @@ export function validateMethod(method: string | undefined): boolean {
  * @returns Object with parsed data or error
  */
 export function parseJSON(
-  body: string | unknown | undefined
+  body: unknown
 ): { success: true; data: unknown } | { success: false; error: string } {
   if (body === undefined || body === null) {
     return { success: false, error: 'Request body is required' };
@@ -86,7 +86,7 @@ function validateTypeField(
   if (typeof payload['type'] !== 'string' || payload['type'] === '') {
     return { isValid: false, error: 'Missing or invalid type field' };
   }
-  return { isValid: true, type: payload['type'] as string };
+  return { isValid: true, type: payload['type'] };
 }
 
 /**
@@ -94,7 +94,9 @@ function validateTypeField(
  */
 function validateResourceField(
   payload: Record<string, unknown>
-): { isValid: false; error: string } | { isValid: true; resource: { typeId: string; id: string } } {
+):
+  | { isValid: false; error: string }
+  | { isValid: true; resource: { typeId: string; id: string } } {
   const resource = payload['resource'];
   if (!isRecord(resource)) {
     return { isValid: false, error: 'Missing or invalid resource field' };
@@ -108,12 +110,12 @@ function validateResourceField(
       error: 'Resource must have typeId and id fields',
     };
   }
-  return { 
-    isValid: true, 
+  return {
+    isValid: true,
     resource: {
-      typeId: resource['typeId'] as string,
-      id: resource['id'] as string,
-    }
+      typeId: resource['typeId'],
+      id: resource['id'],
+    },
   };
 }
 
@@ -124,7 +126,9 @@ function validateAndExtractPayload(
   payload: Record<string, unknown>,
   type: string,
   resource: { typeId: string; id: string }
-): { isValid: false; error: string } | { isValid: true; payload: CommercetoolsWebhookPayload } {
+):
+  | { isValid: false; error: string }
+  | { isValid: true; payload: CommercetoolsWebhookPayload } {
   if (typeof payload['projectKey'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid projectKey field' };
   }
@@ -138,7 +142,10 @@ function validateAndExtractPayload(
     return { isValid: false, error: 'Missing or invalid sequenceNumber field' };
   }
   if (typeof payload['resourceVersion'] !== 'number') {
-    return { isValid: false, error: 'Missing or invalid resourceVersion field' };
+    return {
+      isValid: false,
+      error: 'Missing or invalid resourceVersion field',
+    };
   }
   if (typeof payload['createdAt'] !== 'string') {
     return { isValid: false, error: 'Missing or invalid createdAt field' };
@@ -151,13 +158,13 @@ function validateAndExtractPayload(
     notificationType: 'Message',
     type,
     resource,
-    projectKey: payload['projectKey'] as string,
-    id: payload['id'] as string,
-    version: payload['version'] as number,
-    sequenceNumber: payload['sequenceNumber'] as number,
-    resourceVersion: payload['resourceVersion'] as number,
-    createdAt: payload['createdAt'] as string,
-    lastModifiedAt: payload['lastModifiedAt'] as string,
+    projectKey: payload['projectKey'],
+    id: payload['id'],
+    version: payload['version'],
+    sequenceNumber: payload['sequenceNumber'],
+    resourceVersion: payload['resourceVersion'],
+    createdAt: payload['createdAt'],
+    lastModifiedAt: payload['lastModifiedAt'],
   };
 
   return { isValid: true, payload: commercetoolsPayload };

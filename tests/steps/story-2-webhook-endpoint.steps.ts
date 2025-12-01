@@ -1,10 +1,19 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Before, Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'chai';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 // Import the handler (will fail until api/webhook.ts exists - expected in red phase)
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 import handler from '../../api/webhook.js';
+
+// Set up environment variable for Segment client
+Before(function () {
+  // Set SEGMENT_WRITE_KEY for webhook handler tests
+  // The handler requires this to create Segment client
+  if (!process.env.SEGMENT_WRITE_KEY) {
+    process.env.SEGMENT_WRITE_KEY = 'test-write-key-for-webhook-tests';
+  }
+});
 
 // Shared context for storing request/response data between steps
 interface WebhookStepContext {
@@ -33,6 +42,9 @@ function createCustomerCreatedPayload(): Readonly<Record<string, unknown>> {
     resourceVersion: 1,
     createdAt: '2024-01-01T00:00:00.000Z',
     lastModifiedAt: '2024-01-01T00:00:00.000Z',
+    customer: {
+      email: 'test@example.com',
+    },
   } as const;
 }
 
@@ -52,6 +64,9 @@ function createCustomerUpdatedPayload(): Readonly<Record<string, unknown>> {
     resourceVersion: 2,
     createdAt: '2024-01-01T00:00:00.000Z',
     lastModifiedAt: '2024-01-02T00:00:00.000Z',
+    customer: {
+      email: 'test@example.com',
+    },
   } as const;
 }
 

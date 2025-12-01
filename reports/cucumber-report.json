@@ -10,6 +10,14 @@
         "name": "Log application startup",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169458
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
@@ -19,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2447375
+              "duration": 2428416
             }
           },
           {
@@ -32,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2732083
+              "duration": 2414792
             }
           },
           {
@@ -45,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 652249
+              "duration": 615875
             }
           },
           {
@@ -58,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 558457
+              "duration": 840500
             }
           }
         ],
@@ -73,6 +81,14 @@
         "name": "Log user authentication",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22250
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
@@ -82,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27333
+              "duration": 29165
             }
           },
           {
@@ -95,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 356250
+              "duration": 350249
             }
           },
           {
@@ -108,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 280124
+              "duration": 348042
             }
           },
           {
@@ -121,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 472374
+              "duration": 482333
             }
           },
           {
@@ -134,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 358083
+              "duration": 363375
             }
           }
         ],
@@ -149,6 +165,14 @@
         "name": "Log error conditions",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19416
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
@@ -158,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35208
+              "duration": 32916
             }
           },
           {
@@ -171,7 +195,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 322458
+              "duration": 376167
             }
           },
           {
@@ -184,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307374
+              "duration": 364416
             }
           },
           {
@@ -197,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 435083
+              "duration": 440999
             }
           },
           {
@@ -210,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266667
+              "duration": 263417
             }
           }
         ],
@@ -225,6 +249,14 @@
         "name": "Log performance warnings",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17999
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
@@ -234,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17207
+              "duration": 11458
             }
           },
           {
@@ -247,7 +279,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 271958
+              "duration": 279959
             }
           },
           {
@@ -260,7 +292,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 274499
+              "duration": 279166
             }
           },
           {
@@ -273,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 224583
+              "duration": 281833
             }
           }
         ],
@@ -287,5 +319,3906 @@
     "name": "Application logging behavior",
     "tags": [],
     "uri": "features/application-logging.feature"
+  },
+  {
+    "description": "  As a developer\n  I want a webhook endpoint that receives POST requests from Commercetools subscription API\n  So that I can process customer.created and customer.updated events",
+    "elements": [
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;accept-valid-customer.created-event",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Accept valid customer.created event",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1474625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "a valid Commercetools customer.created webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I send a POST request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535917292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the endpoint should identify the event as customer.created",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 772166
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;accept-valid-customer.updated-event",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Accept valid customer.updated event",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "a valid Commercetools customer.updated webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I send a POST request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166659290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 595416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the endpoint should identify the event as customer.updated",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 615124
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-non-post-requests",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Reject non-POST requests",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 43290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "a valid Commercetools webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1160750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send a GET request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-invalid-request-methods",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Reject invalid request methods",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "a valid Commercetools webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I send a GET request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-invalid-request-methods",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Reject invalid request methods",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "a valid Commercetools webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I send a PUT request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73959
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-invalid-request-methods",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Reject invalid request methods",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "a valid Commercetools webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I send a DELETE request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152417
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-invalid-request-methods",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Reject invalid request methods",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "a valid Commercetools webhook payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I send a PATCH request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-request-with-missing-body",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Reject request with missing body",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "no request body is provided",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 496833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I send a POST request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64875
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-request-with-invalid-json",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Reject request with invalid JSON",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "an invalid JSON payload",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "I send a POST request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webhook-endpoint-for-commercetools-events;reject-request-with-malformed-payload-structure",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Reject request with malformed payload structure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "a JSON payload with missing required fields",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "I send a POST request to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "the endpoint should return HTTP status 400",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "webhook-endpoint-for-commercetools-events",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Webhook Endpoint for Commercetools Events",
+    "tags": [],
+    "uri": "features/story-2-webhook-endpoint.feature"
+  },
+  {
+    "description": "  As a developer\n  I want to transform Commercetools customer data into Segment Identify API format\n  So that I can send properly formatted data to Segment",
+    "elements": [
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-email-to-segment-format",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Transform customer with email to Segment format",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "a Commercetools customer payload with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1384082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the transformed data should have userId \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1023833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the transformed data should have email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:377"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-first-name-and-last-name",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Transform customer with first name and last name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "a Commercetools customer payload with first name \"John\" and last name \"Doe\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1654958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the transformed data should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1414042
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-full-name",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Transform customer with full name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "a Commercetools customer payload with full name \"Jane Smith\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 938375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the transformed data should have name \"Jane Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-complete-address",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Transform customer with complete address",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106749
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "a Commercetools customer payload with address:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 618457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133125
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "the transformed data should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 567499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-all-fields-(email,-name,-address)",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Transform customer with all fields (email, name, address)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48875
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "John"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Doe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "123 Main St"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "New York"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "10001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "the transformed data should have userId \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the transformed data should have email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:377"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "the transformed data should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 48,
+            "name": "the transformed data should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74166
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-missing-email-field-gracefully",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Handle missing email field gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "a Commercetools customer payload without email",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:281"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "the transformed data should not have email in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:443"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-missing-name-fields-gracefully",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Handle missing name fields gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 59,
+            "name": "a Commercetools customer payload without name fields",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:286"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the transformed data should not have name in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:462"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338749
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-missing-address-fields-gracefully",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Handle missing address fields gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "a Commercetools customer payload without address fields",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:291"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the transformed data should not have address in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:468"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-null-email-field-gracefully",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Handle null email field gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 71,
+            "name": "a Commercetools customer payload with null email",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:296"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "the transformed data should not have email in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:443"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-null-name-fields-gracefully",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Handle null name fields gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 77,
+            "name": "a Commercetools customer payload with null name fields",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:304"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "the transformed data should not have name in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:462"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-null-address-fields-gracefully",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Handle null address fields gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 83,
+            "name": "a Commercetools customer payload with null address fields",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:314"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "the transformation should complete without error",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:437"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the transformed data should not have address in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:468"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;handle-partial-address-fields",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "Handle partial address fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36624
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 89,
+            "name": "a Commercetools customer payload with partial address:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:322"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24083
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the transformed data should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "the transformed data address should not have postalCode",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:474"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "the transformed data address should not have country",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:485"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282874
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-returns-segment-identify-api-compatible-structure",
+        "keyword": "Scenario",
+        "line": 99,
+        "name": "Transform returns Segment Identify API compatible structure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 100,
+            "name": "a Commercetools customer payload with email \"test@example.com\"",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 101,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "the transformed data should have structure compatible with Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:492"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 831500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "the transformed data should have userId field",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:503"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "the transformed data should have traits field",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:510"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "the transformed data traits should have email field",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:517"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277332
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-different-name-combinations",
+        "keyword": "Scenario Outline",
+        "line": 116,
+        "name": "Transform customer with different name combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21707
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "fullName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "the transformed data should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-different-name-combinations",
+        "keyword": "Scenario Outline",
+        "line": 117,
+        "name": "Transform customer with different name combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29790
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "fullName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jane",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "the transformed data should have name \"Jane\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-different-name-combinations",
+        "keyword": "Scenario Outline",
+        "line": 118,
+        "name": "Transform customer with different name combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34708
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "fullName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "",
+                      "Smith",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "the transformed data should have name \"Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29583
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-different-name-combinations",
+        "keyword": "Scenario Outline",
+        "line": 119,
+        "name": "Transform customer with different name combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32709
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "fullName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "",
+                      "",
+                      "John Doe"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "the transformed data should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "customer-data-transformation;transform-customer-with-different-name-combinations",
+        "keyword": "Scenario Outline",
+        "line": 120,
+        "name": "Transform customer with different name combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "a transformation function is available",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32416
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "fullName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "Jane Smith"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "a Commercetools customer payload with:",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 111,
+            "name": "I transform the customer data to Segment format",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:350"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 112,
+            "name": "the transformed data should have name \"Jane Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-3-customer-data-transformation.steps.ts:386"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "customer-data-transformation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Customer Data Transformation",
+    "tags": [],
+    "uri": "features/story-3-customer-data-transformation.feature"
+  },
+  {
+    "description": "  As a developer\n  I want to send transformed customer data to Segment Identify API\n  So that users are created or updated in Segment identified by email",
+    "elements": [
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-to-segment-identify-api-successfully",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Send customer data to Segment Identify API successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the customer should be identified in Segment with userId \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 649625
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-email-as-userid",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Send customer data with email as userId",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "transformed customer data with email \"test@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the API call should use email \"test@example.com\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-email-trait",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Send customer data with email trait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the API call should include email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 547500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-name-trait",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Send customer data with name trait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6750
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "name",
+                      "John Doe"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "transformed customer data with:",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the API call should include name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 757875
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-address-trait",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Send customer data with address trait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5667
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "123 Main St"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "New York"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "10001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "transformed customer data with:",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77708
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the API call should include address in traits:",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315209
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-all-traits-(email,-name,-address)",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Send customer data with all traits (email, name, address)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5958
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "name",
+                      "Jane Smith"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "456 Oak Ave"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Los Angeles"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "90001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "transformed customer data with:",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the API call should use email \"user@example.com\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the API call should include email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "the API call should include name \"Jane Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140666
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "456 Oak Ave",
+                      "Los Angeles",
+                      "90001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 61,
+            "name": "the API call should include address in traits:",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;handle-successful-api-response",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Handle successful API response",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "the function should return success status",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:466"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "no error should be thrown",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:472"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146541
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;handle-api-error-gracefully",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "Handle API error gracefully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the Segment API will return an error",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "the function should return error status",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:478"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "the error should be handled gracefully",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:485"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195040
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer.created-event-data-to-segment",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "Send customer.created event data to Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 79,
+            "name": "transformed customer data from customer.created event with email \"newuser@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:299"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 596584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "the customer should be identified in Segment with userId \"newuser@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124916
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer.updated-event-data-to-segment",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Send customer.updated event data to Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "transformed customer data from customer.updated event with email \"existing@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:308"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "the customer should be identified in Segment with userId \"existing@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31083
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
+        "keyword": "Scenario Outline",
+        "line": 98,
+        "name": "Send customer data with different email addresses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the API call should use email \"user@example.com\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "the API call should include email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
+        "keyword": "Scenario Outline",
+        "line": 99,
+        "name": "Send customer data with different email addresses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "transformed customer data with email \"test.user@domain.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the API call should use email \"test.user@domain.com\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "the API call should include email \"test.user@domain.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25167
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
+        "keyword": "Scenario Outline",
+        "line": 100,
+        "name": "Send customer data with different email addresses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "transformed customer data with email \"admin@company.org\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the API call should use email \"admin@company.org\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "the API call should include email \"admin@company.org\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24667
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "segment-identify-api-integration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Segment Identify API Integration",
+    "tags": [],
+    "uri": "features/story-4-segment-identify-api-integration.feature"
   }
 ]

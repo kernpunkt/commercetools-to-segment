@@ -57,10 +57,7 @@ function extractName(customer: CommercetoolsCustomer): string | undefined {
   }
 
   // Priority 2-4: Extract and combine firstName and lastName
-  return extractNameFromFirstAndLast(
-    customer.firstName,
-    customer.lastName
-  );
+  return extractNameFromFirstAndLast(customer.firstName, customer.lastName);
 }
 
 /**
@@ -143,7 +140,25 @@ interface AddressFields {
  * @returns Address object or undefined if all fields are empty
  */
 function buildAddressObject(fields: AddressFields): Address | undefined {
-  const addressParts: {
+  const addressParts = extractAddressParts(fields);
+
+  if (!hasAnyAddressField(addressParts)) {
+    return undefined;
+  }
+
+  return buildAddressFromParts(addressParts);
+}
+
+/**
+ * Extracts and processes address parts from fields
+ */
+function extractAddressParts(fields: AddressFields): {
+  readonly street?: string;
+  readonly city?: string;
+  readonly postalCode?: string;
+  readonly country?: string;
+} {
+  const parts: {
     street?: string;
     city?: string;
     postalCode?: string;
@@ -151,46 +166,61 @@ function buildAddressObject(fields: AddressFields): Address | undefined {
   } = {};
 
   if (fields.street !== undefined) {
-    addressParts.street = fields.street;
+    parts.street = fields.street;
   }
 
   const city = trimIfString(fields.city);
   if (city !== undefined) {
-    addressParts.city = city;
+    parts.city = city;
   }
 
   const postalCode = trimIfString(fields.postalCode);
   if (postalCode !== undefined) {
-    addressParts.postalCode = postalCode;
+    parts.postalCode = postalCode;
   }
 
   const country = trimIfString(fields.country);
   if (country !== undefined) {
-    addressParts.country = country;
+    parts.country = country;
   }
 
-  // Check if at least one field is present
-  const hasStreet = addressParts.street !== undefined;
-  const hasCity = addressParts.city !== undefined;
-  const hasPostalCode = addressParts.postalCode !== undefined;
-  const hasCountry = addressParts.country !== undefined;
+  return parts;
+}
 
-  // Return undefined if all fields are empty
-  if (!hasStreet && !hasCity && !hasPostalCode && !hasCountry) {
-    return undefined;
-  }
+/**
+ * Checks if any address field is present
+ */
+function hasAnyAddressField(parts: {
+  readonly street?: string;
+  readonly city?: string;
+  readonly postalCode?: string;
+  readonly country?: string;
+}): boolean {
+  return (
+    parts.street !== undefined ||
+    parts.city !== undefined ||
+    parts.postalCode !== undefined ||
+    parts.country !== undefined
+  );
+}
 
-  // Build readonly address object with only defined fields
-  const address: Address = {
-    ...(hasStreet && { street: addressParts.street }),
-    ...(hasCity && { city: addressParts.city }),
-    ...(hasPostalCode && {
-      postalCode: addressParts.postalCode,
+/**
+ * Builds readonly address object from parts
+ */
+function buildAddressFromParts(parts: {
+  readonly street?: string;
+  readonly city?: string;
+  readonly postalCode?: string;
+  readonly country?: string;
+}): Address {
+  return {
+    ...(parts.street !== undefined && { street: parts.street }),
+    ...(parts.city !== undefined && { city: parts.city }),
+    ...(parts.postalCode !== undefined && {
+      postalCode: parts.postalCode,
     }),
-    ...(hasCountry && { country: addressParts.country }),
+    ...(parts.country !== undefined && { country: parts.country }),
   };
-
-  return address;
 }
 
 /**
@@ -199,9 +229,7 @@ function buildAddressObject(fields: AddressFields): Address | undefined {
  * @param value - String value to trim
  * @returns Trimmed string or undefined if value is null, undefined, or empty
  */
-function trimIfString(
-  value: string | null | undefined
-): string | undefined {
+function trimIfString(value: string | null | undefined): string | undefined {
   const trimmed = value?.trim();
   return trimmed && trimmed !== '' ? trimmed : undefined;
 }
