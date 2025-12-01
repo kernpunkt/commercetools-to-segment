@@ -6,7 +6,6 @@
   "packageManager": "pnpm@10.17.0",
   "engineStrict": true,
   "engines": {
-    "pnpm": ">=10.17.0",
     "node": "20.x"
   },
   "scripts": {
