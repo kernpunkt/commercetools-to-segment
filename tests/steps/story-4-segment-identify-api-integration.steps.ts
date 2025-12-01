@@ -371,9 +371,20 @@ Then('the API call should succeed', function () {
 
 Then(
   'the customer should be identified in Segment with userId {string}',
-  function (expectedUserId: string) {
-    const context = this as IntegrationStepContext;
-    // Verify the identify call was made with correct userId
+  async function (expectedUserId: string) {
+    const context = this as IntegrationStepContext & {
+      httpResponse?: { readonly statusCode: number };
+    };
+    // Check if this is E2E context (has httpResponse property)
+    if (context.httpResponse !== undefined) {
+      // E2E context: verify via Segment API
+      expect(context.httpResponse.statusCode).to.equal(200);
+      const { verifyUserInSegment } = await import('../utils/segment-verification.js');
+      const verification = await verifyUserInSegment(expectedUserId);
+      expect(verification.userId).to.equal(expectedUserId);
+      return;
+    }
+    // Integration test context: verify via mock client
     expect(context.mockClient).to.not.be.undefined;
     const calls = context.mockClient?.getIdentifyCalls();
     expect(calls?.length).to.be.greaterThan(0);

@@ -14,7 +14,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 169458
+              "duration": 179624
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21583
             }
           },
           {
@@ -27,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2428416
+              "duration": 2265291
             }
           },
           {
@@ -40,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2414792
+              "duration": 2168083
             }
           },
           {
@@ -53,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 615875
+              "duration": 1336541
             }
           },
           {
@@ -66,7 +74,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 840500
+              "duration": 555457
             }
           }
         ],
@@ -85,7 +93,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22250
+              "duration": 18416
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10249
             }
           },
           {
@@ -98,7 +114,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29165
+              "duration": 26916
             }
           },
           {
@@ -111,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 350249
+              "duration": 295542
             }
           },
           {
@@ -124,7 +140,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 348042
+              "duration": 374416
             }
           },
           {
@@ -137,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 482333
+              "duration": 418000
             }
           },
           {
@@ -150,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 363375
+              "duration": 338916
             }
           }
         ],
@@ -169,7 +185,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19416
+              "duration": 12416
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7292
             }
           },
           {
@@ -182,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32916
+              "duration": 28208
             }
           },
           {
@@ -195,7 +219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 376167
+              "duration": 371959
             }
           },
           {
@@ -208,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 364416
+              "duration": 336542
             }
           },
           {
@@ -221,7 +245,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 440999
+              "duration": 537041
             }
           },
           {
@@ -234,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 263417
+              "duration": 311083
             }
           }
         ],
@@ -253,7 +277,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17999
+              "duration": 13874
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4958
             }
           },
           {
@@ -279,7 +311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 279959
+              "duration": 291708
             }
           },
           {
@@ -292,7 +324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 279166
+              "duration": 264291
             }
           },
           {
@@ -305,7 +337,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 281833
+              "duration": 254457
             }
           }
         ],
@@ -335,7 +367,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12666
+              "duration": 13542
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5457
             }
           },
           {
@@ -344,11 +384,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 1474625
+              "duration": 1878749
             }
           },
           {
@@ -357,11 +397,11 @@
             "line": 10,
             "name": "a valid Commercetools customer.created webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:138"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:142"
             },
             "result": {
               "status": "passed",
-              "duration": 475750
+              "duration": 355542
             }
           },
           {
@@ -370,11 +410,11 @@
             "line": 11,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 535917292
+              "duration": 563077667
             }
           },
           {
@@ -383,11 +423,11 @@
             "line": 12,
             "name": "the endpoint should return HTTP status 200",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 1122624
+              "duration": 2683499
             }
           },
           {
@@ -396,11 +436,11 @@
             "line": 13,
             "name": "the endpoint should identify the event as customer.created",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:223"
             },
             "result": {
               "status": "passed",
-              "duration": 772166
+              "duration": 1248542
             }
           }
         ],
@@ -419,7 +459,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24332
+              "duration": 52041
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18249
             }
           },
           {
@@ -428,11 +476,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 181916
+              "duration": 362708
             }
           },
           {
@@ -441,11 +489,11 @@
             "line": 16,
             "name": "a valid Commercetools customer.updated webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:146"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:150"
             },
             "result": {
               "status": "passed",
-              "duration": 427333
+              "duration": 813582
             }
           },
           {
@@ -454,11 +502,11 @@
             "line": 17,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 166659290
+              "duration": 174859750
             }
           },
           {
@@ -467,11 +515,11 @@
             "line": 18,
             "name": "the endpoint should return HTTP status 200",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 595416
+              "duration": 270792
             }
           },
           {
@@ -480,11 +528,11 @@
             "line": 19,
             "name": "the endpoint should identify the event as customer.updated",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:223"
             },
             "result": {
               "status": "passed",
-              "duration": 615124
+              "duration": 188875
             }
           }
         ],
@@ -503,7 +551,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 43290
+              "duration": 19457
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7458
             }
           },
           {
@@ -512,11 +568,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 94917
+              "duration": 51207
             }
           },
           {
@@ -525,11 +581,11 @@
             "line": 22,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 1160750
+              "duration": 555792
             }
           },
           {
@@ -538,11 +594,11 @@
             "line": 23,
             "name": "I send a GET request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 162458
+              "duration": 115375
             }
           },
           {
@@ -551,11 +607,11 @@
             "line": 24,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 148000
+              "duration": 51458
             }
           }
         ],
@@ -574,7 +630,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 35957
+              "duration": 49542
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9458
             }
           },
           {
@@ -583,11 +647,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 62584
+              "duration": 55499
             }
           },
           {
@@ -596,11 +660,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 30416
+              "duration": 26583
             }
           },
           {
@@ -609,11 +673,11 @@
             "line": 28,
             "name": "I send a GET request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 100625
+              "duration": 96332
             }
           },
           {
@@ -622,11 +686,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 72000
+              "duration": 69542
             }
           }
         ],
@@ -645,7 +709,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 28957
+              "duration": 41292
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17832
             }
           },
           {
@@ -654,11 +726,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 42709
+              "duration": 181458
             }
           },
           {
@@ -667,11 +739,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 33374
+              "duration": 38540
             }
           },
           {
@@ -680,11 +752,11 @@
             "line": 28,
             "name": "I send a PUT request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 114332
+              "duration": 85792
             }
           },
           {
@@ -693,11 +765,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 73959
+              "duration": 58750
             }
           }
         ],
@@ -716,7 +788,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 35292
+              "duration": 16375
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9250
             }
           },
           {
@@ -725,11 +805,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 130583
+              "duration": 35333
             }
           },
           {
@@ -738,11 +818,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 28542
+              "duration": 21375
             }
           },
           {
@@ -751,11 +831,11 @@
             "line": 28,
             "name": "I send a DELETE request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 95125
+              "duration": 67375
             }
           },
           {
@@ -764,11 +844,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 152417
+              "duration": 58833
             }
           }
         ],
@@ -787,7 +867,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24624
+              "duration": 13707
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4667
             }
           },
           {
@@ -796,11 +884,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 28082
+              "duration": 24124
             }
           },
           {
@@ -809,11 +897,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 18708
+              "duration": 15916
             }
           },
           {
@@ -822,11 +910,11 @@
             "line": 28,
             "name": "I send a PATCH request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 72375
+              "duration": 55166
             }
           },
           {
@@ -835,11 +923,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 55958
+              "duration": 41917
             }
           }
         ],
@@ -858,7 +946,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22457
+              "duration": 15750
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5540
             }
           },
           {
@@ -867,11 +963,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 44333
+              "duration": 34625
             }
           },
           {
@@ -880,11 +976,11 @@
             "line": 39,
             "name": "no request body is provided",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:163"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:167"
             },
             "result": {
               "status": "passed",
-              "duration": 496833
+              "duration": 348291
             }
           },
           {
@@ -893,11 +989,11 @@
             "line": 40,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 111041
+              "duration": 72083
             }
           },
           {
@@ -906,11 +1002,11 @@
             "line": 41,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 64875
+              "duration": 49083
             }
           }
         ],
@@ -929,7 +1025,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 16916
+              "duration": 8874
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4916
             }
           },
           {
@@ -938,11 +1042,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 38416
+              "duration": 24249
             }
           },
           {
@@ -951,11 +1055,11 @@
             "line": 44,
             "name": "an invalid JSON payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:170"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:174"
             },
             "result": {
               "status": "passed",
-              "duration": 372124
+              "duration": 252542
             }
           },
           {
@@ -964,11 +1068,11 @@
             "line": 45,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 251166
+              "duration": 146917
             }
           },
           {
@@ -977,11 +1081,11 @@
             "line": 46,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 57833
+              "duration": 44333
             }
           }
         ],
@@ -1000,7 +1104,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18082
+              "duration": 11917
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4750
             }
           },
           {
@@ -1009,11 +1121,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-              "duration": 36541
+              "duration": 32208
             }
           },
           {
@@ -1022,11 +1134,11 @@
             "line": 49,
             "name": "a JSON payload with missing required fields",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:177"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:181"
             },
             "result": {
               "status": "passed",
-              "duration": 627124
+              "duration": 414875
             }
           },
           {
@@ -1035,11 +1147,11 @@
             "line": 50,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-              "duration": 372624
+              "duration": 91791
             }
           },
           {
@@ -1048,11 +1160,11 @@
             "line": 51,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-              "duration": 64125
+              "duration": 47332
             }
           }
         ],
@@ -1082,7 +1194,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13500
+              "duration": 16750
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5916
             }
           },
           {
@@ -1095,7 +1215,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 719707
+              "duration": 487292
             }
           },
           {
@@ -1108,7 +1228,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1384082
+              "duration": 1016875
             }
           },
           {
@@ -1121,7 +1241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 443540
+              "duration": 390625
             }
           },
           {
@@ -1134,7 +1254,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1023833
+              "duration": 769666
             }
           },
           {
@@ -1147,7 +1267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1029041
+              "duration": 721000
             }
           }
         ],
@@ -1166,7 +1286,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13832
+              "duration": 10917
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12999
             }
           },
           {
@@ -1179,7 +1307,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47958
+              "duration": 41334
             }
           },
           {
@@ -1192,7 +1320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1654958
+              "duration": 1427500
             }
           },
           {
@@ -1205,7 +1333,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24708
+              "duration": 69250
             }
           },
           {
@@ -1218,7 +1346,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1414042
+              "duration": 918542
             }
           }
         ],
@@ -1237,7 +1365,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18666
+              "duration": 18000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5042
             }
           },
           {
@@ -1250,7 +1386,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50375
+              "duration": 47332
             }
           },
           {
@@ -1263,7 +1399,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 938375
+              "duration": 1493874
             }
           },
           {
@@ -1276,7 +1412,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22749
+              "duration": 24499
             }
           },
           {
@@ -1289,7 +1425,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 178499
+              "duration": 200209
             }
           }
         ],
@@ -1308,7 +1444,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26040
+              "duration": 14000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4333
             }
           },
           {
@@ -1321,7 +1465,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 106749
+              "duration": 38541
             }
           },
           {
@@ -1355,7 +1499,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 618457
+              "duration": 455333
             }
           },
           {
@@ -1368,7 +1512,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133125
+              "duration": 120541
             }
           },
           {
@@ -1402,7 +1546,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 567499
+              "duration": 483749
             }
           }
         ],
@@ -1421,7 +1565,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11999
+              "duration": 15750
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4500
             }
           },
           {
@@ -1434,7 +1586,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48875
+              "duration": 64708
             }
           },
           {
@@ -1500,7 +1652,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 521500
+              "duration": 386500
             }
           },
           {
@@ -1513,7 +1665,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29665
+              "duration": 29083
             }
           },
           {
@@ -1526,7 +1678,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 273916
+              "duration": 246582
             }
           },
           {
@@ -1539,7 +1691,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 291249
+              "duration": 284375
             }
           },
           {
@@ -1552,7 +1704,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53000
+              "duration": 34333
             }
           },
           {
@@ -1586,7 +1738,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74166
+              "duration": 58958
             }
           }
         ],
@@ -1605,7 +1757,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10958
+              "duration": 43209
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15124
             }
           },
           {
@@ -1618,7 +1778,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34583
+              "duration": 135166
             }
           },
           {
@@ -1631,7 +1791,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 415082
+              "duration": 1566583
             }
           },
           {
@@ -1644,7 +1804,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13624
+              "duration": 394957
             }
           },
           {
@@ -1657,7 +1817,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390499
+              "duration": 543207
             }
           },
           {
@@ -1670,7 +1830,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 352666
+              "duration": 600415
             }
           }
         ],
@@ -1689,7 +1849,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10666
+              "duration": 40916
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13040
             }
           },
           {
@@ -1702,7 +1870,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34792
+              "duration": 109999
             }
           },
           {
@@ -1715,7 +1883,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 338375
+              "duration": 576167
             }
           },
           {
@@ -1728,7 +1896,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14249
+              "duration": 28000
             }
           },
           {
@@ -1741,7 +1909,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22500
+              "duration": 42958
             }
           },
           {
@@ -1754,7 +1922,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 338749
+              "duration": 396458
             }
           }
         ],
@@ -1773,7 +1941,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8915
+              "duration": 17374
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6124
             }
           },
           {
@@ -1786,7 +1962,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26541
+              "duration": 61665
             }
           },
           {
@@ -1799,7 +1975,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 329291
+              "duration": 400750
             }
           },
           {
@@ -1812,7 +1988,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13374
+              "duration": 18666
             }
           },
           {
@@ -1825,7 +2001,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21541
+              "duration": 33916
             }
           },
           {
@@ -1838,7 +2014,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 320249
+              "duration": 356917
             }
           }
         ],
@@ -1857,7 +2033,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8042
+              "duration": 16917
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4417
             }
           },
           {
@@ -1870,7 +2054,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25583
+              "duration": 52500
             }
           },
           {
@@ -1883,7 +2067,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 261458
+              "duration": 304333
             }
           },
           {
@@ -1896,7 +2080,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11417
+              "duration": 14999
             }
           },
           {
@@ -1909,7 +2093,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20499
+              "duration": 23500
             }
           },
           {
@@ -1922,7 +2106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15666
+              "duration": 14832
             }
           }
         ],
@@ -1941,7 +2125,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6791
+              "duration": 11582
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3124
             }
           },
           {
@@ -1954,7 +2146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26583
+              "duration": 127874
             }
           },
           {
@@ -1967,7 +2159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 319458
+              "duration": 330290
             }
           },
           {
@@ -1980,7 +2172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15666
+              "duration": 12458
             }
           },
           {
@@ -1993,7 +2185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28500
+              "duration": 23042
             }
           },
           {
@@ -2006,7 +2198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35458
+              "duration": 30083
             }
           }
         ],
@@ -2025,7 +2217,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10667
+              "duration": 8833
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3249
             }
           },
           {
@@ -2038,7 +2238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33916
+              "duration": 26292
             }
           },
           {
@@ -2051,7 +2251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 504624
+              "duration": 266750
             }
           },
           {
@@ -2064,7 +2264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10582
+              "duration": 7458
             }
           },
           {
@@ -2077,7 +2277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22749
+              "duration": 18500
             }
           },
           {
@@ -2090,7 +2290,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21250
+              "duration": 18958
             }
           }
         ],
@@ -2109,7 +2309,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11833
+              "duration": 12041
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4082
             }
           },
           {
@@ -2122,7 +2330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36624
+              "duration": 34040
             }
           },
           {
@@ -2152,7 +2360,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 344417
+              "duration": 317208
             }
           },
           {
@@ -2165,7 +2373,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24083
+              "duration": 31041
             }
           },
           {
@@ -2195,7 +2403,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48708
+              "duration": 41292
             }
           },
           {
@@ -2208,7 +2416,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 310124
+              "duration": 248749
             }
           },
           {
@@ -2221,7 +2429,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 282874
+              "duration": 235875
             }
           }
         ],
@@ -2240,7 +2448,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9624
+              "duration": 7542
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3042
             }
           },
           {
@@ -2253,7 +2469,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31541
+              "duration": 26000
             }
           },
           {
@@ -2266,7 +2482,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144833
+              "duration": 122916
             }
           },
           {
@@ -2279,7 +2495,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10667
+              "duration": 9167
             }
           },
           {
@@ -2292,7 +2508,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 831500
+              "duration": 663332
             }
           },
           {
@@ -2305,7 +2521,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 280917
+              "duration": 226167
             }
           },
           {
@@ -2318,7 +2534,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 281750
+              "duration": 253791
             }
           },
           {
@@ -2331,7 +2547,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277332
+              "duration": 236333
             }
           }
         ],
@@ -2350,7 +2566,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8082
+              "duration": 7250
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2999
             }
           },
           {
@@ -2363,7 +2587,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21707
+              "duration": 18917
             }
           },
           {
@@ -2395,7 +2619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15707
+              "duration": 15167
             }
           },
           {
@@ -2408,7 +2632,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11333
+              "duration": 10874
             }
           },
           {
@@ -2421,7 +2645,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28958
+              "duration": 26583
             }
           }
         ],
@@ -2440,7 +2664,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6540
+              "duration": 11166
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3750
             }
           },
           {
@@ -2453,7 +2685,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29790
+              "duration": 31583
             }
           },
           {
@@ -2485,7 +2717,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14875
+              "duration": 14541
             }
           },
           {
@@ -2511,7 +2743,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28249
+              "duration": 29167
             }
           }
         ],
@@ -2530,7 +2762,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11125
+              "duration": 8707
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2874
             }
           },
           {
@@ -2543,7 +2783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34708
+              "duration": 26124
             }
           },
           {
@@ -2575,7 +2815,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18833
+              "duration": 80458
             }
           },
           {
@@ -2588,7 +2828,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8417
+              "duration": 18291
             }
           },
           {
@@ -2601,7 +2841,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29583
+              "duration": 31124
             }
           }
         ],
@@ -2620,7 +2860,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10749
+              "duration": 8459
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3041
             }
           },
           {
@@ -2633,7 +2881,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32709
+              "duration": 23999
             }
           },
           {
@@ -2665,7 +2913,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18375
+              "duration": 17291
             }
           },
           {
@@ -2678,7 +2926,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9292
+              "duration": 8082
             }
           },
           {
@@ -2691,7 +2939,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30458
+              "duration": 27583
             }
           }
         ],
@@ -2710,7 +2958,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10790
+              "duration": 6707
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2749
             }
           },
           {
@@ -2723,7 +2979,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32416
+              "duration": 20207
             }
           },
           {
@@ -2755,7 +3011,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24083
+              "duration": 10667
             }
           },
           {
@@ -2768,7 +3024,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10499
+              "duration": 8958
             }
           },
           {
@@ -2781,7 +3037,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29291
+              "duration": 21375
             }
           }
         ],
@@ -2811,7 +3067,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8542
+              "duration": 9333
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3124
             }
           },
           {
@@ -2824,7 +3088,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 352499
+              "duration": 283625
             }
           },
           {
@@ -2837,7 +3101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 176832
+              "duration": 149791
             }
           },
           {
@@ -2850,7 +3114,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 547375
+              "duration": 415917
             }
           },
           {
@@ -2863,7 +3127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 410832
+              "duration": 392417
             }
           },
           {
@@ -2876,7 +3140,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171583
+              "duration": 140499
             }
           },
           {
@@ -2889,7 +3153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 649625
+              "duration": 526249
             }
           }
         ],
@@ -2908,7 +3172,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7334
+              "duration": 9250
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3124
             }
           },
           {
@@ -2921,7 +3193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10374
+              "duration": 11792
             }
           },
           {
@@ -2934,7 +3206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7583
+              "duration": 8666
             }
           },
           {
@@ -2947,7 +3219,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 98833
+              "duration": 116124
             }
           },
           {
@@ -2960,7 +3232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70625
+              "duration": 95334
             }
           },
           {
@@ -2969,11 +3241,11 @@
             "line": 19,
             "name": "the API call should use email \"test@example.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 508542
+              "duration": 484709
             }
           }
         ],
@@ -2992,7 +3264,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6582
+              "duration": 9500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3208
             }
           },
           {
@@ -3005,7 +3285,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7707
+              "duration": 11833
             }
           },
           {
@@ -3018,7 +3298,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5583
+              "duration": 14499
             }
           },
           {
@@ -3031,7 +3311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12833
+              "duration": 15542
             }
           },
           {
@@ -3044,7 +3324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49957
+              "duration": 85291
             }
           },
           {
@@ -3053,11 +3333,11 @@
             "line": 24,
             "name": "the API call should include email \"user@example.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 547500
+              "duration": 686208
             }
           }
         ],
@@ -3076,7 +3356,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11500
+              "duration": 6374
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2667
             }
           },
           {
@@ -3089,7 +3377,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14999
+              "duration": 7749
             }
           },
           {
@@ -3102,7 +3390,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6750
+              "duration": 5083
             }
           },
           {
@@ -3138,7 +3426,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 345708
+              "duration": 223165
             }
           },
           {
@@ -3151,7 +3439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89707
+              "duration": 66083
             }
           },
           {
@@ -3160,11 +3448,11 @@
             "line": 32,
             "name": "the API call should include name \"John Doe\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:419"
             },
             "result": {
               "status": "passed",
-              "duration": 757875
+              "duration": 387500
             }
           }
         ],
@@ -3183,7 +3471,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10332
+              "duration": 5707
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2416
             }
           },
           {
@@ -3196,7 +3492,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10999
+              "duration": 6875
             }
           },
           {
@@ -3209,7 +3505,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5667
+              "duration": 4749
             }
           },
           {
@@ -3263,7 +3559,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43000
+              "duration": 28583
             }
           },
           {
@@ -3276,7 +3572,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77708
+              "duration": 54708
             }
           },
           {
@@ -3306,11 +3602,11 @@
             "line": 43,
             "name": "the API call should include address in traits:",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:431"
             },
             "result": {
               "status": "passed",
-              "duration": 315209
+              "duration": 483915
             }
           }
         ],
@@ -3329,7 +3625,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9625
+              "duration": 7166
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2666
             }
           },
           {
@@ -3342,7 +3646,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10916
+              "duration": 9833
             }
           },
           {
@@ -3355,7 +3659,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5958
+              "duration": 5208
             }
           },
           {
@@ -3415,7 +3719,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36416
+              "duration": 30416
             }
           },
           {
@@ -3428,7 +3732,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60958
+              "duration": 68415
             }
           },
           {
@@ -3441,7 +3745,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28332
+              "duration": 20582
             }
           },
           {
@@ -3450,11 +3754,11 @@
             "line": 58,
             "name": "the API call should use email \"user@example.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 138374
+              "duration": 118958
             }
           },
           {
@@ -3463,11 +3767,11 @@
             "line": 59,
             "name": "the API call should include email \"user@example.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 174916
+              "duration": 110582
             }
           },
           {
@@ -3476,11 +3780,11 @@
             "line": 60,
             "name": "the API call should include name \"Jane Smith\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:419"
             },
             "result": {
               "status": "passed",
-              "duration": 140666
+              "duration": 98500
             }
           },
           {
@@ -3510,11 +3814,11 @@
             "line": 61,
             "name": "the API call should include address in traits:",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:431"
             },
             "result": {
               "status": "passed",
-              "duration": 49999
+              "duration": 40500
             }
           }
         ],
@@ -3533,7 +3837,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10374
+              "duration": 7792
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2707
             }
           },
           {
@@ -3546,7 +3858,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14583
+              "duration": 10125
             }
           },
           {
@@ -3559,7 +3871,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13207
+              "duration": 4875
             }
           },
           {
@@ -3572,7 +3884,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16916
+              "duration": 14499
             }
           },
           {
@@ -3585,7 +3897,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70375
+              "duration": 57457
             }
           },
           {
@@ -3594,11 +3906,11 @@
             "line": 68,
             "name": "the function should return success status",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:466"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:477"
             },
             "result": {
               "status": "passed",
-              "duration": 233291
+              "duration": 187957
             }
           },
           {
@@ -3607,11 +3919,11 @@
             "line": 69,
             "name": "no error should be thrown",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:472"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:483"
             },
             "result": {
               "status": "passed",
-              "duration": 146541
+              "duration": 119916
             }
           }
         ],
@@ -3630,7 +3942,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6417
+              "duration": 5250
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2541
             }
           },
           {
@@ -3643,7 +3963,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9166
+              "duration": 6291
             }
           },
           {
@@ -3656,7 +3976,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6082
+              "duration": 5042
             }
           },
           {
@@ -3669,7 +3989,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14415
+              "duration": 11834
             }
           },
           {
@@ -3682,7 +4002,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 223124
+              "duration": 147915
             }
           },
           {
@@ -3695,7 +4015,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 776208
+              "duration": 860709
             }
           },
           {
@@ -3704,11 +4024,11 @@
             "line": 75,
             "name": "the function should return error status",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:478"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:489"
             },
             "result": {
               "status": "passed",
-              "duration": 230082
+              "duration": 210833
             }
           },
           {
@@ -3717,11 +4037,11 @@
             "line": 76,
             "name": "the error should be handled gracefully",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:485"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:496"
             },
             "result": {
               "status": "passed",
-              "duration": 195040
+              "duration": 162375
             }
           }
         ],
@@ -3740,104 +4060,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6499
+              "duration": 7125
             }
           },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8708
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5582
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 79,
-            "name": "transformed customer data from customer.created event with email \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:299"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 596584
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 80,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 55083
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 81,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31207
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 82,
-            "name": "the customer should be identified in Segment with userId \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 124916
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer.updated-event-data-to-segment",
-        "keyword": "Scenario",
-        "line": 84,
-        "name": "Send customer.updated event data to Segment",
-        "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5791
+              "duration": 2540
             }
           },
           {
@@ -3850,104 +4081,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10416
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4833
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 85,
-            "name": "transformed customer data from customer.updated event with email \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:308"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1149791
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 86,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 153000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 87,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31042
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 88,
-            "name": "the customer should be identified in Segment with userId \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31083
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 98,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 6791
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7500
+              "duration": 8500
             }
           },
           {
@@ -3966,6 +4100,216 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "line": 79,
+            "name": "transformed customer data from customer.created event with email \"newuser@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:299"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "the customer should be identified in Segment with userId \"newuser@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer.updated-event-data-to-segment",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Send customer.updated event data to Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7916
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 85,
+            "name": "transformed customer data from customer.updated event with email \"existing@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:308"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "the API call should succeed",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "the customer should be identified in Segment with userId \"existing@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115082
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
+        "keyword": "Scenario Outline",
+        "line": 98,
+        "name": "Send customer data with different email addresses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7541
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
             "line": 91,
             "name": "transformed customer data with email \"user@example.com\"",
             "match": {
@@ -3973,7 +4317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13583
+              "duration": 11500
             }
           },
           {
@@ -3986,7 +4330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64917
+              "duration": 63458
             }
           },
           {
@@ -3995,11 +4339,11 @@
             "line": 93,
             "name": "the API call should use email \"user@example.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 32333
+              "duration": 29915
             }
           },
           {
@@ -4008,11 +4352,11 @@
             "line": 94,
             "name": "the API call should include email \"user@example.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 35499
+              "duration": 25249
             }
           }
         ],
@@ -4031,7 +4375,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9750
+              "duration": 6542
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2333
             }
           },
           {
@@ -4044,7 +4396,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10749
+              "duration": 5875
             }
           },
           {
@@ -4057,7 +4409,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5499
+              "duration": 5083
             }
           },
           {
@@ -4070,7 +4422,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14249
+              "duration": 11916
             }
           },
           {
@@ -4083,7 +4435,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50083
+              "duration": 51500
             }
           },
           {
@@ -4092,11 +4444,11 @@
             "line": 93,
             "name": "the API call should use email \"test.user@domain.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 32915
+              "duration": 129500
             }
           },
           {
@@ -4105,11 +4457,11 @@
             "line": 94,
             "name": "the API call should include email \"test.user@domain.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 25167
+              "duration": 31875
             }
           }
         ],
@@ -4128,7 +4480,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5333
+              "duration": 4791
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2083
             }
           },
           {
@@ -4141,7 +4501,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6292
+              "duration": 6832
             }
           },
           {
@@ -4154,7 +4514,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4458
+              "duration": 4792
             }
           },
           {
@@ -4167,7 +4527,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11250
+              "duration": 18416
             }
           },
           {
@@ -4180,7 +4540,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37749
+              "duration": 46875
             }
           },
           {
@@ -4189,11 +4549,11 @@
             "line": 93,
             "name": "the API call should use email \"admin@company.org\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 27291
+              "duration": 99083
             }
           },
           {
@@ -4202,11 +4562,11 @@
             "line": 94,
             "name": "the API call should include email \"admin@company.org\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 24667
+              "duration": 25750
             }
           }
         ],
@@ -4220,5 +4580,2256 @@
     "name": "Segment Identify API Integration",
     "tags": [],
     "uri": "features/story-4-segment-identify-api-integration.feature"
+  },
+  {
+    "description": "  As a developer\n  I want to test the complete flow from Commercetools webhook to Segment user creation/update\n  So that I can verify the integration works correctly end-to-end",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-for-customer.created-event-creates-user-in-segment",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Complete flow for customer.created event creates user in Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6458
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 476540
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "newuser@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "John"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Doe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "123 Main St"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "New York"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "10001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520064750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1560749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the customer should be created in Segment with userId \"newuser@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1679542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the customer in Segment should have email \"newuser@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1310582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the customer in Segment should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1149415
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 687957
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-for-customer.updated-event-updates-user-in-segment",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Complete flow for customer.updated event updates user in Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38500
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16541
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "existing@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "Jane"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Smith"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "456 Oak Ave"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Los Angeles"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "90001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "a valid Commercetools customer.updated webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:164"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 933958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221877000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "the customer should be updated in Segment with userId \"existing@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:339"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1998582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the customer in Segment should have email \"existing@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the customer in Segment should have name \"Jane Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382082
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "456 Oak Ave",
+                      "Los Angeles",
+                      "90001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257207
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;user-is-identified-by-email-in-segment",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "User is identified by email in Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71875
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "a valid Commercetools customer.created webhook payload with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677942084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "the customer should be identified in Segment with userId \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1862458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "the userId in Segment should match the email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:427"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1745666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;all-three-fields-(email,-name,-address)-are-correctly-synced-to-segment",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "All three fields (email, name, address) are correctly synced to Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36082
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22041
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "complete@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "Alice"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Johnson"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "789 Pine Rd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Chicago"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "60601"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224444166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the customer in Segment should have email \"complete@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "the customer in Segment should have name \"Alice Johnson\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208333
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "789 Pine Rd",
+                      "Chicago",
+                      "60601",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 70,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122083
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-processes-customer.created-event-end-to-end",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Complete flow processes customer.created event end-to-end",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44541
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 75,
+            "name": "a valid Commercetools customer.created webhook payload with email \"test@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226876665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "the response should indicate success",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:316"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1190791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "the customer should appear in Segment",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:439"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 844999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "the customer should be identified by email \"test@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:453"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1637999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-processes-customer.updated-event-end-to-end",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Complete flow processes customer.updated event end-to-end",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45957
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 83,
+            "name": "a valid Commercetools customer.updated webhook payload with email \"update@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1553582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206891583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "the response should indicate success",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:316"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "the customer should appear in Segment",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:439"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "the customer should be identified by email \"update@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:453"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;data-flows-correctly-from-webhook-through-transformation-to-segment",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Data flows correctly from webhook through transformation to Segment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35165
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21541
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "flow@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "Bob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Williams"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213504916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "the customer data should be transformed correctly",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:466"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "the transformed data should be sent to Segment",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:475"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "the customer should be created in Segment with userId \"flow@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "the customer in Segment should have name \"Bob Williams\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-works-with-different-customer-data-combinations",
+        "keyword": "Scenario Outline",
+        "line": 124,
+        "name": "Complete flow works with different customer data combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14541
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7250
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user1@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "John"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Doe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "123 Main St"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "New York"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "10001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 104,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208341542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "the customer should be created in Segment with userId \"user1@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "the customer in Segment should have email \"user1@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the customer in Segment should have name \"John Doe\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147583
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "123 Main St",
+                      "New York",
+                      "10001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 118,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-works-with-different-customer-data-combinations",
+        "keyword": "Scenario Outline",
+        "line": 125,
+        "name": "Complete flow works with different customer data combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34874
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25042
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user2@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "Jane"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Smith"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "456 Oak Ave"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Los Angeles"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "90001"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 104,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225380416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "the customer should be created in Segment with userId \"user2@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "the customer in Segment should have email \"user2@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the customer in Segment should have name \"Jane Smith\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60833
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "456 Oak Ave",
+                      "Los Angeles",
+                      "90001",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 118,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117040
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;complete-flow-works-with-different-customer-data-combinations",
+        "keyword": "Scenario Outline",
+        "line": 126,
+        "name": "Complete flow works with different customer data combinations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24167
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11333
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "field",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "user3@example.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "firstName",
+                      "Bob"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastName",
+                      "Jones"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "789 Elm St"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Chicago"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "postalCode",
+                      "60601"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 104,
+            "name": "a valid Commercetools customer.created webhook payload with:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "I send the webhook payload to the webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208376334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 114,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "the customer should be created in Segment with userId \"user3@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "the customer in Segment should have email \"user3@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:354"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the customer in Segment should have name \"Bob Jones\" in traits",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:368"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104582
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "street",
+                      "city",
+                      "postalCode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "789 Elm St",
+                      "Chicago",
+                      "60601",
+                      "US"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 118,
+            "name": "the customer in Segment should have address in traits:",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:388"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;integration-can-be-tested-locally",
+        "keyword": "Scenario",
+        "line": 128,
+        "name": "Integration can be tested locally",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48249
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 129,
+            "name": "the application is running locally",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 980832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 130,
+            "name": "a valid Commercetools customer.created webhook payload with email \"local@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 131,
+            "name": "I send the webhook payload to the local webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:239"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1356878875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "the customer should be created in Segment with userId \"local@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-integration-testing;integration-can-be-tested-on-vercel",
+        "keyword": "Scenario",
+        "line": 135,
+        "name": "Integration can be tested on Vercel",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72041
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the webhook endpoint is available at \"/api/webhook\"",
+            "match": {
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Segment integration is configured with valid credentials",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the data transformation service is available",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 136,
+            "name": "the application is deployed on Vercel",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 990874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "a valid Commercetools customer.created webhook payload with email \"vercel@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 138,
+            "name": "I send the webhook payload to the Vercel webhook endpoint",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:262"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220716083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 139,
+            "name": "the webhook endpoint should return HTTP status 200",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "the customer should be created in Segment with userId \"vercel@example.com\"",
+            "match": {
+              "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133624
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "end-to-end-integration-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "End-to-End Integration Testing",
+    "tags": [],
+    "uri": "features/story-5-end-to-end-integration.feature"
   }
 ]
