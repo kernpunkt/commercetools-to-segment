@@ -127,11 +127,15 @@ function createMockResponse(): VercelResponse {
 }
 
 // Background step: Webhook endpoint is available
+// Also supports E2E context from story-5
 Given('the webhook endpoint is available at {string}', function (endpoint: string) {
   // Store endpoint in context for reference
   (this as WebhookStepContext).request = {
     url: endpoint,
   };
+  // Also set webhookEndpoint for E2E context (story-5)
+  const context = this as WebhookStepContext & { webhookEndpoint?: string };
+  context.webhookEndpoint = endpoint;
 });
 
 // Given steps: Setting up payloads
