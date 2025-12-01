@@ -65,3 +65,5 @@ dist/
 
 talk/
 ./docs/db/flexsearch-memorystore.sqlite
+.vercel
+.env*.local

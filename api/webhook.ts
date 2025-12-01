@@ -6,7 +6,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import {
   validateMethod,
   parseJSON,
-  validatePayload,
+  validatePayload
 } from '../src/webhook/validator.js';
 
 /**

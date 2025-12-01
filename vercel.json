@@ -1,7 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "pnpm build",
-  "outputDirectory": "public",
-  "installCommand": "pnpm install"
+  "builds": [
+    { "src": "api/**/*.ts", "use": "@vercel/node", "config": { "includeFiles": ["src/**/*"] } }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "api/$1.ts" }
+  ]
 }
-
