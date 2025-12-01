@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
+  "packageManager": "pnpm@10.17.0",
   "engineStrict": true,
   "engines": {
     "pnpm": ">=10.17.0",
