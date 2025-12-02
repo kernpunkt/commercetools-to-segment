@@ -1,0 +1,21 @@
+{
+  "key": "segment-customer-sync",
+  "destination": {
+    "type": "SNS",
+    "topicArn": "arn:aws:sns:YOUR_REGION:YOUR_ACCOUNT_ID:commercetools-webhook",
+    "authenticationMode": "IAM"
+  },
+  "messages": [
+    {
+      "resourceTypeId": "customer",
+      "types": [
+        "CustomerCreated",
+        "CustomerUpdated"
+      ]
+    }
+  ],
+  "format": {
+    "type": "Platform"
+  }
+}
+
