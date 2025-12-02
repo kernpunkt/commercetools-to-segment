@@ -31,6 +31,6 @@
     "types": ["node"],
     "moduleDetection": "force"
   },
-  "include": ["src/**/*", "api/**/*"],
+  "include": ["src/**/*", "api/**/*", "infrastructure/**/*"],
   "exclude": ["node_modules", "dist", "tests"]
 }

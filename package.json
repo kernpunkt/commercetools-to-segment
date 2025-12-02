@@ -26,7 +26,12 @@
     "deps:update-interactive": "pnpm update --latest --interactive",
     "deps:update-check": "pnpm update --latest --dry-run",
     "doc:coverage": "node ./node_modules/llm-mem/packages/cli/dist/mem-coverage.js --config=.coverage.json",
-    "postinstall": "node scripts/get-repo-owner.js"
+    "postinstall": "node scripts/get-repo-owner.js",
+    "cdk:build": "tsc -p infrastructure/tsconfig.json",
+    "cdk:synth": "cdk synth --app 'tsx infrastructure/bin/app.ts'",
+    "cdk:deploy": "cdk deploy --app 'tsx infrastructure/bin/app.ts'",
+    "cdk:destroy": "cdk destroy --app 'tsx infrastructure/bin/app.ts'",
+    "cdk:diff": "cdk diff --app 'tsx infrastructure/bin/app.ts'"
   },
   "keywords": [],
   "author": "",
@@ -44,7 +49,9 @@
     "@typescript-eslint/parser": "^8.47.0",
     "@vercel/node": "^5.5.13",
     "@vitest/coverage-v8": "4.0.3",
+    "aws-cdk-lib": "^2.230.0",
     "chai": "^4.5.0",
+    "constructs": "^10.4.3",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "llm-mem": "github:kernpunkt/llm-mem",
