@@ -218,6 +218,97 @@ vercel dev
 
 This will start a local server that mimics Vercel's serverless function environment.
 
+## ☁️ AWS CDK Infrastructure
+
+This project includes AWS CDK infrastructure as code for managing AWS resources separately from Vercel serverless functions.
+
+### Prerequisites
+
+- **AWS Account**: An AWS account with appropriate permissions
+- **AWS CLI**: Installed and configured with credentials
+- **Node.js**: Version 20.x (as specified in package.json)
+- **pnpm**: Version 10.17.0 or higher
+
+### CDK Setup
+
+1. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
+
+2. **Configure AWS credentials:**
+   ```bash
+   aws configure
+   ```
+   Or set environment variables:
+   ```bash
+   export AWS_ACCESS_KEY_ID=your-access-key
+   export AWS_SECRET_ACCESS_KEY=your-secret-key
+   export AWS_DEFAULT_REGION=us-east-1
+   ```
+
+3. **Set CDK environment variables (optional):**
+   ```bash
+   export CDK_DEFAULT_ACCOUNT=123456789012  # Your AWS account ID
+   export CDK_DEFAULT_REGION=us-east-1      # Your preferred AWS region
+   ```
+
+### CDK Commands
+
+| Command | Description |
+|---------|-------------|
+| `pnpm cdk:build` | Compile CDK TypeScript code |
+| `pnpm cdk:synth` | Synthesize CloudFormation templates |
+| `pnpm cdk:deploy` | Deploy stack to AWS |
+| `pnpm cdk:destroy` | Remove stack from AWS |
+| `pnpm cdk:diff` | Show differences between deployed and local stack |
+
+### CDK Project Structure
+
+```
+infrastructure/
+├── bin/
+│   └── app.ts           # CDK app entry point
+├── lib/
+│   └── stack.ts        # Main CDK stack
+├── cdk.json            # CDK configuration
+└── tsconfig.json       # TypeScript config for CDK
+```
+
+### First-Time Deployment
+
+1. **Bootstrap CDK (one-time setup per account/region):**
+   ```bash
+   cdk bootstrap aws://ACCOUNT-ID/REGION
+   ```
+
+2. **Build the CDK code:**
+   ```bash
+   pnpm cdk:build
+   ```
+
+3. **Preview changes:**
+   ```bash
+   pnpm cdk:diff
+   ```
+
+4. **Deploy the stack:**
+   ```bash
+   pnpm cdk:deploy
+   ```
+
+### Environment Variables
+
+- **`CDK_DEFAULT_ACCOUNT`**: AWS account ID (12 digits)
+- **`CDK_DEFAULT_REGION`**: AWS region (e.g., `us-east-1`)
+
+These are optional - if not set, CDK will prompt for account/region or use AWS CLI defaults.
+
+### CDK Output
+
+- **`cdk.out/`**: Generated CloudFormation templates (gitignored)
+- **`cdk.context.json`**: CDK context cache (gitignored)
+
 ## 📡 Webhook Configuration
 
 ### Setting Up Commercetools Webhook

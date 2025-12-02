@@ -44,6 +44,10 @@ node_modules/
 # Build output
 dist/
 
+# AWS CDK
+cdk.out/
+cdk.context.json
+
 # Prettier
 .prettierignore
 
