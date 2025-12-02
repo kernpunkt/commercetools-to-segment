@@ -159,4 +159,10 @@ classDiagram
 - **@types/node:** Node.js type definitions
 - **TypeScript:** Compiler for CDK code
 
+<<<<<<< Updated upstream
 **Story:** #16
+=======
+**Story:** #16
+
+
+>>>>>>> Stashed changes
