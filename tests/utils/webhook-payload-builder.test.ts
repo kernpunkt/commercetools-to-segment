@@ -404,11 +404,3 @@ describe('webhook-payload-builder', () => {
     });
   });
 });
-
-
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes

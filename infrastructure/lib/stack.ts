@@ -1,6 +1,8 @@
 import { Stack, type StackProps, CfnOutput } from 'aws-cdk-lib';
 import { Topic } from 'aws-cdk-lib/aws-sns';
+import { LambdaSubscription } from 'aws-cdk-lib/aws-sns-subscriptions';
 import { PolicyStatement, ArnPrincipal } from 'aws-cdk-lib/aws-iam';
+import type * as lambda from 'aws-cdk-lib/aws-lambda';
 import { Construct } from 'constructs';
 
 export interface CdkStackProps extends StackProps {
@@ -8,6 +10,7 @@ export interface CdkStackProps extends StackProps {
   readonly tags?: Record<string, string>;
   readonly environment?: 'dev' | 'staging' | 'prod';
   readonly commercetoolsIamUserArn?: string;
+  readonly lambdaFunction?: lambda.IFunction;
 }
 
 /**
@@ -48,26 +51,71 @@ function validateEnvironment(
  * Builds StackProps from CdkStackProps, only including defined values
  */
 function buildStackProps(props?: CdkStackProps): StackProps | undefined {
-  const stackProps: StackProps = {};
-  let hasProps = false;
+  const stackProps: {
+    env?: StackProps['env'];
+    description?: StackProps['description'];
+  } = {};
 
   if (props?.env) {
     stackProps.env = props.env;
-    hasProps = true;
   }
 
   if (props?.description) {
     stackProps.description = props.description;
-    hasProps = true;
   }
 
-  return hasProps ? stackProps : undefined;
+  const hasProps =
+    stackProps.env !== undefined || stackProps.description !== undefined;
+  return hasProps ? (stackProps as StackProps) : undefined;
+}
+
+/**
+ * Sets up Lambda subscription to SNS topic and creates stack outputs
+ * Extracted to separate method for better testability
+ */
+function setupLambdaSubscription(
+  stack: CdkStack,
+  lambdaFunction: lambda.IFunction
+): void {
+  // Create Lambda-SNS subscription
+  stack.snsTopic.addSubscription(new LambdaSubscription(lambdaFunction));
+
+  // Add Lambda ARN output when Lambda function is provided
+  // Only create output if Lambda is in the same stack to avoid cross-stack dependency issues
+  const lambdaStack = lambdaFunction.stack;
+  const isSameStack = lambdaStack === stack;
+  if (isSameStack) {
+    new CfnOutput(stack, 'LambdaFunctionArn', {
+      value: lambdaFunction.functionArn,
+      description:
+        'ARN of the Lambda function for processing Commercetools events',
+    });
+  }
+  // Note: Cross-stack Lambda references don't create outputs to avoid dependency cycles
+  // In production, Lambda should be in the same stack
 }
 
 export class CdkStack extends Stack {
+  /**
+   * SNS topic for receiving Commercetools webhook events
+   */
   public readonly snsTopic: Topic;
+
+  /**
+   * Name of the SNS topic (environment-aware)
+   */
   public readonly topicName: string;
+
+  /**
+   * ARN of the SNS topic
+   */
   public readonly topicArn: string;
+
+  /**
+   * Optional Lambda function for processing SNS messages
+   * When provided, automatically creates a Lambda subscription to the SNS topic
+   */
+  public readonly lambdaFunction?: lambda.IFunction;
 
   constructor(scope: Construct, id: string, props?: CdkStackProps) {
     super(scope, id, buildStackProps(props));
@@ -114,6 +162,15 @@ export class CdkStack extends Stack {
       value: this.snsTopic.topicArn,
       description: 'ARN of the SNS topic for Commercetools webhook events',
     });
+
+    // Store Lambda function from props
+    if (props?.lambdaFunction !== undefined) {
+      this.lambdaFunction = props.lambdaFunction;
+    }
+
+    // Create Lambda-SNS subscription and outputs when Lambda function is provided
+    if (this.lambdaFunction) {
+      setupLambdaSubscription(this, this.lambdaFunction);
+    }
   }
 }
-
