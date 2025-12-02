@@ -66,9 +66,7 @@ function extractAddress(addrRecord: Record<string, unknown>): {
 /**
  * Extract addresses array from customer record
  */
-function extractAddresses(
-  addresses: unknown
-): ReadonlyArray<{
+function extractAddresses(addresses: unknown): ReadonlyArray<{
   readonly streetName?: string | null;
   readonly streetNumber?: string | null;
   readonly city?: string | null;
@@ -133,7 +131,4 @@ export function extractCustomerFromPayload(
 
   return customer;
 }
-
-
-
 

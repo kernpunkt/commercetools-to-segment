@@ -8,11 +8,3 @@
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist", "cdk.out"]
 }
-
-
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes

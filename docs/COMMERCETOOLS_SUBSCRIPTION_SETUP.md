@@ -1,50 +1,46 @@
 # Commercetools Subscription Setup Guide
 
-This guide explains how to create a webhook subscription in Commercetools to send customer events to your Segment integration endpoint.
+This guide explains how to create a webhook subscription in Commercetools to send customer events to your Segment integration via AWS SNS and Lambda.
 
 ## Overview
 
-**Important**: Commercetools Subscriptions do **NOT** support direct HTTP webhook destinations. You must use an intermediary messaging service. This guide uses **AWS SNS** which can push messages to HTTP endpoints (webhooks).
+**Important**: Commercetools Subscriptions do **NOT** support direct HTTP webhook destinations. You must use an intermediary messaging service. This guide uses **AWS SNS** with **AWS Lambda** for processing events.
 
-The flow will be: **Commercetools → AWS SNS → Your Webhook Endpoint**
+The flow will be: **Commercetools → AWS SNS → AWS Lambda → Segment**
 
-Your webhook endpoint at `/api/webhook` will still receive HTTP POST requests - they'll just be routed through SNS instead of coming directly from Commercetools.
+Lambda functions are automatically subscribed to the SNS topic and process events directly without HTTP overhead.
 
 ## Prerequisites
 
 - Commercetools project with API access
 - Client credentials (Client ID and Client Secret) with subscription management permissions
-- AWS account with SNS access
-- Deployed webhook endpoint URL (e.g., `https://your-project-name.vercel.app/api/webhook`)
+- AWS account with SNS and Lambda access
+- Deployed Lambda function for processing Commercetools events
 
-## Step 1: Set Up AWS SNS
+## Step 1: Set Up AWS SNS and Lambda
 
-1. **Create an SNS Topic** in AWS Console:
-   - Go to AWS SNS Console
-   - Create a new topic (e.g., `commercetools-webhook`)
-   - Note the Topic ARN (format: `arn:aws:sns:REGION:ACCOUNT_ID:TOPIC_NAME`)
+1. **Create an SNS Topic** using AWS CDK:
+   - The CDK stack automatically creates an SNS topic with environment-aware naming
+   - Topic name format: `commercetools-webhook-{environment}` (e.g., `commercetools-webhook-dev`)
+   - Topic ARN is exported as a stack output: `SnsTopicArn`
 
-2. **Create an HTTP/HTTPS Subscription**:
-   - In your SNS topic, click "Create subscription"
-   - Protocol: **HTTPS**
-   - Endpoint: Your webhook URL (e.g., `https://your-project-name.vercel.app/api/webhook`)
-   - Click "Create subscription"
-   - **Important**: SNS will send a confirmation request to your endpoint. Your endpoint must return a `200 OK` response to confirm the subscription.
+2. **Deploy Lambda Function**:
+   - Deploy your Lambda function using AWS CDK or AWS Console
+   - The Lambda function should handle Commercetools event processing
+   - Lambda function ARN is exported as a stack output: `LambdaFunctionArn`
 
-3. **Grant Commercetools Permission**:
-   - In SNS topic settings, go to "Access policy"
-   - Add the following statement to allow Commercetools to publish:
-   ```json
-   {
-     "Sid": "AllowCommercetoolsPublish",
-     "Effect": "Allow",
-     "Principal": {
-       "AWS": "arn:aws:iam::362576667341:user/subscriptions"
-     },
-     "Action": "SNS:Publish",
-     "Resource": "arn:aws:sns:YOUR_REGION:YOUR_ACCOUNT_ID:YOUR_TOPIC_NAME"
-   }
-   ```
+3. **Create Lambda Subscription** (Automatic):
+   - When you provide a Lambda function to the CDK stack, it automatically:
+     - Creates a Lambda subscription to the SNS topic
+     - Grants SNS permission to invoke the Lambda function
+     - Configures proper IAM permissions (least privilege)
+   - No manual subscription setup required
+
+4. **Grant Commercetools Permission**:
+   - The CDK stack automatically adds a resource policy to the SNS topic
+   - This allows the Commercetools IAM user to publish messages
+   - Default IAM user ARN: `arn:aws:iam::362576667341:user/subscriptions`
+   - You can override this via the `commercetoolsIamUserArn` prop in CDK stack
 
 ## Step 2: Create Commercetools Subscription
 
@@ -104,27 +100,34 @@ Replace:
 - `YOUR_ACCOUNT_ID`: Your AWS account ID
 - `commercetools-webhook`: Your SNS topic name
 
-## Important: SNS Message Format
+## Important: Lambda Event Format
 
-When SNS delivers messages to your HTTP endpoint, the payload structure is different from direct Commercetools webhooks. SNS wraps the Commercetools message in an SNS envelope.
+When SNS invokes your Lambda function, the event structure contains the Commercetools message. Lambda automatically parses the SNS message format.
 
-Your webhook endpoint needs to handle the SNS message format. The actual Commercetools payload will be in the `Message` field of the SNS notification, and it will be a JSON string that needs to be parsed.
-
-**SNS Message Structure:**
+**Lambda Event Structure (SNS-triggered):**
 ```json
 {
-  "Type": "Notification",
-  "MessageId": "...",
-  "TopicArn": "arn:aws:sns:...",
-  "Message": "{\"notificationType\":\"Message\",\"type\":\"CustomerCreated\",...}",
-  "Timestamp": "2024-01-01T00:00:00.000Z",
-  "SignatureVersion": "1",
-  "Signature": "...",
-  "SigningCertURL": "..."
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:...",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "...",
+        "TopicArn": "arn:aws:sns:...",
+        "Message": "{\"notificationType\":\"Message\",\"type\":\"CustomerCreated\",...}",
+        "Timestamp": "2024-01-01T00:00:00.000Z",
+        "SignatureVersion": "1",
+        "Signature": "...",
+        "SigningCertURL": "..."
+      }
+    }
+  ]
 }
 ```
 
-**Note**: You may need to update your webhook handler to extract the `Message` field from SNS notifications and parse it as JSON.
+**Note**: Your Lambda function should extract the `Message` field from `event.Records[0].Sns.Message` and parse it as JSON to get the Commercetools payload.
 
 ## Subscription Configuration Details
 
@@ -149,57 +152,40 @@ The webhook endpoint supports the following Commercetools event types:
 
 After creating the subscription:
 
-1. **Confirm SNS subscription**: Check AWS SNS Console that your HTTP endpoint subscription is confirmed
+1. **Check Lambda subscription**: Verify in AWS SNS Console that Lambda subscription is active
 2. **Check Commercetools subscription status**: Verify the subscription is "Healthy" in Commercetools
-3. **Test the webhook**: Create or update a customer in Commercetools
+3. **Test the integration**: Create or update a customer in Commercetools
 4. **Check SNS delivery**: Verify messages are being delivered in AWS SNS Console
-5. **Check Vercel function logs**: Verify webhook events are being received
+5. **Check Lambda logs**: Verify events are being processed in AWS CloudWatch Logs
 6. **Verify Segment**: Confirm customer data is being synced
 
 ## Troubleshooting
 
 ### Subscription Not Receiving Events
 
-- **Verify SNS subscription is confirmed**: SNS sends a confirmation request that must be acknowledged
+- **Verify Lambda subscription is active**: Check AWS SNS Console that Lambda subscription exists
 - **Check SNS topic permissions**: Ensure Commercetools IAM user has `sns:Publish` permission
-- **Verify webhook URL is correct**: Check the SNS subscription endpoint matches your webhook URL
+- **Check Lambda permissions**: Verify SNS has permission to invoke Lambda (auto-granted by CDK)
 - **Check Commercetools subscription status**: Should be "Healthy" - if not, check error messages
 - **Review SNS delivery logs**: Check AWS CloudWatch logs for SNS delivery failures
+- **Review Lambda execution logs**: Check AWS CloudWatch Logs for Lambda function errors
 - **Review Commercetools subscription logs**: Check for delivery errors in Commercetools
 
-### SNS Subscription Confirmation
+### Lambda Function Errors
 
-When you create an HTTPS subscription in SNS, SNS will send a confirmation request to your endpoint. Your webhook must:
-1. Handle the `SubscriptionConfirmation` message type
-2. Extract the `SubscribeURL` from the message
-3. Make an HTTP GET request to that URL to confirm the subscription
-
-**Example SNS Confirmation Message:**
-```json
-{
-  "Type": "SubscriptionConfirmation",
-  "MessageId": "...",
-  "Token": "...",
-  "TopicArn": "arn:aws:sns:...",
-  "Message": "You have chosen to subscribe...",
-  "SubscribeURL": "https://sns.region.amazonaws.com/?Action=ConfirmSubscription&Token=...",
-  "Timestamp": "2024-01-01T00:00:00.000Z"
-}
-```
-
-### Webhook Endpoint Errors
-
-- Check Vercel function logs for error details
-- Verify `SEGMENT_WRITE_KEY` environment variable is set
-- Ensure the webhook payload matches expected format
-- Review webhook validation errors in function logs
+- **Check Lambda logs**: Review AWS CloudWatch Logs for your Lambda function
+- **Verify environment variables**: Ensure `SEGMENT_WRITE_KEY` and other required variables are set
+- **Check Lambda timeout**: Ensure Lambda timeout is sufficient for processing
+- **Verify IAM permissions**: Lambda needs permissions to call Segment API
+- **Review error handling**: Check Lambda function error handling and retry logic
 
 ### Common Issues
 
-1. **404 Not Found**: Webhook URL is incorrect or endpoint doesn't exist
-2. **401 Unauthorized**: Authentication issues (if using protected endpoints)
+1. **Lambda not invoked**: Check SNS subscription status and Lambda permissions
+2. **Lambda timeout**: Increase Lambda timeout if processing takes too long
 3. **400 Bad Request**: Payload format doesn't match expected structure
-4. **500 Internal Server Error**: Check Vercel function logs for details
+4. **500 Internal Server Error**: Check Lambda CloudWatch logs for details
+5. **Permission denied**: Verify IAM permissions for Lambda to call Segment API
 
 ## Updating the Subscription
 
@@ -221,62 +207,51 @@ curl -X DELETE https://api.commercetools.com/YOUR_PROJECT_KEY/subscriptions/key=
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
 ```
 
-## Alternative: Azure Event Grid
+## Lambda Function Implementation
 
-If you prefer Azure over AWS, you can use **Azure Event Grid** instead of SNS:
+Your Lambda function should handle SNS-triggered events and process Commercetools messages:
 
-```json
-{
-  "key": "segment-customer-sync",
-  "destination": {
-    "type": "EventGrid",
-    "uri": "https://YOUR_TOPIC_NAME.region.eventgrid.azure.net/api/events",
-    "accessKey": "YOUR_ACCESS_KEY"
-  },
-  "messages": [
-    {
-      "resourceTypeId": "customer",
-      "types": ["CustomerCreated", "CustomerUpdated"]
+**Example Lambda Handler:**
+```typescript
+import { SNSEvent, SNSRecord } from 'aws-lambda';
+import { extractCustomerFromPayload } from './customer-extractor';
+import { identifyCustomer } from './segment-client';
+
+export async function handler(event: SNSEvent): Promise<void> {
+  for (const record of event.Records) {
+    try {
+      // Parse SNS message
+      const snsMessage = JSON.parse(record.Sns.Message);
+      
+      // Extract Commercetools payload
+      const commercetoolsPayload = snsMessage;
+      
+      // Extract customer data
+      const customer = extractCustomerFromPayload(commercetoolsPayload);
+      if (customer) {
+        // Send to Segment
+        await identifyCustomer(customer);
+      }
+    } catch (error) {
+      console.error('Error processing SNS record:', error);
+      // Consider implementing retry logic or dead-letter queue
+      throw error;
     }
-  ],
-  "format": {
-    "type": "CloudEvents",
-    "cloudEventsVersion": "1.0"
   }
 }
 ```
 
-Azure Event Grid can also push directly to HTTP endpoints (webhooks) and supports CloudEvents format.
-
-## Updating Your Webhook Handler
-
-Your current webhook handler expects direct Commercetools payloads. When using SNS, you'll need to:
-
-1. **Extract the SNS message**: Parse the SNS notification envelope
-2. **Handle subscription confirmations**: Respond to SNS subscription confirmation requests
-3. **Parse the inner message**: Extract and parse the JSON string from the `Message` field
-
-**Example SNS Handler Logic:**
-```typescript
-// Check if it's an SNS subscription confirmation
-if (payload.Type === 'SubscriptionConfirmation') {
-  // Fetch the SubscribeURL to confirm
-  await fetch(payload.SubscribeURL);
-  return res.status(200).json({ confirmed: true });
-}
-
-// For notifications, extract the inner message
-if (payload.Type === 'Notification') {
-  const commercetoolsPayload = JSON.parse(payload.Message);
-  // Process as normal...
-}
-```
+**Key Points:**
+- Lambda receives SNS events in `event.Records` array
+- Each record contains `Sns.Message` which is a JSON string
+- Parse the message to get Commercetools payload
+- Handle errors appropriately (retry, DLQ, etc.)
 
 ## Additional Resources
 
 - [Commercetools Subscriptions API Documentation](https://docs.commercetools.com/api/projects/subscriptions)
-- [AWS SNS HTTP/HTTPS Subscriptions](https://docs.aws.amazon.com/sns/latest/dg/sns-http-https-endpoint-as-subscriber.html)
+- [AWS SNS Lambda Subscriptions](https://docs.aws.amazon.com/sns/latest/dg/sns-lambda.html)
 - [AWS SNS Message Format](https://docs.aws.amazon.com/sns/latest/dg/sns-message-and-json-formats.html)
-- [Azure Event Grid Webhook Delivery](https://learn.microsoft.com/en-us/azure/event-grid/webhook-event-delivery)
-- [Webhook Configuration Guide](../README.md#webhook-configuration)
+- [AWS Lambda with SNS](https://docs.aws.amazon.com/lambda/latest/dg/with-sns.html)
+- [AWS CDK Lambda Subscription](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_sns_subscriptions.LambdaSubscription.html)
 
