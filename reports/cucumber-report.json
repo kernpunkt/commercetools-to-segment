@@ -14,13 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 169458
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 159375
+              "duration": 157040
             }
           },
           {
@@ -28,11 +22,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 22667
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 18166
             }
           },
           {
@@ -45,15 +35,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 2428416
-=======
-              "duration": 2328499
->>>>>>> Stashed changes
-=======
-              "duration": 2328499
->>>>>>> Stashed changes
+              "duration": 2462499
             }
           },
           {
@@ -66,15 +48,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 2414792
-=======
-              "duration": 3220874
->>>>>>> Stashed changes
-=======
-              "duration": 3220874
->>>>>>> Stashed changes
+              "duration": 3181541
             }
           },
           {
@@ -87,15 +61,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 615875
-=======
-              "duration": 554250
->>>>>>> Stashed changes
-=======
-              "duration": 554250
->>>>>>> Stashed changes
+              "duration": 1614541
             }
           },
           {
@@ -108,15 +74,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 840500
-=======
-              "duration": 509957
->>>>>>> Stashed changes
-=======
-              "duration": 509957
->>>>>>> Stashed changes
+              "duration": 556541
             }
           }
         ],
@@ -135,13 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 22250
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 14874
+              "duration": 23792
             }
           },
           {
@@ -149,11 +101,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9332
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 8708
             }
           },
           {
@@ -166,15 +114,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 29165
-=======
-              "duration": 32291
->>>>>>> Stashed changes
-=======
-              "duration": 32291
->>>>>>> Stashed changes
+              "duration": 31749
             }
           },
           {
@@ -187,15 +127,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 350249
-=======
-              "duration": 288708
->>>>>>> Stashed changes
-=======
-              "duration": 288708
->>>>>>> Stashed changes
+              "duration": 374583
             }
           },
           {
@@ -208,15 +140,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 348042
-=======
-              "duration": 290166
->>>>>>> Stashed changes
-=======
-              "duration": 290166
->>>>>>> Stashed changes
+              "duration": 294499
             }
           },
           {
@@ -229,15 +153,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 482333
-=======
-              "duration": 655791
->>>>>>> Stashed changes
-=======
-              "duration": 655791
->>>>>>> Stashed changes
+              "duration": 444000
             }
           },
           {
@@ -250,15 +166,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 363375
-=======
-              "duration": 403042
->>>>>>> Stashed changes
-=======
-              "duration": 403042
->>>>>>> Stashed changes
+              "duration": 436417
             }
           }
         ],
@@ -277,13 +185,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 19416
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 13458
+              "duration": 15457
             }
           },
           {
@@ -291,11 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6167
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 6082
             }
           },
           {
@@ -308,15 +206,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 32916
-=======
-              "duration": 105792
->>>>>>> Stashed changes
-=======
-              "duration": 105792
->>>>>>> Stashed changes
+              "duration": 29417
             }
           },
           {
@@ -329,15 +219,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 376167
-=======
-              "duration": 560459
->>>>>>> Stashed changes
-=======
-              "duration": 560459
->>>>>>> Stashed changes
+              "duration": 428791
             }
           },
           {
@@ -350,15 +232,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 364416
-=======
-              "duration": 329041
->>>>>>> Stashed changes
-=======
-              "duration": 329041
->>>>>>> Stashed changes
+              "duration": 388124
             }
           },
           {
@@ -371,15 +245,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 440999
-=======
-              "duration": 440791
->>>>>>> Stashed changes
-=======
-              "duration": 440791
->>>>>>> Stashed changes
+              "duration": 473834
             }
           },
           {
@@ -392,15 +258,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 263417
-=======
-              "duration": 249332
->>>>>>> Stashed changes
-=======
-              "duration": 249332
->>>>>>> Stashed changes
+              "duration": 260833
             }
           }
         ],
@@ -419,13 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 17999
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 15457
+              "duration": 9084
             }
           },
           {
@@ -433,11 +285,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8750
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 4457
             }
           },
           {
@@ -450,7 +298,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11708
+              "duration": 8832
             }
           },
           {
@@ -463,15 +311,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 279959
-=======
-              "duration": 318291
->>>>>>> Stashed changes
-=======
-              "duration": 318291
->>>>>>> Stashed changes
+              "duration": 253458
             }
           },
           {
@@ -484,15 +324,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 279166
-=======
-              "duration": 283958
->>>>>>> Stashed changes
-=======
-              "duration": 283958
->>>>>>> Stashed changes
+              "duration": 274749
             }
           },
           {
@@ -505,15 +337,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 281833
-=======
-              "duration": 251459
->>>>>>> Stashed changes
-=======
-              "duration": 251459
->>>>>>> Stashed changes
+              "duration": 233707
             }
           }
         ],
@@ -543,13 +367,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 12666
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 11665
+              "duration": 13750
             }
           },
           {
@@ -557,11 +375,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6250
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 6916
             }
           },
           {
@@ -570,19 +384,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1474625
-=======
-              "duration": 1399208
->>>>>>> Stashed changes
-=======
-              "duration": 1399208
->>>>>>> Stashed changes
+              "duration": 1447541
             }
           },
           {
@@ -591,19 +397,11 @@
             "line": 10,
             "name": "a valid Commercetools customer.created webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:138"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:142"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 475750
-=======
-              "duration": 380624
->>>>>>> Stashed changes
-=======
-              "duration": 380624
->>>>>>> Stashed changes
+              "duration": 522832
             }
           },
           {
@@ -612,19 +410,11 @@
             "line": 11,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 535917292
-=======
-              "duration": 499456541
->>>>>>> Stashed changes
-=======
-              "duration": 499456541
->>>>>>> Stashed changes
+              "duration": 494559292
             }
           },
           {
@@ -633,19 +423,11 @@
             "line": 12,
             "name": "the endpoint should return HTTP status 200",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1122624
-=======
-              "duration": 2337415
->>>>>>> Stashed changes
-=======
-              "duration": 2337415
->>>>>>> Stashed changes
+              "duration": 2099208
             }
           },
           {
@@ -654,19 +436,11 @@
             "line": 13,
             "name": "the endpoint should identify the event as customer.created",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:223"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 772166
-=======
-              "duration": 1352082
->>>>>>> Stashed changes
-=======
-              "duration": 1352082
->>>>>>> Stashed changes
+              "duration": 1441250
             }
           }
         ],
@@ -685,13 +459,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24332
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 51916
+              "duration": 53917
             }
           },
           {
@@ -699,11 +467,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12082
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 11499
             }
           },
           {
@@ -712,19 +476,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 181916
-=======
-              "duration": 289958
->>>>>>> Stashed changes
-=======
-              "duration": 289958
->>>>>>> Stashed changes
+              "duration": 297583
             }
           },
           {
@@ -733,19 +489,11 @@
             "line": 16,
             "name": "a valid Commercetools customer.updated webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:146"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:150"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 427333
-=======
-              "duration": 665541
->>>>>>> Stashed changes
-=======
-              "duration": 665541
->>>>>>> Stashed changes
+              "duration": 612124
             }
           },
           {
@@ -754,19 +502,11 @@
             "line": 17,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 166659290
-=======
-              "duration": 153877375
->>>>>>> Stashed changes
-=======
-              "duration": 153877375
->>>>>>> Stashed changes
+              "duration": 153324916
             }
           },
           {
@@ -775,19 +515,11 @@
             "line": 18,
             "name": "the endpoint should return HTTP status 200",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 595416
-=======
-              "duration": 3159041
->>>>>>> Stashed changes
-=======
-              "duration": 3159041
->>>>>>> Stashed changes
+              "duration": 360874
             }
           },
           {
@@ -796,19 +528,11 @@
             "line": 19,
             "name": "the endpoint should identify the event as customer.updated",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:219"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:223"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 615124
-=======
-              "duration": 766583
->>>>>>> Stashed changes
-=======
-              "duration": 766583
->>>>>>> Stashed changes
+              "duration": 473875
             }
           }
         ],
@@ -827,13 +551,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 43290
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 60500
+              "duration": 34333
             }
           },
           {
@@ -841,11 +559,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29499
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 9500
             }
           },
           {
@@ -854,19 +568,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 94917
-=======
-              "duration": 249583
->>>>>>> Stashed changes
-=======
-              "duration": 249583
->>>>>>> Stashed changes
+              "duration": 69042
             }
           },
           {
@@ -875,19 +581,11 @@
             "line": 22,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1160750
-=======
-              "duration": 1156416
->>>>>>> Stashed changes
-=======
-              "duration": 1156416
->>>>>>> Stashed changes
+              "duration": 641250
             }
           },
           {
@@ -896,19 +594,11 @@
             "line": 23,
             "name": "I send a GET request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 162458
-=======
-              "duration": 307625
->>>>>>> Stashed changes
-=======
-              "duration": 307625
->>>>>>> Stashed changes
+              "duration": 151458
             }
           },
           {
@@ -917,19 +607,11 @@
             "line": 24,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 148000
-=======
-              "duration": 132875
->>>>>>> Stashed changes
-=======
-              "duration": 132875
->>>>>>> Stashed changes
+              "duration": 79749
             }
           }
         ],
@@ -948,13 +630,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 35957
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 43249
+              "duration": 18915
             }
           },
           {
@@ -962,11 +638,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10333
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 8083
             }
           },
           {
@@ -975,19 +647,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 62584
-=======
-              "duration": 69917
->>>>>>> Stashed changes
-=======
-              "duration": 69917
->>>>>>> Stashed changes
+              "duration": 42249
             }
           },
           {
@@ -996,19 +660,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 30416
-=======
-              "duration": 27959
->>>>>>> Stashed changes
-=======
-              "duration": 27959
->>>>>>> Stashed changes
+              "duration": 25083
             }
           },
           {
@@ -1017,19 +673,11 @@
             "line": 28,
             "name": "I send a GET request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 100625
-=======
-              "duration": 111583
->>>>>>> Stashed changes
-=======
-              "duration": 111583
->>>>>>> Stashed changes
+              "duration": 90291
             }
           },
           {
@@ -1038,19 +686,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 72000
-=======
-              "duration": 81667
->>>>>>> Stashed changes
-=======
-              "duration": 81667
->>>>>>> Stashed changes
+              "duration": 57709
             }
           }
         ],
@@ -1069,13 +709,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28957
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 19207
+              "duration": 25541
             }
           },
           {
@@ -1083,11 +717,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11874
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 8958
             }
           },
           {
@@ -1096,19 +726,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 42709
-=======
-              "duration": 40790
->>>>>>> Stashed changes
-=======
-              "duration": 40790
->>>>>>> Stashed changes
+              "duration": 46833
             }
           },
           {
@@ -1117,19 +739,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 33374
-=======
-              "duration": 32708
->>>>>>> Stashed changes
-=======
-              "duration": 32708
->>>>>>> Stashed changes
+              "duration": 27458
             }
           },
           {
@@ -1138,19 +752,11 @@
             "line": 28,
             "name": "I send a PUT request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 114332
-=======
-              "duration": 84625
->>>>>>> Stashed changes
-=======
-              "duration": 84625
->>>>>>> Stashed changes
+              "duration": 80582
             }
           },
           {
@@ -1159,19 +765,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 73959
-=======
-              "duration": 70082
->>>>>>> Stashed changes
-=======
-              "duration": 70082
->>>>>>> Stashed changes
+              "duration": 131624
             }
           }
         ],
@@ -1190,13 +788,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 35292
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 41082
+              "duration": 19583
             }
           },
           {
@@ -1204,11 +796,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 14374
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 8040
             }
           },
           {
@@ -1217,19 +805,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 130583
-=======
-              "duration": 76499
->>>>>>> Stashed changes
-=======
-              "duration": 76499
->>>>>>> Stashed changes
+              "duration": 28792
             }
           },
           {
@@ -1238,19 +818,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28542
-=======
-              "duration": 37707
->>>>>>> Stashed changes
-=======
-              "duration": 37707
->>>>>>> Stashed changes
+              "duration": 19041
             }
           },
           {
@@ -1259,19 +831,11 @@
             "line": 28,
             "name": "I send a DELETE request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 95125
-=======
-              "duration": 138457
->>>>>>> Stashed changes
-=======
-              "duration": 138457
->>>>>>> Stashed changes
+              "duration": 74958
             }
           },
           {
@@ -1280,19 +844,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 152417
-=======
-              "duration": 96208
->>>>>>> Stashed changes
-=======
-              "duration": 96208
->>>>>>> Stashed changes
+              "duration": 123709
             }
           }
         ],
@@ -1311,13 +867,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24624
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 120125
+              "duration": 22666
             }
           },
           {
@@ -1325,11 +875,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 107958
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 6582
             }
           },
           {
@@ -1338,19 +884,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28082
-=======
-              "duration": 48375
->>>>>>> Stashed changes
-=======
-              "duration": 48375
->>>>>>> Stashed changes
+              "duration": 32249
             }
           },
           {
@@ -1359,19 +897,11 @@
             "line": 27,
             "name": "a valid Commercetools webhook payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:154"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:158"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 18708
-=======
-              "duration": 64332
->>>>>>> Stashed changes
-=======
-              "duration": 64332
->>>>>>> Stashed changes
+              "duration": 16249
             }
           },
           {
@@ -1380,19 +910,11 @@
             "line": 28,
             "name": "I send a PATCH request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 72375
-=======
-              "duration": 198792
->>>>>>> Stashed changes
-=======
-              "duration": 198792
->>>>>>> Stashed changes
+              "duration": 65624
             }
           },
           {
@@ -1401,19 +923,11 @@
             "line": 29,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 55958
-=======
-              "duration": 117666
->>>>>>> Stashed changes
-=======
-              "duration": 117666
->>>>>>> Stashed changes
+              "duration": 48208
             }
           }
         ],
@@ -1432,13 +946,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 22457
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 22417
+              "duration": 17208
             }
           },
           {
@@ -1446,11 +954,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7916
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 9625
             }
           },
           {
@@ -1459,19 +963,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 44333
-=======
-              "duration": 47499
->>>>>>> Stashed changes
-=======
-              "duration": 47499
->>>>>>> Stashed changes
+              "duration": 37792
             }
           },
           {
@@ -1480,19 +976,11 @@
             "line": 39,
             "name": "no request body is provided",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:163"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:167"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 496833
-=======
-              "duration": 510042
->>>>>>> Stashed changes
-=======
-              "duration": 510042
->>>>>>> Stashed changes
+              "duration": 826792
             }
           },
           {
@@ -1501,19 +989,11 @@
             "line": 40,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 111041
-=======
-              "duration": 102624
->>>>>>> Stashed changes
-=======
-              "duration": 102624
->>>>>>> Stashed changes
+              "duration": 108749
             }
           },
           {
@@ -1522,19 +1002,11 @@
             "line": 41,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 64875
-=======
-              "duration": 114749
->>>>>>> Stashed changes
-=======
-              "duration": 114749
->>>>>>> Stashed changes
+              "duration": 178290
             }
           }
         ],
@@ -1553,13 +1025,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 16916
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 16665
+              "duration": 16166
             }
           },
           {
@@ -1567,11 +1033,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6041
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5957
             }
           },
           {
@@ -1580,19 +1042,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 38416
-=======
-              "duration": 35750
->>>>>>> Stashed changes
-=======
-              "duration": 35750
->>>>>>> Stashed changes
+              "duration": 43291
             }
           },
           {
@@ -1601,19 +1055,11 @@
             "line": 44,
             "name": "an invalid JSON payload",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:170"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:174"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 372124
-=======
-              "duration": 346707
->>>>>>> Stashed changes
-=======
-              "duration": 346707
->>>>>>> Stashed changes
+              "duration": 326749
             }
           },
           {
@@ -1622,19 +1068,11 @@
             "line": 45,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 251166
-=======
-              "duration": 130167
->>>>>>> Stashed changes
-=======
-              "duration": 130167
->>>>>>> Stashed changes
+              "duration": 141457
             }
           },
           {
@@ -1643,19 +1081,11 @@
             "line": 46,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 57833
-=======
-              "duration": 54957
->>>>>>> Stashed changes
-=======
-              "duration": 54957
->>>>>>> Stashed changes
+              "duration": 59333
             }
           }
         ],
@@ -1674,13 +1104,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 18082
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 19000
+              "duration": 14166
             }
           },
           {
@@ -1688,11 +1112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8957
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 4625
             }
           },
           {
@@ -1701,19 +1121,11 @@
             "line": 7,
             "name": "the webhook endpoint is available at \"/api/webhook\"",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:130"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:131"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 36541
-=======
-              "duration": 45499
->>>>>>> Stashed changes
-=======
-              "duration": 45499
->>>>>>> Stashed changes
+              "duration": 27166
             }
           },
           {
@@ -1722,19 +1134,11 @@
             "line": 49,
             "name": "a JSON payload with missing required fields",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:177"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:181"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 627124
-=======
-              "duration": 535333
->>>>>>> Stashed changes
-=======
-              "duration": 535333
->>>>>>> Stashed changes
+              "duration": 428541
             }
           },
           {
@@ -1743,19 +1147,11 @@
             "line": 50,
             "name": "I send a POST request to the webhook endpoint",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:194"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:198"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 372624
-=======
-              "duration": 97958
->>>>>>> Stashed changes
-=======
-              "duration": 97958
->>>>>>> Stashed changes
+              "duration": 78666
             }
           },
           {
@@ -1764,19 +1160,11 @@
             "line": 51,
             "name": "the endpoint should return HTTP status 400",
             "match": {
-              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:212"
+              "location": "tests/steps/story-2-webhook-endpoint.steps.ts:216"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 64125
-=======
-              "duration": 58499
->>>>>>> Stashed changes
-=======
-              "duration": 58499
->>>>>>> Stashed changes
+              "duration": 46458
             }
           }
         ],
@@ -1806,13 +1194,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 13500
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 13084
+              "duration": 8832
             }
           },
           {
@@ -1820,11 +1202,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5500
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5583
             }
           },
           {
@@ -1837,15 +1215,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 719707
-=======
-              "duration": 938832
->>>>>>> Stashed changes
-=======
-              "duration": 938832
->>>>>>> Stashed changes
+              "duration": 360083
             }
           },
           {
@@ -1858,15 +1228,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1384082
-=======
-              "duration": 1053417
->>>>>>> Stashed changes
-=======
-              "duration": 1053417
->>>>>>> Stashed changes
+              "duration": 842999
             }
           },
           {
@@ -1879,15 +1241,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 443540
-=======
-              "duration": 396124
->>>>>>> Stashed changes
-=======
-              "duration": 396124
->>>>>>> Stashed changes
+              "duration": 361791
             }
           },
           {
@@ -1900,15 +1254,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1023833
-=======
-              "duration": 1099875
->>>>>>> Stashed changes
-=======
-              "duration": 1099875
->>>>>>> Stashed changes
+              "duration": 807624
             }
           },
           {
@@ -1921,15 +1267,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1029041
-=======
-              "duration": 984875
->>>>>>> Stashed changes
-=======
-              "duration": 984875
->>>>>>> Stashed changes
+              "duration": 1269125
             }
           }
         ],
@@ -1948,13 +1286,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 13832
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 18458
+              "duration": 14707
             }
           },
           {
@@ -1962,11 +1294,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 19667
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 16000
             }
           },
           {
@@ -1979,15 +1307,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 47958
-=======
-              "duration": 54334
->>>>>>> Stashed changes
-=======
-              "duration": 54334
->>>>>>> Stashed changes
+              "duration": 49625
             }
           },
           {
@@ -2000,15 +1320,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1654958
-=======
-              "duration": 2146792
->>>>>>> Stashed changes
-=======
-              "duration": 2146792
->>>>>>> Stashed changes
+              "duration": 1407749
             }
           },
           {
@@ -2021,15 +1333,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24708
-=======
-              "duration": 51666
->>>>>>> Stashed changes
-=======
-              "duration": 51666
->>>>>>> Stashed changes
+              "duration": 23541
             }
           },
           {
@@ -2042,15 +1346,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 1414042
-=======
-              "duration": 859291
->>>>>>> Stashed changes
-=======
-              "duration": 859291
->>>>>>> Stashed changes
+              "duration": 902833
             }
           }
         ],
@@ -2069,13 +1365,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 18666
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 19000
+              "duration": 19125
             }
           },
           {
@@ -2083,11 +1373,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4874
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5750
             }
           },
           {
@@ -2100,15 +1386,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 50375
-=======
-              "duration": 46625
->>>>>>> Stashed changes
-=======
-              "duration": 46625
->>>>>>> Stashed changes
+              "duration": 54999
             }
           },
           {
@@ -2121,15 +1399,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 938375
-=======
-              "duration": 747791
->>>>>>> Stashed changes
-=======
-              "duration": 747791
->>>>>>> Stashed changes
+              "duration": 826667
             }
           },
           {
@@ -2142,15 +1412,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 22749
-=======
-              "duration": 16667
->>>>>>> Stashed changes
-=======
-              "duration": 16667
->>>>>>> Stashed changes
+              "duration": 19208
             }
           },
           {
@@ -2163,15 +1425,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 178499
-=======
-              "duration": 231792
->>>>>>> Stashed changes
-=======
-              "duration": 231792
->>>>>>> Stashed changes
+              "duration": 318042
             }
           }
         ],
@@ -2190,13 +1444,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 26040
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 9750
+              "duration": 15417
             }
           },
           {
@@ -2204,11 +1452,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29583
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5374
             }
           },
           {
@@ -2221,15 +1465,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 106749
-=======
-              "duration": 36083
->>>>>>> Stashed changes
-=======
-              "duration": 36083
->>>>>>> Stashed changes
+              "duration": 51332
             }
           },
           {
@@ -2263,15 +1499,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 618457
-=======
-              "duration": 469542
->>>>>>> Stashed changes
-=======
-              "duration": 469542
->>>>>>> Stashed changes
+              "duration": 896874
             }
           },
           {
@@ -2284,15 +1512,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 133125
-=======
-              "duration": 166875
->>>>>>> Stashed changes
-=======
-              "duration": 166875
->>>>>>> Stashed changes
+              "duration": 146500
             }
           },
           {
@@ -2326,15 +1546,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 567499
-=======
-              "duration": 500916
->>>>>>> Stashed changes
-=======
-              "duration": 500916
->>>>>>> Stashed changes
+              "duration": 480749
             }
           }
         ],
@@ -2353,13 +1565,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11999
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 19207
+              "duration": 13666
             }
           },
           {
@@ -2367,11 +1573,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5749
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5165
             }
           },
           {
@@ -2384,15 +1586,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 48875
-=======
-              "duration": 71541
->>>>>>> Stashed changes
-=======
-              "duration": 71541
->>>>>>> Stashed changes
+              "duration": 61582
             }
           },
           {
@@ -2458,15 +1652,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 521500
-=======
-              "duration": 509291
->>>>>>> Stashed changes
-=======
-              "duration": 509291
->>>>>>> Stashed changes
+              "duration": 398999
             }
           },
           {
@@ -2479,15 +1665,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 29665
-=======
-              "duration": 37458
->>>>>>> Stashed changes
-=======
-              "duration": 37458
->>>>>>> Stashed changes
+              "duration": 28125
             }
           },
           {
@@ -2500,15 +1678,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 273916
-=======
-              "duration": 171333
->>>>>>> Stashed changes
-=======
-              "duration": 171333
->>>>>>> Stashed changes
+              "duration": 156874
             }
           },
           {
@@ -2521,15 +1691,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 291249
-=======
-              "duration": 131542
->>>>>>> Stashed changes
-=======
-              "duration": 131542
->>>>>>> Stashed changes
+              "duration": 146750
             }
           },
           {
@@ -2542,15 +1704,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 53000
-=======
-              "duration": 28958
->>>>>>> Stashed changes
-=======
-              "duration": 28958
->>>>>>> Stashed changes
+              "duration": 37207
             }
           },
           {
@@ -2584,15 +1738,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 74166
-=======
-              "duration": 56542
->>>>>>> Stashed changes
-=======
-              "duration": 56542
->>>>>>> Stashed changes
+              "duration": 70083
             }
           }
         ],
@@ -2611,13 +1757,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10958
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 13791
+              "duration": 49625
             }
           },
           {
@@ -2625,11 +1765,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6125
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 28125
             }
           },
           {
@@ -2642,15 +1778,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 34583
-=======
-              "duration": 47791
->>>>>>> Stashed changes
-=======
-              "duration": 47791
->>>>>>> Stashed changes
+              "duration": 75833
             }
           },
           {
@@ -2663,15 +1791,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 415082
-=======
-              "duration": 436124
->>>>>>> Stashed changes
-=======
-              "duration": 436124
->>>>>>> Stashed changes
+              "duration": 396416
             }
           },
           {
@@ -2684,15 +1804,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 13624
-=======
-              "duration": 62834
->>>>>>> Stashed changes
-=======
-              "duration": 62834
->>>>>>> Stashed changes
+              "duration": 15958
             }
           },
           {
@@ -2705,15 +1817,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 390499
-=======
-              "duration": 640583
->>>>>>> Stashed changes
-=======
-              "duration": 640583
->>>>>>> Stashed changes
+              "duration": 298832
             }
           },
           {
@@ -2726,15 +1830,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 352666
-=======
-              "duration": 372583
->>>>>>> Stashed changes
-=======
-              "duration": 372583
->>>>>>> Stashed changes
+              "duration": 283415
             }
           }
         ],
@@ -2753,13 +1849,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10666
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 33042
+              "duration": 22500
             }
           },
           {
@@ -2767,11 +1857,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13207
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 7166
             }
           },
           {
@@ -2784,15 +1870,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 34792
-=======
-              "duration": 214958
->>>>>>> Stashed changes
-=======
-              "duration": 214958
->>>>>>> Stashed changes
+              "duration": 66541
             }
           },
           {
@@ -2805,15 +1883,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 338375
-=======
-              "duration": 437542
->>>>>>> Stashed changes
-=======
-              "duration": 437542
->>>>>>> Stashed changes
+              "duration": 441458
             }
           },
           {
@@ -2826,15 +1896,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 14249
-=======
-              "duration": 18332
->>>>>>> Stashed changes
-=======
-              "duration": 18332
->>>>>>> Stashed changes
+              "duration": 19583
             }
           },
           {
@@ -2847,15 +1909,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 22500
-=======
-              "duration": 39792
->>>>>>> Stashed changes
-=======
-              "duration": 39792
->>>>>>> Stashed changes
+              "duration": 43124
             }
           },
           {
@@ -2868,15 +1922,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 338749
-=======
-              "duration": 378790
->>>>>>> Stashed changes
-=======
-              "duration": 378790
->>>>>>> Stashed changes
+              "duration": 984750
             }
           }
         ],
@@ -2895,13 +1941,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 8915
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 12999
+              "duration": 17624
             }
           },
           {
@@ -2909,11 +1949,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5374
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 6374
             }
           },
           {
@@ -2926,15 +1962,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 26541
-=======
-              "duration": 121624
->>>>>>> Stashed changes
-=======
-              "duration": 121624
->>>>>>> Stashed changes
+              "duration": 55832
             }
           },
           {
@@ -2947,15 +1975,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 329291
-=======
-              "duration": 564666
->>>>>>> Stashed changes
-=======
-              "duration": 564666
->>>>>>> Stashed changes
+              "duration": 442957
             }
           },
           {
@@ -2968,15 +1988,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 13374
-=======
-              "duration": 22958
->>>>>>> Stashed changes
-=======
-              "duration": 22958
->>>>>>> Stashed changes
+              "duration": 19957
             }
           },
           {
@@ -2989,15 +2001,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 21541
-=======
-              "duration": 45166
->>>>>>> Stashed changes
-=======
-              "duration": 45166
->>>>>>> Stashed changes
+              "duration": 38332
             }
           },
           {
@@ -3010,15 +2014,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 320249
-=======
-              "duration": 443749
->>>>>>> Stashed changes
-=======
-              "duration": 443749
->>>>>>> Stashed changes
+              "duration": 567749
             }
           }
         ],
@@ -3037,13 +2033,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 8042
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 14333
+              "duration": 14916
             }
           },
           {
@@ -3051,11 +2041,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4625
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 6290
             }
           },
           {
@@ -3068,15 +2054,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 25583
-=======
-              "duration": 48792
->>>>>>> Stashed changes
-=======
-              "duration": 48792
->>>>>>> Stashed changes
+              "duration": 45791
             }
           },
           {
@@ -3089,15 +2067,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 261458
-=======
-              "duration": 394125
->>>>>>> Stashed changes
-=======
-              "duration": 394125
->>>>>>> Stashed changes
+              "duration": 357208
             }
           },
           {
@@ -3110,15 +2080,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11417
-=======
-              "duration": 13916
->>>>>>> Stashed changes
-=======
-              "duration": 13916
->>>>>>> Stashed changes
+              "duration": 15667
             }
           },
           {
@@ -3131,15 +2093,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 20499
-=======
-              "duration": 22791
->>>>>>> Stashed changes
-=======
-              "duration": 22791
->>>>>>> Stashed changes
+              "duration": 39375
             }
           },
           {
@@ -3152,15 +2106,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 15666
-=======
-              "duration": 15874
->>>>>>> Stashed changes
-=======
-              "duration": 15874
->>>>>>> Stashed changes
+              "duration": 29041
             }
           }
         ],
@@ -3179,13 +2125,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 6791
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 7957
+              "duration": 10790
             }
           },
           {
@@ -3193,11 +2133,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3375
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5167
             }
           },
           {
@@ -3210,15 +2146,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 26583
-=======
-              "duration": 30000
->>>>>>> Stashed changes
-=======
-              "duration": 30000
->>>>>>> Stashed changes
+              "duration": 37500
             }
           },
           {
@@ -3231,15 +2159,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 319458
-=======
-              "duration": 265667
->>>>>>> Stashed changes
-=======
-              "duration": 265667
->>>>>>> Stashed changes
+              "duration": 330375
             }
           },
           {
@@ -3252,15 +2172,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 15666
-=======
-              "duration": 11208
->>>>>>> Stashed changes
-=======
-              "duration": 11208
->>>>>>> Stashed changes
+              "duration": 11958
             }
           },
           {
@@ -3273,15 +2185,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28500
-=======
-              "duration": 20749
->>>>>>> Stashed changes
-=======
-              "duration": 20749
->>>>>>> Stashed changes
+              "duration": 32832
             }
           },
           {
@@ -3294,15 +2198,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 35458
-=======
-              "duration": 33083
->>>>>>> Stashed changes
-=======
-              "duration": 33083
->>>>>>> Stashed changes
+              "duration": 38749
             }
           }
         ],
@@ -3321,13 +2217,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10667
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 11625
+              "duration": 13040
             }
           },
           {
@@ -3335,11 +2225,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3917
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 5292
             }
           },
           {
@@ -3352,15 +2238,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 33916
-=======
-              "duration": 36292
->>>>>>> Stashed changes
-=======
-              "duration": 36292
->>>>>>> Stashed changes
+              "duration": 132375
             }
           },
           {
@@ -3373,15 +2251,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 504624
-=======
-              "duration": 291916
->>>>>>> Stashed changes
-=======
-              "duration": 291916
->>>>>>> Stashed changes
+              "duration": 787082
             }
           },
           {
@@ -3394,15 +2264,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10582
-=======
-              "duration": 9957
->>>>>>> Stashed changes
-=======
-              "duration": 9957
->>>>>>> Stashed changes
+              "duration": 12167
             }
           },
           {
@@ -3415,15 +2277,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 22749
-=======
-              "duration": 21874
->>>>>>> Stashed changes
-=======
-              "duration": 21874
->>>>>>> Stashed changes
+              "duration": 48083
             }
           },
           {
@@ -3436,15 +2290,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 21250
-=======
-              "duration": 21583
->>>>>>> Stashed changes
-=======
-              "duration": 21583
->>>>>>> Stashed changes
+              "duration": 108332
             }
           }
         ],
@@ -3463,13 +2309,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11833
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 9624
+              "duration": 18874
             }
           },
           {
@@ -3477,11 +2317,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3541
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 4208
             }
           },
           {
@@ -3494,15 +2330,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 36624
-=======
-              "duration": 30541
->>>>>>> Stashed changes
-=======
-              "duration": 30541
->>>>>>> Stashed changes
+              "duration": 55749
             }
           },
           {
@@ -3532,15 +2360,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 344417
-=======
-              "duration": 312165
->>>>>>> Stashed changes
-=======
-              "duration": 312165
->>>>>>> Stashed changes
+              "duration": 382834
             }
           },
           {
@@ -3553,15 +2373,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24083
-=======
-              "duration": 30625
->>>>>>> Stashed changes
-=======
-              "duration": 30625
->>>>>>> Stashed changes
+              "duration": 31500
             }
           },
           {
@@ -3591,15 +2403,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 48708
-=======
-              "duration": 42124
->>>>>>> Stashed changes
-=======
-              "duration": 42124
->>>>>>> Stashed changes
+              "duration": 47375
             }
           },
           {
@@ -3612,15 +2416,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 310124
-=======
-              "duration": 294542
->>>>>>> Stashed changes
-=======
-              "duration": 294542
->>>>>>> Stashed changes
+              "duration": 300167
             }
           },
           {
@@ -3633,15 +2429,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 282874
-=======
-              "duration": 318582
->>>>>>> Stashed changes
-=======
-              "duration": 318582
->>>>>>> Stashed changes
+              "duration": 518707
             }
           }
         ],
@@ -3660,13 +2448,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 9624
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 7333
+              "duration": 11584
             }
           },
           {
@@ -3674,11 +2456,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3375
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 17165
             }
           },
           {
@@ -3691,15 +2469,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 31541
-=======
-              "duration": 23208
->>>>>>> Stashed changes
-=======
-              "duration": 23208
->>>>>>> Stashed changes
+              "duration": 34291
             }
           },
           {
@@ -3712,15 +2482,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 144833
-=======
-              "duration": 132959
->>>>>>> Stashed changes
-=======
-              "duration": 132959
->>>>>>> Stashed changes
+              "duration": 180792
             }
           },
           {
@@ -3733,15 +2495,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10667
-=======
-              "duration": 8708
->>>>>>> Stashed changes
-=======
-              "duration": 8708
->>>>>>> Stashed changes
+              "duration": 15041
             }
           },
           {
@@ -3754,15 +2508,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 831500
-=======
-              "duration": 780459
->>>>>>> Stashed changes
-=======
-              "duration": 780459
->>>>>>> Stashed changes
+              "duration": 787041
             }
           },
           {
@@ -3775,15 +2521,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 280917
-=======
-              "duration": 248166
->>>>>>> Stashed changes
-=======
-              "duration": 248166
->>>>>>> Stashed changes
+              "duration": 324416
             }
           },
           {
@@ -3796,15 +2534,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 281750
-=======
-              "duration": 275750
->>>>>>> Stashed changes
-=======
-              "duration": 275750
->>>>>>> Stashed changes
+              "duration": 308207
             }
           },
           {
@@ -3817,15 +2547,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 277332
-=======
-              "duration": 250917
->>>>>>> Stashed changes
-=======
-              "duration": 250917
->>>>>>> Stashed changes
+              "duration": 260459
             }
           }
         ],
@@ -3844,13 +2566,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 8082
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 11916
+              "duration": 11334
             }
           },
           {
@@ -3858,11 +2574,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4083
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3708
             }
           },
           {
@@ -3875,15 +2587,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 21707
-=======
-              "duration": 96499
->>>>>>> Stashed changes
-=======
-              "duration": 96499
->>>>>>> Stashed changes
+              "duration": 35082
             }
           },
           {
@@ -3915,15 +2619,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 15707
-=======
-              "duration": 18374
->>>>>>> Stashed changes
-=======
-              "duration": 18374
->>>>>>> Stashed changes
+              "duration": 18332
             }
           },
           {
@@ -3936,15 +2632,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11333
-=======
-              "duration": 12874
->>>>>>> Stashed changes
-=======
-              "duration": 12874
->>>>>>> Stashed changes
+              "duration": 12958
             }
           },
           {
@@ -3957,15 +2645,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28958
-=======
-              "duration": 29457
->>>>>>> Stashed changes
-=======
-              "duration": 29457
->>>>>>> Stashed changes
+              "duration": 33415
             }
           }
         ],
@@ -3984,13 +2664,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 6540
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 7125
+              "duration": 10167
             }
           },
           {
@@ -3998,11 +2672,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3125
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3833
             }
           },
           {
@@ -4015,15 +2685,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 29790
-=======
-              "duration": 19084
->>>>>>> Stashed changes
-=======
-              "duration": 19084
->>>>>>> Stashed changes
+              "duration": 31459
             }
           },
           {
@@ -4055,15 +2717,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 14875
-=======
-              "duration": 11416
->>>>>>> Stashed changes
-=======
-              "duration": 11416
->>>>>>> Stashed changes
+              "duration": 14208
             }
           },
           {
@@ -4076,7 +2730,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7791
+              "duration": 8749
             }
           },
           {
@@ -4089,15 +2743,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28249
-=======
-              "duration": 24249
->>>>>>> Stashed changes
-=======
-              "duration": 24249
->>>>>>> Stashed changes
+              "duration": 27707
             }
           }
         ],
@@ -4116,13 +2762,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11125
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 8332
+              "duration": 6709
             }
           },
           {
@@ -4130,11 +2770,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3374
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3040
             }
           },
           {
@@ -4147,15 +2783,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 34708
-=======
-              "duration": 28375
->>>>>>> Stashed changes
-=======
-              "duration": 28375
->>>>>>> Stashed changes
+              "duration": 21457
             }
           },
           {
@@ -4187,15 +2815,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 18833
-=======
-              "duration": 16374
->>>>>>> Stashed changes
-=======
-              "duration": 16374
->>>>>>> Stashed changes
+              "duration": 55083
             }
           },
           {
@@ -4208,15 +2828,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 8417
-=======
-              "duration": 8416
->>>>>>> Stashed changes
-=======
-              "duration": 8416
->>>>>>> Stashed changes
+              "duration": 29874
             }
           },
           {
@@ -4229,15 +2841,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 29583
-=======
-              "duration": 27417
->>>>>>> Stashed changes
-=======
-              "duration": 27417
->>>>>>> Stashed changes
+              "duration": 27332
             }
           }
         ],
@@ -4256,13 +2860,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10749
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 10833
+              "duration": 10583
             }
           },
           {
@@ -4270,11 +2868,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3958
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3791
             }
           },
           {
@@ -4287,15 +2881,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 32709
-=======
-              "duration": 33957
->>>>>>> Stashed changes
-=======
-              "duration": 33957
->>>>>>> Stashed changes
+              "duration": 75874
             }
           },
           {
@@ -4327,15 +2913,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 18375
-=======
-              "duration": 72333
->>>>>>> Stashed changes
-=======
-              "duration": 72333
->>>>>>> Stashed changes
+              "duration": 18584
             }
           },
           {
@@ -4348,15 +2926,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 9292
-=======
-              "duration": 420667
->>>>>>> Stashed changes
-=======
-              "duration": 420667
->>>>>>> Stashed changes
+              "duration": 12375
             }
           },
           {
@@ -4369,15 +2939,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 30458
-=======
-              "duration": 27582
->>>>>>> Stashed changes
-=======
-              "duration": 27582
->>>>>>> Stashed changes
+              "duration": 27249
             }
           }
         ],
@@ -4396,13 +2958,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10790
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 8082
+              "duration": 8207
             }
           },
           {
@@ -4410,11 +2966,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3083
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3166
             }
           },
           {
@@ -4427,15 +2979,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 32416
-=======
-              "duration": 28249
->>>>>>> Stashed changes
-=======
-              "duration": 28249
->>>>>>> Stashed changes
+              "duration": 25875
             }
           },
           {
@@ -4467,15 +3011,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24083
-=======
-              "duration": 14208
->>>>>>> Stashed changes
-=======
-              "duration": 14208
->>>>>>> Stashed changes
+              "duration": 12083
             }
           },
           {
@@ -4488,15 +3024,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10499
-=======
-              "duration": 12124
->>>>>>> Stashed changes
-=======
-              "duration": 12124
->>>>>>> Stashed changes
+              "duration": 24000
             }
           },
           {
@@ -4509,15 +3037,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 29291
-=======
-              "duration": 27458
->>>>>>> Stashed changes
-=======
-              "duration": 27458
->>>>>>> Stashed changes
+              "duration": 24999
             }
           }
         ],
@@ -4547,13 +3067,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 8542
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 10792
+              "duration": 7749
             }
           },
           {
@@ -4561,11 +3075,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3709
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3207
             }
           },
           {
@@ -4578,15 +3088,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 352499
-=======
-              "duration": 328958
->>>>>>> Stashed changes
-=======
-              "duration": 328958
->>>>>>> Stashed changes
+              "duration": 350290
             }
           },
           {
@@ -4599,15 +3101,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 176832
-=======
-              "duration": 202916
->>>>>>> Stashed changes
-=======
-              "duration": 202916
->>>>>>> Stashed changes
+              "duration": 171708
             }
           },
           {
@@ -4620,15 +3114,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 547375
-=======
-              "duration": 503584
->>>>>>> Stashed changes
-=======
-              "duration": 503584
->>>>>>> Stashed changes
+              "duration": 534916
             }
           },
           {
@@ -4641,15 +3127,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 410832
-=======
-              "duration": 472749
->>>>>>> Stashed changes
-=======
-              "duration": 472749
->>>>>>> Stashed changes
+              "duration": 820791
             }
           },
           {
@@ -4662,15 +3140,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 171583
-=======
-              "duration": 201125
->>>>>>> Stashed changes
-=======
-              "duration": 201125
->>>>>>> Stashed changes
+              "duration": 205375
             }
           },
           {
@@ -4683,15 +3153,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 649625
-=======
-              "duration": 547958
->>>>>>> Stashed changes
-=======
-              "duration": 547958
->>>>>>> Stashed changes
+              "duration": 628791
             }
           }
         ],
@@ -4710,13 +3172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 7334
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 9457
+              "duration": 27582
             }
           },
           {
@@ -4725,10 +3181,6 @@
             "result": {
               "status": "passed",
               "duration": 3500
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             }
           },
           {
@@ -4741,15 +3193,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10374
-=======
-              "duration": 11500
->>>>>>> Stashed changes
-=======
-              "duration": 11500
->>>>>>> Stashed changes
+              "duration": 10708
             }
           },
           {
@@ -4762,15 +3206,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 7583
-=======
-              "duration": 6499
->>>>>>> Stashed changes
-=======
-              "duration": 6499
->>>>>>> Stashed changes
+              "duration": 6791
             }
           },
           {
@@ -4783,15 +3219,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 98833
-=======
-              "duration": 115291
->>>>>>> Stashed changes
-=======
-              "duration": 115291
->>>>>>> Stashed changes
+              "duration": 173082
             }
           },
           {
@@ -4804,15 +3232,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 70625
-=======
-              "duration": 69042
->>>>>>> Stashed changes
-=======
-              "duration": 69042
->>>>>>> Stashed changes
+              "duration": 71791
             }
           },
           {
@@ -4821,19 +3241,11 @@
             "line": 19,
             "name": "the API call should use email \"test@example.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 508542
-=======
-              "duration": 470750
->>>>>>> Stashed changes
-=======
-              "duration": 470750
->>>>>>> Stashed changes
+              "duration": 470958
             }
           }
         ],
@@ -4852,13 +3264,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 6582
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 9749
+              "duration": 9624
             }
           },
           {
@@ -4866,11 +3272,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3375
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 3416
             }
           },
           {
@@ -4883,15 +3285,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 7707
-=======
-              "duration": 12374
->>>>>>> Stashed changes
-=======
-              "duration": 12374
->>>>>>> Stashed changes
+              "duration": 12208
             }
           },
           {
@@ -4904,15 +3298,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 5583
-=======
-              "duration": 13249
->>>>>>> Stashed changes
-=======
-              "duration": 13249
->>>>>>> Stashed changes
+              "duration": 13208
             }
           },
           {
@@ -4925,15 +3311,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 12833
-=======
-              "duration": 15458
->>>>>>> Stashed changes
-=======
-              "duration": 15458
->>>>>>> Stashed changes
+              "duration": 16833
             }
           },
           {
@@ -4946,15 +3324,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 49957
-=======
-              "duration": 66166
->>>>>>> Stashed changes
-=======
-              "duration": 66166
->>>>>>> Stashed changes
+              "duration": 58250
             }
           },
           {
@@ -4963,19 +3333,11 @@
             "line": 24,
             "name": "the API call should include email \"user@example.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 547500
-=======
-              "duration": 487583
->>>>>>> Stashed changes
-=======
-              "duration": 487583
->>>>>>> Stashed changes
+              "duration": 470333
             }
           }
         ],
@@ -4994,12 +3356,6 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 11500
-=======
-=======
->>>>>>> Stashed changes
               "duration": 6499
             }
           },
@@ -5008,11 +3364,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3000
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 2917
             }
           },
           {
@@ -5025,15 +3377,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 14999
-=======
-              "duration": 7875
->>>>>>> Stashed changes
-=======
-              "duration": 7875
->>>>>>> Stashed changes
+              "duration": 8375
             }
           },
           {
@@ -5046,15 +3390,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 6750
-=======
-              "duration": 5334
->>>>>>> Stashed changes
-=======
-              "duration": 5334
->>>>>>> Stashed changes
+              "duration": 5249
             }
           },
           {
@@ -5090,15 +3426,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 345708
-=======
-              "duration": 235875
->>>>>>> Stashed changes
-=======
-              "duration": 235875
->>>>>>> Stashed changes
+              "duration": 296167
             }
           },
           {
@@ -5111,15 +3439,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 89707
-=======
-              "duration": 60207
->>>>>>> Stashed changes
-=======
-              "duration": 60207
->>>>>>> Stashed changes
+              "duration": 67583
             }
           },
           {
@@ -5128,19 +3448,11 @@
             "line": 32,
             "name": "the API call should include name \"John Doe\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:419"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 757875
-=======
-              "duration": 769332
->>>>>>> Stashed changes
-=======
-              "duration": 769332
->>>>>>> Stashed changes
+              "duration": 435041
             }
           }
         ],
@@ -5159,13 +3471,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10332
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 9125
+              "duration": 7125
             }
           },
           {
@@ -5173,11 +3479,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3332
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 2874
             }
           },
           {
@@ -5190,15 +3492,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10999
-=======
-              "duration": 10417
->>>>>>> Stashed changes
-=======
-              "duration": 10417
->>>>>>> Stashed changes
+              "duration": 8500
             }
           },
           {
@@ -5211,15 +3505,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 5667
-=======
-              "duration": 5333
->>>>>>> Stashed changes
-=======
-              "duration": 5333
->>>>>>> Stashed changes
+              "duration": 5083
             }
           },
           {
@@ -5273,15 +3559,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 43000
-=======
-              "duration": 37333
->>>>>>> Stashed changes
-=======
-              "duration": 37333
->>>>>>> Stashed changes
+              "duration": 34415
             }
           },
           {
@@ -5294,15 +3572,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 77708
-=======
-              "duration": 59999
->>>>>>> Stashed changes
-=======
-              "duration": 59999
->>>>>>> Stashed changes
+              "duration": 53000
             }
           },
           {
@@ -5332,19 +3602,11 @@
             "line": 43,
             "name": "the API call should include address in traits:",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:431"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 315209
-=======
-              "duration": 283999
->>>>>>> Stashed changes
-=======
-              "duration": 283999
->>>>>>> Stashed changes
+              "duration": 343374
             }
           }
         ],
@@ -5363,13 +3625,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 9625
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 7375
+              "duration": 5458
             }
           },
           {
@@ -5377,11 +3633,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2791
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 2707
             }
           },
           {
@@ -5394,15 +3646,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10916
-=======
-              "duration": 8417
->>>>>>> Stashed changes
-=======
-              "duration": 8417
->>>>>>> Stashed changes
+              "duration": 6915
             }
           },
           {
@@ -5415,7 +3659,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5958
+              "duration": 4707
             }
           },
           {
@@ -5475,15 +3719,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 36416
-=======
-              "duration": 32875
->>>>>>> Stashed changes
-=======
-              "duration": 32875
->>>>>>> Stashed changes
+              "duration": 27916
             }
           },
           {
@@ -5496,15 +3732,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 60958
-=======
-              "duration": 46041
->>>>>>> Stashed changes
-=======
-              "duration": 46041
->>>>>>> Stashed changes
+              "duration": 44709
             }
           },
           {
@@ -5517,15 +3745,7 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 28332
-=======
-              "duration": 23832
->>>>>>> Stashed changes
-=======
-              "duration": 23832
->>>>>>> Stashed changes
+              "duration": 20582
             }
           },
           {
@@ -5534,19 +3754,11 @@
             "line": 58,
             "name": "the API call should use email \"user@example.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 138374
-=======
-              "duration": 131583
->>>>>>> Stashed changes
-=======
-              "duration": 131583
->>>>>>> Stashed changes
+              "duration": 122832
             }
           },
           {
@@ -5555,19 +3767,11 @@
             "line": 59,
             "name": "the API call should include email \"user@example.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 174916
-=======
-              "duration": 118874
->>>>>>> Stashed changes
-=======
-              "duration": 118874
->>>>>>> Stashed changes
+              "duration": 122166
             }
           },
           {
@@ -5576,19 +3780,11 @@
             "line": 60,
             "name": "the API call should include name \"Jane Smith\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:408"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:419"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 140666
-=======
-              "duration": 114375
->>>>>>> Stashed changes
-=======
-              "duration": 114375
->>>>>>> Stashed changes
+              "duration": 232124
             }
           },
           {
@@ -5618,19 +3814,11 @@
             "line": 61,
             "name": "the API call should include address in traits:",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:420"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:431"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 49999
-=======
-              "duration": 48000
->>>>>>> Stashed changes
-=======
-              "duration": 48000
->>>>>>> Stashed changes
+              "duration": 42332
             }
           }
         ],
@@ -5649,9 +3837,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 10374
+              "duration": 6791
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2624
             }
           },
           {
@@ -5664,7 +3858,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14583
+              "duration": 8874
             }
           },
           {
@@ -5677,7 +3871,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13207
+              "duration": 4834
             }
           },
           {
@@ -5690,7 +3884,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16916
+              "duration": 13542
             }
           },
           {
@@ -5703,7 +3897,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70375
+              "duration": 49041
             }
           },
           {
@@ -5712,11 +3906,11 @@
             "line": 68,
             "name": "the function should return success status",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:466"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:477"
             },
             "result": {
               "status": "passed",
-              "duration": 233291
+              "duration": 276125
             }
           },
           {
@@ -5725,11 +3919,11 @@
             "line": 69,
             "name": "no error should be thrown",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:472"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:483"
             },
             "result": {
               "status": "passed",
-              "duration": 146541
+              "duration": 147375
             }
           }
         ],
@@ -5748,7 +3942,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6417
+              "duration": 7250
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2833
             }
           },
           {
@@ -5761,7 +3963,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9166
+              "duration": 8667
             }
           },
           {
@@ -5774,7 +3976,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6082
+              "duration": 5084
             }
           },
           {
@@ -5787,7 +3989,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14415
+              "duration": 14707
             }
           },
           {
@@ -5800,7 +4002,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 223124
+              "duration": 203625
             }
           },
           {
@@ -5813,7 +4015,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 776208
+              "duration": 743541
             }
           },
           {
@@ -5822,11 +4024,11 @@
             "line": 75,
             "name": "the function should return error status",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:478"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:489"
             },
             "result": {
               "status": "passed",
-              "duration": 230082
+              "duration": 213332
             }
           },
           {
@@ -5835,11 +4037,11 @@
             "line": 76,
             "name": "the error should be handled gracefully",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:485"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:496"
             },
             "result": {
               "status": "passed",
-              "duration": 195040
+              "duration": 171625
             }
           }
         ],
@@ -5858,7 +4060,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6499
+              "duration": 6875
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2707
             }
           },
           {
@@ -5871,7 +4081,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8708
+              "duration": 8624
             }
           },
           {
@@ -5884,7 +4094,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5582
+              "duration": 5417
             }
           },
           {
@@ -5897,7 +4107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 596584
+              "duration": 452457
             }
           },
           {
@@ -5910,7 +4120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 55083
+              "duration": 52832
             }
           },
           {
@@ -5923,7 +4133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31207
+              "duration": 28459
             }
           },
           {
@@ -5936,7 +4146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124916
+              "duration": 124749
             }
           }
         ],
@@ -5955,7 +4165,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5791
+              "duration": 5709
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2582
             }
           },
           {
@@ -5968,7 +4186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10416
+              "duration": 10084
             }
           },
           {
@@ -5981,7 +4199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4833
+              "duration": 4584
             }
           },
           {
@@ -5994,7 +4212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1149791
+              "duration": 445083
             }
           },
           {
@@ -6007,7 +4225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 153000
+              "duration": 58999
             }
           },
           {
@@ -6020,7 +4238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31042
+              "duration": 19000
             }
           },
           {
@@ -6033,7 +4251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31083
+              "duration": 35125
             }
           }
         ],
@@ -6048,31 +4266,19 @@
         "name": "Send customer data with different email addresses",
         "steps": [
           {
-=======
-              "duration": 5750
-            }
-          },
-          {
->>>>>>> Stashed changes
-=======
-              "duration": 5750
-            }
-          },
-          {
->>>>>>> Stashed changes
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 6791
-=======
-              "duration": 2500
->>>>>>> Stashed changes
-=======
-              "duration": 2500
->>>>>>> Stashed changes
+              "duration": 9457
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3333
             }
           },
           {
@@ -6085,9 +4291,112 @@
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 7500
+              "duration": 10833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "transformed customer data is available",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "transformed customer data with email \"user@example.com\"",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "I send the customer data to Segment Identify API",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "the API call should use email \"user@example.com\" as userId",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "the API call should include email \"user@example.com\" in traits",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25832
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
+        "keyword": "Scenario Outline",
+        "line": 99,
+        "name": "Send customer data with different email addresses",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8124
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the Segment client is initialized with write key from environment",
+            "match": {
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8917
             }
           },
           {
@@ -6107,110 +4416,13 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 91,
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13583
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 92,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 64917
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 93,
-            "name": "the API call should use email \"user@example.com\" as userId",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 32333
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 94,
-            "name": "the API call should include email \"user@example.com\" in traits",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35499
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 99,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 9750
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10749
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 91,
             "name": "transformed customer data with email \"test.user@domain.com\"",
             "match": {
               "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
             },
             "result": {
               "status": "passed",
-              "duration": 14249
+              "duration": 15374
             }
           },
           {
@@ -6223,7 +4435,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50083
+              "duration": 51666
             }
           },
           {
@@ -6232,11 +4444,11 @@
             "line": 93,
             "name": "the API call should use email \"test.user@domain.com\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-              "duration": 32915
+              "duration": 31749
             }
           },
           {
@@ -6245,11 +4457,11 @@
             "line": 94,
             "name": "the API call should include email \"test.user@domain.com\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-              "duration": 25167
+              "duration": 23959
             }
           }
         ],
@@ -6268,7 +4480,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5333
+              "duration": 6791
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2999
             }
           },
           {
@@ -6281,13 +4501,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6292
-=======
-              "duration": 7875
->>>>>>> Stashed changes
-=======
-              "duration": 7875
->>>>>>> Stashed changes
+              "duration": 6750
             }
           },
           {
@@ -6300,1101 +4514,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4458
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 66,
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 11250
-=======
-              "duration": 12707
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 67,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 107166
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 68,
-            "name": "the function should return success status",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:477"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 206625
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 69,
-            "name": "no error should be thrown",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:483"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 129042
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;handle-api-error-gracefully",
-        "keyword": "Scenario",
-        "line": 71,
-        "name": "Handle API error gracefully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 4917
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2375
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6667
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4750
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 72,
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10750
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 73,
-            "name": "the Segment API will return an error",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:317"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 166833
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 74,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 762624
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 75,
-            "name": "the function should return error status",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:489"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 201749
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 76,
-            "name": "the error should be handled gracefully",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:496"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 168167
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer.created-event-data-to-segment",
-        "keyword": "Scenario",
-        "line": 78,
-        "name": "Send customer.created event data to Segment",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 5374
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7791
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5042
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 79,
-            "name": "transformed customer data from customer.created event with email \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:299"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 453416
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 80,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 56207
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 81,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 29499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 82,
-            "name": "the customer should be identified in Segment with userId \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122542
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer.updated-event-data-to-segment",
-        "keyword": "Scenario",
-        "line": 84,
-        "name": "Send customer.updated event data to Segment",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 6124
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4584
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 85,
-            "name": "transformed customer data from customer.updated event with email \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:308"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 667042
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 86,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 86541
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 87,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 29333
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 88,
-            "name": "the customer should be identified in Segment with userId \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35292
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 98,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 9291
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3166
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9916
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5208
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-<<<<<<< Updated upstream
-            "line": 91,
-=======
-            "line": 66,
->>>>>>> Stashed changes
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-              "duration": 14000
->>>>>>> Stashed changes
-=======
-              "duration": 12707
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 67,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 107166
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 68,
-            "name": "the function should return success status",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:477"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 206625
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 69,
-            "name": "no error should be thrown",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:483"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 129042
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;handle-api-error-gracefully",
-        "keyword": "Scenario",
-        "line": 71,
-        "name": "Handle API error gracefully",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 4917
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2375
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6667
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4750
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 72,
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10750
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 73,
-            "name": "the Segment API will return an error",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:317"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 166833
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 74,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 762624
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 75,
-            "name": "the function should return error status",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:489"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 201749
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 76,
-            "name": "the error should be handled gracefully",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:496"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 168167
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer.created-event-data-to-segment",
-        "keyword": "Scenario",
-        "line": 78,
-        "name": "Send customer.created event data to Segment",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 5374
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7791
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5042
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 79,
-            "name": "transformed customer data from customer.created event with email \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:299"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 453416
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 80,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 56207
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 81,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 29499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 82,
-            "name": "the customer should be identified in Segment with userId \"newuser@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122542
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer.updated-event-data-to-segment",
-        "keyword": "Scenario",
-        "line": 84,
-        "name": "Send customer.updated event data to Segment",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 6124
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4584
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 85,
-            "name": "transformed customer data from customer.updated event with email \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:308"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 667042
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 86,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 86541
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 87,
-            "name": "the API call should succeed",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:365"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 29333
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 88,
-            "name": "the customer should be identified in Segment with userId \"existing@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:372"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35292
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 98,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 9291
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3166
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9916
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5208
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 91,
-            "name": "transformed customer data with email \"user@example.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 14000
->>>>>>> Stashed changes
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 92,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 37749
-=======
-=======
->>>>>>> Stashed changes
-              "duration": 420708
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 93,
-            "name": "the API call should use email \"user@example.com\" as userId",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 39624
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 94,
-            "name": "the API call should include email \"user@example.com\" in traits",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 28207
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 99,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 6250
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2583
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7166
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4749
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 91,
-            "name": "transformed customer data with email \"test.user@domain.com\"",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:191"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12291
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 92,
-            "name": "I send the customer data to Segment Identify API",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:327"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 48999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 93,
-            "name": "the API call should use email \"test.user@domain.com\" as userId",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27082
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 94,
-            "name": "the API call should include email \"test.user@domain.com\" in traits",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23042
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "segment-identify-api-integration;send-customer-data-with-different-email-addresses",
-        "keyword": "Scenario Outline",
-        "line": 100,
-        "name": "Send customer data with different email addresses",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 7000
-            }
-          },
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2666
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the Segment client is initialized with write key from environment",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7624
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "transformed customer data is available",
-            "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:185"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4874
+              "duration": 4625
             }
           },
           {
@@ -7407,7 +4527,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13042
+              "duration": 11959
             }
           },
           {
@@ -7420,11 +4540,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48708
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+              "duration": 36291
             }
           },
           {
@@ -7433,19 +4549,11 @@
             "line": 93,
             "name": "the API call should use email \"admin@company.org\" as userId",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:384"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:395"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 27291
-=======
-              "duration": 32999
->>>>>>> Stashed changes
-=======
-              "duration": 32999
->>>>>>> Stashed changes
+              "duration": 25832
             }
           },
           {
@@ -7454,19 +4562,11 @@
             "line": 94,
             "name": "the API call should include email \"admin@company.org\" in traits",
             "match": {
-              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:396"
+              "location": "tests/steps/story-4-segment-identify-api-integration.steps.ts:407"
             },
             "result": {
               "status": "passed",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-              "duration": 24667
-=======
-              "duration": 22958
->>>>>>> Stashed changes
-=======
-              "duration": 22958
->>>>>>> Stashed changes
+              "duration": 25792
             }
           }
         ],
@@ -7480,8 +4580,6 @@
     "name": "Segment Identify API Integration",
     "tags": [],
     "uri": "features/story-4-segment-identify-api-integration.feature"
-<<<<<<< Updated upstream
-=======
   },
   {
     "description": "  As a developer\n  I want to test the complete flow from Commercetools webhook to Segment user creation/update\n  So that I can verify the integration works correctly end-to-end",
@@ -7498,7 +4596,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4999
+              "duration": 6416
             }
           },
           {
@@ -7506,7 +4604,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2457
+              "duration": 2709
             }
           },
           {
@@ -7532,7 +4630,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248250
+              "duration": 250709
             }
           },
           {
@@ -7545,7 +4643,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 160957
+              "duration": 159040
             }
           },
           {
@@ -7611,7 +4709,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 397749
+              "duration": 387707
             }
           },
           {
@@ -7624,7 +4722,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 801605041
+              "duration": 1562256832
             }
           },
           {
@@ -7637,7 +4735,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1234583
+              "duration": 2090374
             }
           },
           {
@@ -7650,7 +4748,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2379957
+              "duration": 1545166
             }
           },
           {
@@ -7663,7 +4761,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1760749
+              "duration": 1402540
             }
           },
           {
@@ -7676,7 +4774,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1190875
+              "duration": 3152874
             }
           },
           {
@@ -7710,7 +4808,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 747708
+              "duration": 1162667
             }
           }
         ],
@@ -7729,7 +4827,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 42791
+              "duration": 36916
             }
           },
           {
@@ -7737,7 +4835,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9000
+              "duration": 10999
             }
           },
           {
@@ -7750,7 +4848,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82583
+              "duration": 84458
             }
           },
           {
@@ -7763,7 +4861,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93374
+              "duration": 91166
             }
           },
           {
@@ -7776,7 +4874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20083
+              "duration": 19458
             }
           },
           {
@@ -7842,7 +4940,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1097457
+              "duration": 1071791
             }
           },
           {
@@ -7855,7 +4953,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 227459957
+              "duration": 246709750
             }
           },
           {
@@ -7868,7 +4966,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 432667
+              "duration": 405583
             }
           },
           {
@@ -7881,7 +4979,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1624957
+              "duration": 1800375
             }
           },
           {
@@ -7894,7 +4992,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 606167
+              "duration": 425958
             }
           },
           {
@@ -7907,7 +5005,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 450624
+              "duration": 448167
             }
           },
           {
@@ -7941,7 +5039,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 117083
+              "duration": 192667
             }
           }
         ],
@@ -7960,7 +5058,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 53209
+              "duration": 94165
             }
           },
           {
@@ -7968,7 +5066,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 12666
+              "duration": 15625
             }
           },
           {
@@ -7981,7 +5079,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 87958
+              "duration": 147875
             }
           },
           {
@@ -7994,7 +5092,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143000
+              "duration": 115333
             }
           },
           {
@@ -8007,7 +5105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 75542
+              "duration": 24875
             }
           },
           {
@@ -8020,7 +5118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1506707
+              "duration": 1700833
             }
           },
           {
@@ -8033,7 +5131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 261943124
+              "duration": 220631875
             }
           },
           {
@@ -8046,7 +5144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 181375
+              "duration": 162957
             }
           },
           {
@@ -8059,7 +5157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1498167
+              "duration": 2164584
             }
           },
           {
@@ -8072,7 +5170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1397417
+              "duration": 4311750
             }
           }
         ],
@@ -8091,7 +5189,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 40875
+              "duration": 57124
             }
           },
           {
@@ -8099,7 +5197,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8209
+              "duration": 13458
             }
           },
           {
@@ -8112,7 +5210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71082
+              "duration": 115957
             }
           },
           {
@@ -8125,7 +5223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86542
+              "duration": 161207
             }
           },
           {
@@ -8138,7 +5236,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19374
+              "duration": 26249
             }
           },
           {
@@ -8204,7 +5302,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202000
+              "duration": 310291
             }
           },
           {
@@ -8217,7 +5315,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217177458
+              "duration": 384803417
             }
           },
           {
@@ -8230,7 +5328,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114083
+              "duration": 154291
             }
           },
           {
@@ -8243,7 +5341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83792
+              "duration": 163750
             }
           },
           {
@@ -8256,7 +5354,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59624
+              "duration": 113709
             }
           },
           {
@@ -8290,7 +5388,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58708
+              "duration": 97124
             }
           }
         ],
@@ -8309,7 +5407,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21333
+              "duration": 36916
             }
           },
           {
@@ -8317,7 +5415,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5709
+              "duration": 11416
             }
           },
           {
@@ -8330,7 +5428,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30499
+              "duration": 64917
             }
           },
           {
@@ -8343,7 +5441,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47375
+              "duration": 87833
             }
           },
           {
@@ -8356,7 +5454,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10209
+              "duration": 22500
             }
           },
           {
@@ -8369,7 +5467,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 333082
+              "duration": 482833
             }
           },
           {
@@ -8382,7 +5480,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 392358750
+              "duration": 214403334
             }
           },
           {
@@ -8395,7 +5493,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 634249
+              "duration": 307583
             }
           },
           {
@@ -8408,7 +5506,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1044292
+              "duration": 1312084
             }
           },
           {
@@ -8421,7 +5519,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 879750
+              "duration": 2040084
             }
           },
           {
@@ -8434,7 +5532,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1458749
+              "duration": 1634916
             }
           }
         ],
@@ -8453,7 +5551,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 39332
+              "duration": 81417
             }
           },
           {
@@ -8461,7 +5559,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9083
+              "duration": 11459
             }
           },
           {
@@ -8474,7 +5572,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62957
+              "duration": 84875
             }
           },
           {
@@ -8487,7 +5585,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 211499
+              "duration": 126249
             }
           },
           {
@@ -8500,7 +5598,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64499
+              "duration": 20750
             }
           },
           {
@@ -8513,7 +5611,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2081583
+              "duration": 3731249
             }
           },
           {
@@ -8526,7 +5624,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 347370457
+              "duration": 220386500
             }
           },
           {
@@ -8539,7 +5637,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 203833
+              "duration": 133041
             }
           },
           {
@@ -8552,7 +5650,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 188374
+              "duration": 101040
             }
           },
           {
@@ -8565,7 +5663,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 165958
+              "duration": 78875
             }
           },
           {
@@ -8578,7 +5676,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 445124
+              "duration": 258624
             }
           }
         ],
@@ -8597,7 +5695,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 32165
+              "duration": 19292
             }
           },
           {
@@ -8605,7 +5703,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 10624
+              "duration": 5292
             }
           },
           {
@@ -8618,7 +5716,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52208
+              "duration": 27290
             }
           },
           {
@@ -8631,7 +5729,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 141041
+              "duration": 45875
             }
           },
           {
@@ -8644,7 +5742,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47292
+              "duration": 13374
             }
           },
           {
@@ -8686,7 +5784,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 186083
+              "duration": 64458
             }
           },
           {
@@ -8699,7 +5797,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 358724208
+              "duration": 399596459
             }
           },
           {
@@ -8712,7 +5810,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152833
+              "duration": 239415
             }
           },
           {
@@ -8725,7 +5823,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 640667
+              "duration": 1670458
             }
           },
           {
@@ -8738,7 +5836,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 491457
+              "duration": 982167
             }
           },
           {
@@ -8751,7 +5849,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 272750
+              "duration": 523207
             }
           },
           {
@@ -8764,7 +5862,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 187791
+              "duration": 112791
             }
           }
         ],
@@ -8783,7 +5881,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 160166
+              "duration": 40291
             }
           },
           {
@@ -8791,7 +5889,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 25500
+              "duration": 30792
             }
           },
           {
@@ -8804,7 +5902,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 181708
+              "duration": 146208
             }
           },
           {
@@ -8817,7 +5915,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70999
+              "duration": 157750
             }
           },
           {
@@ -8830,7 +5928,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15709
+              "duration": 46166
             }
           },
           {
@@ -8896,7 +5994,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 109750
+              "duration": 146874
             }
           },
           {
@@ -8909,7 +6007,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 224770166
+              "duration": 208756667
             }
           },
           {
@@ -8922,7 +6020,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 227624
+              "duration": 214500
             }
           },
           {
@@ -8935,7 +6033,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 179416
+              "duration": 168375
             }
           },
           {
@@ -8948,7 +6046,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91208
+              "duration": 523167
             }
           },
           {
@@ -8961,7 +6059,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94833
+              "duration": 304790
             }
           },
           {
@@ -8995,7 +6093,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 172207
+              "duration": 256166
             }
           }
         ],
@@ -9014,7 +6112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 48166
+              "duration": 34165
             }
           },
           {
@@ -9022,7 +6120,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9207
+              "duration": 14750
             }
           },
           {
@@ -9035,7 +6133,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70208
+              "duration": 56500
             }
           },
           {
@@ -9048,7 +6146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 103791
+              "duration": 189124
             }
           },
           {
@@ -9061,7 +6159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32583
+              "duration": 34958
             }
           },
           {
@@ -9127,7 +6225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 156916
+              "duration": 217875
             }
           },
           {
@@ -9140,7 +6238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 262817625
+              "duration": 211131290
             }
           },
           {
@@ -9153,7 +6251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 181708
+              "duration": 76166
             }
           },
           {
@@ -9166,7 +6264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 198083
+              "duration": 69583
             }
           },
           {
@@ -9179,7 +6277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202041
+              "duration": 32542
             }
           },
           {
@@ -9192,7 +6290,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171875
+              "duration": 43042
             }
           },
           {
@@ -9226,7 +6324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119541
+              "duration": 33916
             }
           }
         ],
@@ -9245,7 +6343,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 62708
+              "duration": 18750
             }
           },
           {
@@ -9253,7 +6351,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15707
+              "duration": 10459
             }
           },
           {
@@ -9266,7 +6364,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90083
+              "duration": 37291
             }
           },
           {
@@ -9279,7 +6377,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 167042
+              "duration": 43125
             }
           },
           {
@@ -9292,7 +6390,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48874
+              "duration": 7749
             }
           },
           {
@@ -9358,7 +6456,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 178417
+              "duration": 72166
             }
           },
           {
@@ -9371,7 +6469,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 317932915
+              "duration": 220074999
             }
           },
           {
@@ -9384,7 +6482,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83624
+              "duration": 125667
             }
           },
           {
@@ -9397,7 +6495,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60333
+              "duration": 100707
             }
           },
           {
@@ -9410,7 +6508,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104291
+              "duration": 70792
             }
           },
           {
@@ -9423,7 +6521,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46291
+              "duration": 79707
             }
           },
           {
@@ -9457,7 +6555,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44124
+              "duration": 80249
             }
           }
         ],
@@ -9476,7 +6574,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 20332
+              "duration": 20625
             }
           },
           {
@@ -9484,7 +6582,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4667
+              "duration": 6291
             }
           },
           {
@@ -9497,7 +6595,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31167
+              "duration": 24249
             }
           },
           {
@@ -9510,7 +6608,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36791
+              "duration": 197334
             }
           },
           {
@@ -9523,7 +6621,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8708
+              "duration": 25083
             }
           },
           {
@@ -9536,7 +6634,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 301041
+              "duration": 647750
             }
           },
           {
@@ -9549,7 +6647,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51083
+              "duration": 107624
             }
           },
           {
@@ -9561,8 +6659,9 @@
               "location": "tests/steps/story-5-end-to-end-integration.steps.ts:239"
             },
             "result": {
-              "status": "passed",
-              "duration": 1203677666
+              "status": "failed",
+              "duration": 3051250,
+              "error_message": "Error: Failed to send webhook request to local endpoint: Network error while sending webhook to http://localhost:3000/api/webhook: fetch failed\n    at World.<anonymous> (/Users/joern/work/commercetools-to-segment/tests/steps/story-5-end-to-end-integration.steps.ts:255:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
             }
           },
           {
@@ -9574,8 +6673,8 @@
               "location": "tests/steps/story-5-end-to-end-integration.steps.ts:307"
             },
             "result": {
-              "status": "passed",
-              "duration": 174874
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -9587,8 +6686,8 @@
               "location": "tests/steps/story-5-end-to-end-integration.steps.ts:327"
             },
             "result": {
-              "status": "passed",
-              "duration": 212125
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -9607,7 +6706,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 64041
+              "duration": 16042
             }
           },
           {
@@ -9615,7 +6714,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11625
+              "duration": 6083
             }
           },
           {
@@ -9628,7 +6727,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 117792
+              "duration": 25875
             }
           },
           {
@@ -9641,7 +6740,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 95917
+              "duration": 52957
             }
           },
           {
@@ -9654,7 +6753,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24167
+              "duration": 14832
             }
           },
           {
@@ -9667,7 +6766,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 681459
+              "duration": 378874
             }
           },
           {
@@ -9680,7 +6779,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 73875
+              "duration": 52791
             }
           },
           {
@@ -9693,7 +6792,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 214099041
+              "duration": 236542749
             }
           },
           {
@@ -9706,7 +6805,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143084
+              "duration": 290083
             }
           },
           {
@@ -9719,7 +6818,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 125667
+              "duration": 247749
             }
           }
         ],
@@ -9733,6 +6832,5 @@
     "name": "End-to-End Integration Testing",
     "tags": [],
     "uri": "features/story-5-end-to-end-integration.feature"
->>>>>>> Stashed changes
   }
 ]
